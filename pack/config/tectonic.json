@@ -37,7 +37,7 @@
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
     "jungle_pillars": true,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
-    "ocean_offset": -0.65,
+    "ocean_offset": -0.5,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
     "ridge_scale": 0.25,
     // Underground rivers under snowy biomes will generate with ice.

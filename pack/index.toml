@@ -6,7 +6,7 @@ hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "24ae894a53c634fd277320481079b3461ca8022f8800f12066566cffb9548645"
+hash = "b9569a20ce91a4df197f93d88014b6d61fdd80b61efb8ff5ce62f8f20279fe35"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
