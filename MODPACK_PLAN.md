@@ -201,7 +201,8 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 **Compat adds:**
 - **Almost Unified**: merges duplicate copper/lead/silver/etc. across Create, IE, IF, Ad Astra and Silent Gear.
 - **Polymorph**: lets you pick between conflicting recipes.
-- **Carry On** + its Aeronautics compat (optional).
+- **Carry On** + its Aeronautics compat (optional, not added).
+- Added: Default Options (ships default keybinds). Note: Sable: Physics Compat logs one Aether-related data error; re-check in Phase 6 when Aether is added.
 
 **Checklist:**
 - Ores from each mod generate (zinc, IE ores, AE2 meteorites).
@@ -337,6 +338,23 @@ Not available on NeoForge 1.21.1: Presence Footsteps, Wakes, Visuality, Extra So
 - Dynamic Trees (if not done in Phase 5)
 - Waystones (fast travel across very big terrain)
 - Alex's Caves (unofficial port)
+
+---
+
+## Multiplayer server (the pack's end goal)
+The pack is built to run on a dedicated server. Every phase is boot-tested on `testserver/`, and client-only mods are marked `side = "client"` so the server skips them.
+
+- **World settings live on the server.** Tectonic's and Biome Replacer's configs are server-side, so terrain comes out the same for everyone. Lock them before the real world is generated.
+- **Distant Horizons on the server:** DH can generate LODs on the server and send them to players. That makes the long-range view far smoother for friends exploring new terrain. Pre-generate with `/dh pregen` before opening the server.
+- **Server RAM:** about 8–10 GB for this mod list, more as phases add up.
+- **Getting the pack to friends:**
+  1. Push this repo to GitHub.
+  2. Each friend creates a Prism instance whose pre-launch command points `packwiz-installer-bootstrap` at the repo's `pack.toml` URL.
+  3. Every launch then auto-updates their mods, the same way it works for you now.
+  The other route is a `.mrpack` export, but CurseForge-only mods (the FTB mods, Twilight Forest) can't be bundled in one.
+- **Default keybinds:** the Default Options mod ships our conflict-free keybinds to new players. It applies on first launch only, so anyone can still rebind afterward.
+- **Claims and protection:** FTB Chunks (claims + force-loading), FTB Teams, FTB Essentials (homes, TPA, etc.).
+- **Hosting:** TBD (rented host vs. a home PC). Decide before Phase 6 or so.
 
 ---
 
