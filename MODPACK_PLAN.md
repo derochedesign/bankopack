@@ -33,6 +33,7 @@ Measured peak heights for one mountain range (seed `bankopack`, 256×256 area, 1
 | **3.0** | **Y 401** | **Y 485** |
 | 2.5 | Y 347 | Y 424 |
 
+- **No floating islands:** Biome Replacer (`config/biome_replacer.properties`) removes Terralith's Skylands biomes (`#terralith:skylands > null`). Verified on the test server: `/locate biome #terralith:skylands` finds nothing. Delete that line to bring them back.
 - Other knobs worth trying: `continents_scale` (lower = bigger continents), `erosion_scale` (lower = broader ranges), biome noise (large biomes).
 - **Lock the config before the real world is created.** Changing terrain settings afterward leaves cliff seams where new chunks meet old ones.
 - **Ocean monuments:** Tectonic sinks vanilla monuments 30 blocks (`monument_offset`) to match its deeper oceans, and the monument's water box cuts a sheer pit into the seabed. Re-check after YUNG's Better Ocean Monuments (Phase 5) replaces them.
@@ -140,14 +141,14 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - Crafting on a Stick
 
 **Death**
-- GraveStone Mod (+ Gravestone x Curios compat)
+- GraveStone Mod (+ Gravestone x Curios compat, which also needs **BaguetteLib**; its Modrinth page doesn't list it)
 
 **Movement & interaction**
 - Double Doors
 - Jump Over Fences
 - Harvest with Ease
 - Construction Wands Revived
-- Veinminer **or** FTB Ultimine (pick one)
+- **FTB Ultimine** (chosen over Veinminer, which would add a second Kotlin language library next to Cobblemon's)
 
 **Visuals & UI**
 - Dark Mode Everywhere
