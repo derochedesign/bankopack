@@ -37,7 +37,7 @@
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
     "jungle_pillars": true,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
-    "ocean_offset": -0.8,
+    "ocean_offset": -0.65,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
     "ridge_scale": 0.25,
     // Underground rivers under snowy biomes will generate with ice.
@@ -70,7 +70,7 @@
     // Greatly smoothens out the terrain like Tectonic v2, removing staircasing artifacts at the cost of strange/broken generation in deep oceans and windswept biomes.
     "ultrasmooth": false,
     // Vertically stretches terrain above sea level. Doubling this value will double the surface's height at a given point from sea level.
-    "vertical_scale": 3.7
+    "vertical_scale": 3.0
   },
   "islands": {
     "enabled": true,

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "c376a39c1ed13ae0d110ee669cb39bfcd78a86dff3c9a137a9249362cf4600ff"
+hash = "24ae894a53c634fd277320481079b3461ca8022f8800f12066566cffb9548645"
 
 [[files]]
 file = "mods/appleskin.pw.toml"

@@ -17,11 +17,29 @@ Researched 2026-10-07 against the Modrinth API + CurseForge. Source column: **MR
 
 **Tectonic** (mod version, NeoForge) has Terralith support built in, so no separate Terratonic datapack is needed. It works with TerraBlender biome mods, structure mods, Cobblemon and Distant Horizons.
 
-### Tectonic starting config (tune from here)
-Tectonic v3 has an in-game config screen and presets (`default`, `large_biomes`, `deserted`, `frozen_wasteland`, `overkill`). Starting point, from the video the group liked:
-
-| Setting | Default | Ours | Overkill preset (for reference) |
+### Tectonic config (current: `pack/config/tectonic.json`)
+| Setting | Default | **Ours** | Why |
 |---|---|---|---|
+| Snow start offset | 128 | **256** | Snow line starts higher (from the video) |
+| Vertical scale | 1.125 | **3.0** | Was 3.7 in the first playtest; group wanted it lower |
+| Max build height (`max_y`) | 320 | **640** | Headroom above peaks for bigger ranges and building |
+| Ocean offset | -0.8 | **-0.65** | First playtest spawned mid-ocean; more land, deep oceans still exist |
+
+Measured peak heights for one mountain range (seed `bankopack`, 256×256 area, 16-block grid; `tools/measure.py`):
+
+| Vertical scale | Median surface | Tallest point |
+|---|---|---|
+| 3.7 | Y 477 | Y 571 |
+| **3.0** | **Y 401** | **Y 485** |
+| 2.5 | Y 347 | Y 424 |
+
+- Other knobs worth trying: `continents_scale` (lower = bigger continents), `erosion_scale` (lower = broader ranges), biome noise (large biomes).
+- **Lock the config before the real world is created.** Changing terrain settings afterward leaves cliff seams where new chunks meet old ones.
+- **Ocean monuments:** Tectonic sinks vanilla monuments 30 blocks (`monument_offset`) to match its deeper oceans, and the monument's water box cuts a sheer pit into the seabed. Re-check after YUNG's Better Ocean Monuments (Phase 5) replaces them.
+- **DH while exploring:** LODs fill in as terrain generates. Pre-generate with `/dh pregen` (tab-complete for the arguments) instead of Chunky.
+- **Create Aeronautics models air pressure by altitude.** Check how airships handle Y 400–640.
+
+---|---|---|---|
 | Snow start offset | — | **256** | 512 |
 | Vertical scale | 1.125 | **3.7** | 2.5 |
 | Increased height | off (Y −64→320) | **ON** (Y −64→640) | Y −64→768 |
