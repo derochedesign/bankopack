@@ -1,0 +1,10 @@
+# Local test server (regenerable: NeoForge installer + packwiz)
+testserver/
+
+# Downloaded tool binaries
+tools/*.exe
+tools/*.jar
+tools/dl/
+
+# packwiz installer state
+packwiz.json

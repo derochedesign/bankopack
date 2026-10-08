@@ -1,0 +1,106 @@
+MODS:
+
+mains:
+- distant horizons
+- tellus (if it becomes problematic, we can use terralith or tectonic)
+- cobblemon
+- cobblemon trainer battle
+- iris shaders
+
+mobs:
+- more critters
+- alex's mobs
+- legendary monsters
+- enderman overhaul
+- true ending - ender dragon overhaul
+- species
+- nyf's spiders
+- more mob variants
+- wither skeleton tweaks
+
+tech:
+- applied energistics 2
+- tom's simple storage
+- iron furnaces
+- create + propulsion + aeronautics
+- immersive engineering
+- immersive aircraft
+- minecraft transit railway
+- ad astra (if feasible)
+- industrial foregoing
+- xnet
+
+gen:
+- betternether
+- betterend
+- yung's stuff (the ones that dont impact other mods/gen)
+- deeper and darker
+- dynamic trees
+
+magic:
+- goety - the dark arts
+- apotheosis (including all the mods it has)
+- Mahou Tsukai
+- evilcraft
+
+food:
+- farmer's delight
+- eating animation
+- mama's herbs and harvest
+
+combat:
+- better combat
+- Immersive Armors
+- relics
+- simply skills (or other skill tree mod)
+- simply swords (does this work with better combat?)
+
+building:
+- chipped
+- hand crafted
+- macaw's stuff (windows, fences, bridges, doors, roofs, stairs)
+- rechiseled
+- glassential renewed
+
+dimension mods:
+- eternal starlight
+- twilight forest (maybe)
+- bumblezone
+- blue skies (2 yrs out of date)
+- the aether
+- deep aether
+
+other:
+- enhanced celestials
+- exposure (camera mod)
+- silent gear
+
+qol:
+- jei
+- everything needed for curio
+- veinminer
+- minimap mod (xaero maybe)
+- 3d skin layers
+- falling leaves
+- nature's compass
+- travelers backpack
+- elytra slot
+- dynamic lights
+- construction wand
+- grind enchantments
+- enchantment descriptions
+- lootr
+- gravestone mod
+- double doors
+- magnum torch
+- jump over fences
+- harvest with ease
+- dark mode everywhere
+- AI Improvements
+- Colourful Hearts
+- Crafting on a stick
+- FTB stuff (Chunks, Essentials, etc)
+- Fuel Goes Here
+- TrashSlot
+
+something like sinytra connector to run fabric in neoforge? if necessary

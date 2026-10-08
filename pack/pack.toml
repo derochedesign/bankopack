@@ -1,0 +1,13 @@
+name = "Bankopack"
+author = "aaron"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ab5ce22061996a882eca6d3c40b0b536da6fd6bbb5b6ae1d64f39078d69a361d"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"
