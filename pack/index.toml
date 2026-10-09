@@ -314,6 +314,11 @@ hash = "cf5d87f046590b99d92096a79f6ea2f456290ba5d423c256f06674d2d10a1592"
 metafile = true
 
 [[files]]
+file = "mods/mezzconfiggui.pw.toml"
+hash = "d5a2ff29042444ce10c94db42d8e04a4fc4991fe24a5258e4413d2903a0190f2"
+metafile = true
+
+[[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
 hash = "eb92edf4c96950bdb86d46f96aad2ed20bda469db60be70817215408cda3a692"
 metafile = true
