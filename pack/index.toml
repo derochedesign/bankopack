@@ -6,7 +6,7 @@ hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
 [[files]]
 file = "config/tectonic.json"
-hash = "b9569a20ce91a4df197f93d88014b6d61fdd80b61efb8ff5ce62f8f20279fe35"
+hash = "27ccc444a2aa3c9442eb1053207b82f32ad22acf8af5b1a96344662d075b4d51"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -21,6 +21,11 @@ metafile = true
 [[files]]
 file = "mods/ae2.pw.toml"
 hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
+metafile = true
+
+[[files]]
+file = "mods/aeronautics-hot-air-fix.pw.toml"
+hash = "55c8aefec97caf982304d74c1e7b5e0bc45b34da5be45afe9a1c9e23cfd144b3"
 metafile = true
 
 [[files]]

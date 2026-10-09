@@ -31,7 +31,7 @@
     // Horizontally scales continents. Lower values = larger continents and oceans between them.
     "continents_scale": 0.13,
     // Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.
-    "erosion_scale": 0.25,
+    "erosion_scale": 0.10,
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
     "flat_terrain_skew": 0.1,
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
@@ -39,7 +39,7 @@
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
     "ocean_offset": -0.5,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
-    "ridge_scale": 0.25,
+    "ridge_scale": 0.15,
     // Underground rivers under snowy biomes will generate with ice.
     "river_ice": false,
     // Underground rivers will rarely generate with hanging lanterns.
