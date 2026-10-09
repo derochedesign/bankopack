@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simplyswords:bloodwake",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_cutlass",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_cutlass",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_cutlass",
+      "required": false
+    },
+    {
+      "id": "simplyswords:livyatan",
+      "required": false
+    },
+    {
+      "id": "simplyswords:molten_edge",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_cutlass",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_cutlass",
+      "required": false
+    },
+    {
+      "id": "simplyswords:wraithfang",
+      "required": false
+    },
+    {
+      "id": "simplyswords:wraithmaw",
+      "required": false
+    }
+  ]
+}

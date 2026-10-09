@@ -11,6 +11,7 @@ description='''
 Small client-side tweaks for the Bankopack modpack:
 - Turns Iris shaders off in listed dimensions (Ad Astra by default) and back on when you leave.
 - Adds JEI mod-name aliases, so e.g. @rpg finds every RPG Series item.
+- Data: sorts Simply Swords weapons into RPG Series weapon-type tags so Skill Tree's weapon branches recognise them.
 Configure in config/bankopack-client.toml.
 '''
 

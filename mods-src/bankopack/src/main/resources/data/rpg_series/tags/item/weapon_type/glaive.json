@@ -1,0 +1,149 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simplyswords:arcanethyst",
+      "required": false
+    },
+    {
+      "id": "simplyswords:decaying_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_glaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_halberd",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_twinblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:dreadtide",
+      "required": false
+    },
+    {
+      "id": "simplyswords:emberlash",
+      "required": false
+    },
+    {
+      "id": "simplyswords:flamewind",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_glaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_halberd",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_twinblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:icewhisper",
+      "required": false
+    },
+    {
+      "id": "simplyswords:ionbound_stormscale",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_glaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_halberd",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_twinblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:magiblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:magiscythe",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_glaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_halberd",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_twinblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_glaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_halberd",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_twinblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_warglaive",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulrender",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulstalker",
+      "required": false
+    },
+    {
+      "id": "simplyswords:stars_edge",
+      "required": false
+    },
+    {
+      "id": "simplyswords:storms_edge",
+      "required": false
+    },
+    {
+      "id": "simplyswords:stormscale",
+      "required": false
+    },
+    {
+      "id": "simplyswords:thunderbrand",
+      "required": false
+    },
+    {
+      "id": "simplyswords:watching_warglaive",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simplyswords:diamond_spear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gloampiercer",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_spear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_spear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:magispear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_spear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_spear",
+      "required": false
+    },
+    {
+      "id": "simplyswords:sword_on_a_stick",
+      "required": false
+    },
+    {
+      "id": "simplyswords:the_dispatcher",
+      "required": false
+    },
+    {
+      "id": "simplyswords:wickpiercer",
+      "required": false
+    }
+  ]
+}

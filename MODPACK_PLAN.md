@@ -386,6 +386,16 @@ A client-only mod. Config: `config/bankopack-client.toml`.
   - `[shaders] dimensions = ["ad_astra:*"]`: use full IDs (`ad_astra:moon`) or `namespace:*`.
 - **JEI mod aliases:** `@rpg` in JEI lists items from every RPG Series mod (classes, community classes, Jewelry, Spell Engine, Runes, Skill Tree). This uses JEI's `addModAliases` API.
   - `[jei] mod_aliases = ["rpg=wizards,paladins,..."]`: add more groups as `alias=modid1,modid2`. Restart the game after editing.
+- **Simply Swords → Skill Tree weapon branches (data):** all 133 Simply Swords weapons are added to `minecraft:swords` / `rpg_series:weapon_type/*` tags, so Skill Tree's weapon branches recognise them. They're sorted by name keyword, then by Better Combat archetype:
+  - longsword, katana, rapier, chakram → sword
+  - claymores, lichblades, heavy uniques → claymore
+  - greataxe → double_axe
+  - greathammer, Mjolnir → hammer
+  - glaive, warglaive, halberd, twinblade, scythe → glaive
+  - spear → spear
+  - sai → dagger
+  - cutlass → sickle
+  - Regenerate with `tools/gen_simplyswords_tags.py <simplyswords.jar> src/main/resources` after Simply Swords updates. Verified with `execute if items` on the test server.
 - **Build:** `cd mods-src/bankopack && ./gradlew build`, then copy `build/libs/bankopack-<version>.jar` into `pack/mods/` (removing the old jar) and run `packwiz refresh`.
 - **History:** v1.0.0 was named `dimshaders` (shader switching only).
 ---

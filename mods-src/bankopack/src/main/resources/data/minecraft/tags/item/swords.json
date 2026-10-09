@@ -1,0 +1,145 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "simplyswords:bramblethorn",
+      "required": false
+    },
+    {
+      "id": "simplyswords:chompolotl",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_chakram",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_katana",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:diamond_rapier",
+      "required": false
+    },
+    {
+      "id": "simplyswords:dormant_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:dreadwhisper",
+      "required": false
+    },
+    {
+      "id": "simplyswords:emberblade",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_chakram",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_katana",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:gold_rapier",
+      "required": false
+    },
+    {
+      "id": "simplyswords:harbinger",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_chakram",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_katana",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:iron_rapier",
+      "required": false
+    },
+    {
+      "id": "simplyswords:magic_estoc",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_chakram",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_katana",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:netherite_rapier",
+      "required": false
+    },
+    {
+      "id": "simplyswords:righteous_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_chakram",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_katana",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:runic_rapier",
+      "required": false
+    },
+    {
+      "id": "simplyswords:shadowsting",
+      "required": false
+    },
+    {
+      "id": "simplyswords:stormbringer",
+      "required": false
+    },
+    {
+      "id": "simplyswords:sunfire",
+      "required": false
+    },
+    {
+      "id": "simplyswords:tainted_relic",
+      "required": false
+    },
+    {
+      "id": "simplyswords:tempest",
+      "required": false
+    },
+    {
+      "id": "simplyswords:toxic_longsword",
+      "required": false
+    },
+    {
+      "id": "simplyswords:whisperwind",
+      "required": false
+    }
+  ]
+}
