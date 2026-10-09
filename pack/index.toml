@@ -349,6 +349,11 @@ hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
 metafile = true
 
 [[files]]
+file = "mods/pro-placer.pw.toml"
+hash = "7fc653d77e2f6f083f95a1dc0b89645498684e9c721b6aad27d60b1ecafc870e"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6b1ee632cee2d75301016eaac99a3446ad605f11fbfda631effac0eb7da59f6c"
 metafile = true

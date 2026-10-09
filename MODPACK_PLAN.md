@@ -152,6 +152,7 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - Jump Over Fences
 - Harvest with Ease
 - Construction Wands Revived
+- **Pro Placer**: reach-around placement (place blocks under/behind the block you're standing on) + Bedrock-style accurate placement. Client-only.
 - **FTB Ultimine** (chosen over Veinminer, which would add a second Kotlin language library next to Cobblemon's)
 
 **Visuals & UI**
