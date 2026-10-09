@@ -8,3 +8,8 @@ tools/dl/
 
 # packwiz installer state
 packwiz.json
+
+# Mod build outputs
+mods-src/*/build/
+mods-src/*/.gradle/
+mods-src/*/run/

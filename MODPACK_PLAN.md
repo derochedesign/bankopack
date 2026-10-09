@@ -363,5 +363,14 @@ The pack is built to run on a dedicated server. Every phase is boot-tested on `t
 
 ---
 
+## Custom mods (source in `mods-src/`)
+### Bankopack Dimension Shaders (`dimshaders`)
+- **What it does:** turns Iris shaders off when you enter a listed dimension and back on when you leave. It only re-enables shaders it turned off itself, so players who keep shaders off are never overridden. It's client-only and does nothing if Iris isn't installed.
+- **Why:** shader packs draw their own sky over Ad Astra's planets (overworld clouds, a second sun). The existing per-dimension shader mods are Fabric 1.21.11 only.
+- **Config:** `config/dimshaders-client.toml` → `dimensions = ["ad_astra:*"]`. Use full IDs (`ad_astra:moon`) or `namespace:*` for a whole mod.
+- **Build:** `cd mods-src/dimshaders && ./gradlew build`, then copy `build/libs/dimshaders-<version>.jar` into `pack/mods/` and run `packwiz refresh`.
+
+---
+
 ## Resource budget
 Your PC: Ryzen 7 3700X, 32 GB RAM, RTX 3070 Ti → give the client **10–12 GB** heap. For a dedicated server with this list: 8–10 GB. Pregenerate with Chunky. Tectonic at vertical scale 3.7 with the higher build limit is noticeably slower to generate than vanilla.
