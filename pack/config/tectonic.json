@@ -70,7 +70,7 @@
     // Greatly smoothens out the terrain like Tectonic v2, removing staircasing artifacts at the cost of strange/broken generation in deep oceans and windswept biomes.
     "ultrasmooth": false,
     // Vertically stretches terrain above sea level. Doubling this value will double the surface's height at a given point from sea level.
-    "vertical_scale": 3.0
+    "vertical_scale": 2.75
   },
   "islands": {
     "enabled": true,

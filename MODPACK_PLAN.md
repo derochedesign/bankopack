@@ -24,7 +24,7 @@ Researched 2026-10-07 against the Modrinth API + CurseForge. Source column: **MR
 | Setting | Default | **Ours** | Why |
 |---|---|---|---|
 | Snow start offset | 128 | **256** | Snow line starts higher (from the video) |
-| Vertical scale | 1.125 | **3.0** | Was 3.7 in the first playtest; group wanted it lower |
+| Vertical scale | 1.125 | **2.75** | 3.7 → 3.0 → 2.75 over playtests; compromise between height and sheer range edges |
 | Max build height (`max_y`) | 320 | **640** | Headroom above peaks for bigger ranges and building |
 | Ocean offset | -0.8 | **-0.65** | First playtest spawned mid-ocean; more land, deep oceans still exist |
 
@@ -38,6 +38,7 @@ Measured peak heights for one mountain range (seed `bankopack`, 256×256 area, 1
 
 - **No floating islands:** Biome Replacer (`config/biome_replacer.properties`) removes Terralith's Skylands biomes (`#terralith:skylands > null`). Verified on the test server: `/locate biome #terralith:skylands` finds nothing. Delete that line to bring them back.
 - **Less spiky mountains:** `erosion_scale` 0.25 → **0.10** and `ridge_scale` 0.25 → **0.15** (broader ranges, same height). Measured on seed `3128558057160963598`: average slope 20 → 11 blocks per 16, cliff-like steps (32+ blocks) 20% → 4%, worst single drop 167 → 55. `ultrasmooth` made no measurable difference, so it stays off (its config warns about broken deep oceans).
+- **Range-edge cliffs** (e.g. lowland → mountain in `terralith:arid_highlands`) come from the vertical stretch, not plateaus. On seed `3128558057160963598`, the share of near-vertical steps (24+ blocks rise per 8 blocks) at that spot was 6.6% at scale 3.0, 5.3% at 2.75 and 4.5% at 2.5. `flat_terrain_skew` 0.5 didn't help there and made badlands steeper, so it stays at 0.1. Measured with `tools/terrainstats.py`.
 - Other knobs worth trying: `continents_scale` (lower = bigger continents), `erosion_scale` (lower = broader ranges), biome noise (large biomes).
 - **Lock the config before the real world is created.** Changing terrain settings afterward leaves cliff seams where new chunks meet old ones.
 - **Ocean monuments:** Tectonic sinks vanilla monuments 30 blocks (`monument_offset`) to match its deeper oceans, and the monument's water box cuts a sheer pit into the seabed. Re-check after YUNG's Better Ocean Monuments (Phase 5) replaces them.
