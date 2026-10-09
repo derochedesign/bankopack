@@ -5,6 +5,10 @@ file = "config/biome_replacer.properties"
 hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
 [[files]]
+file = "config/cobblemon/main.json"
+hash = "51dfa11984ac0186b358e5cc8644d64a4cb8d4a1294488820b65663868b5c446"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "ed646f465b446113be3b7f4769740e3e73041e13163bb14d1f7e51a8f4bc1649"
 
@@ -76,6 +80,11 @@ metafile = true
 [[files]]
 file = "mods/bookshelf-lib.pw.toml"
 hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
+metafile = true
+
+[[files]]
+file = "mods/bridging-mod.pw.toml"
+hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
 
 [[files]]
@@ -445,11 +454,6 @@ metafile = true
 [[files]]
 file = "mods/prickle.pw.toml"
 hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
-metafile = true
-
-[[files]]
-file = "mods/pro-placer.pw.toml"
-hash = "7fc653d77e2f6f083f95a1dc0b89645498684e9c721b6aad27d60b1ecafc870e"
 metafile = true
 
 [[files]]
