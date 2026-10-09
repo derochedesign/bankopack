@@ -1,0 +1,13 @@
+name = "Simple Mob Buff System"
+filename = "smbs-neoforge-1.1.2+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GAArqhdA/versions/kJG2c5nZ/smbs-neoforge-1.1.2%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "7a846342bbf5ee4bd33d6f009f15077aa65e19a0c34616ed4a73241c395d1b99f5978848db35b9e1e42f359ad46f215a25e28b9a55be30daadbfe9a4aedc6784"
+
+[update]
+[update.modrinth]
+mod-id = "GAArqhdA"
+version = "kJG2c5nZ"

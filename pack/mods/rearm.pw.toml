@@ -1,0 +1,13 @@
+name = "ReArm: Combat Overhaul"
+filename = "rearm-neoforge-2.5.7+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NHzN2FGz/versions/SLgdmXi9/rearm-neoforge-2.5.7%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "0a62956ac53ee4f42e4fdc889128f25769b410e12fa7e41f454fdc1458371cf02380feb18e7ee489dd54fc386a5c7a90ab35cc3b3ef4a2f0fcc27d44de320cfb"
+
+[update]
+[update.modrinth]
+mod-id = "NHzN2FGz"
+version = "SLgdmXi9"

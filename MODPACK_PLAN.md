@@ -245,6 +245,9 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - **Dropped More Mob Variants Modernized:** its "1.21.1" build ships 1.21.5+ wolf-variant data and stops the world from loading. Vanilla 1.21.1 already has wolf variants.
 - **Added Spell Power Attributes:** Skill Tree and Spell Engine require it, but it isn't declared on Modrinth.
 - **Naturalist left out:** too much overlap with Alex's Mobs.
+- **Combat rework (after playtest):** removed Better Combat (cosmetic; ReArm reworks swords directly, so the two would collide). Added **Combat Roll** (dodge), **ReArm** (bow/crossbow/sword/axe/shield mechanics + armor/protection rebalance), **Zombie Improvements**, **Simple Mob Buff System**.
+- **Iron's Spells 'n Spellbooks** added; it needs **Iron's Lib 2.x** (pinned 1.21.1-2.2.0), which isn't declared on Modrinth.
+- **Keybind watch:** ReArm's action key defaults to Left Alt, the same as Cobblemon's riding free-look. Combat Roll and Iron's add keys too, so capture them in Default Options.
 - **Harmless log noise:** Simply Swords recipe errors for Mythic Metals (an optional mod we don't have).
 
 **Checklist:**
