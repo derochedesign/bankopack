@@ -1,2 +1,4 @@
 # packwiz hashes these files; line-ending conversion would break the hashes
 pack/** -text
+mods-src/**/gradlew text eol=lf
+*.bat text eol=crlf
