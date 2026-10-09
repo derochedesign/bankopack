@@ -247,6 +247,11 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - **Naturalist left out:** too much overlap with Alex's Mobs.
 - **Combat rework (after playtest):** removed Better Combat (cosmetic; ReArm reworks swords directly, so the two would collide). Added **Combat Roll** (dodge), **ReArm** (bow/crossbow/sword/axe/shield mechanics + armor/protection rebalance), **Zombie Improvements**, **Simple Mob Buff System**.
 - **Iron's Spells 'n Spellbooks** added; it needs **Iron's Lib 2.x** (pinned 1.21.1-2.2.0), which isn't declared on Modrinth.
+- **Class-based combat (RPG Series):** Wizards, Paladins & Priests, Rogues & Warriors, Archers, Jewelry, plus community classes Berserker, Forcemaster, Witcher, Elemental Wizards and Bard (More RPG Library). Skill Tree (RPG Series) is built for these classes. Death Knights has no NeoForge 1.21.1 build.
+- **Better Combat is back:** the classes need it for dual-wielding and two-handed weapons. ReArm's sword changes are switched off in `config/rearm/config.toml` so they don't conflict; its bow, crossbow, axe, shield and armor features stay on.
+- **Spell Engine pinned to 1.10.7** (`packwiz pin`): Witcher 3.1.4 crashes on 1.10.8+ (`NoSuchMethodError` in `LootHelper.configure`). Unpin once Witcher updates.
+- **Iron's Spells stays** as a second, separate magic path, with its own mana and spellbooks.
+- **Harmless log noise:** Bard recipes for BetterEnd's aeternium; these resolve once BetterEnd is added in Phase 6.
 - **Keybind watch:** ReArm's action key defaults to Left Alt, the same as Cobblemon's riding free-look. Combat Roll and Iron's add keys too, so capture them in Default Options.
 - **Harmless log noise:** Simply Swords recipe errors for Mythic Metals (an optional mod we don't have).
 
@@ -257,7 +262,7 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 ### Phase 4 — Magic & gear
 - Apotheosis (+ Apothic Attributes, Apothic Enchanting, Apothic Spawners, Placebo, Patchouli)
 - Goety
-- Mahou Tsukai
+- ~~Mahou Tsukai~~ (dropped by group decision)
 - EvilCraft (+ Cyclops Core)
 - Silent Gear (+ Silent Lib)
 

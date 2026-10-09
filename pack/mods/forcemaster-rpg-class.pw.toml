@@ -1,0 +1,13 @@
+name = "Forcemaster (RPG Series Plus)"
+filename = "forcemaster_rpg-neoforge-3.1.1+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/K3yHebFL/versions/2yMJPJK9/forcemaster_rpg-neoforge-3.1.1%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "35ad5f53fe27e1e42fa4ed23c2ba3cb42ae6f52597bb6fc89b88c4306db873da6832c4780b249f7f12854a71daac13169368554cbd71d4a1234a47ce5d8abf09"
+
+[update]
+[update.modrinth]
+mod-id = "K3yHebFL"
+version = "2yMJPJK9"
