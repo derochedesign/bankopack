@@ -73,7 +73,7 @@ Measured peak heights for one mountain range (seed `bankopack`, 256×256 area, 1
 | Original | Replacement (NeoForge 1.21.1) | Notes |
 |---|---|---|
 | Alex's Mobs | **Alex's Mobs 1.21.1 Port** (Raguto, CF) + Citadel | Unofficial; install only ONE port. Fallback: Naturalist |
-| More Mob Variants | `more-mob-variants-modernized` (MR) | Small project — test |
+| More Mob Variants | ~~`more-mob-variants-modernized`~~ **dropped**: broken on 1.21.1 (1.21.5+ data format) | Vanilla wolf variants only |
 | Simply Skills | **Skill Tree (RPG Series)** (`skill-tree`) — same family as Better Combat. Lighter alt: Pufferfish's Skills (`skills`) + default trees datapack | Skill Tree pulls in Spell Engine, Ranged Weapon API and Critical Strike |
 | Construction Wand | `construction-wands-revived` (MR) | MIT fork of the original |
 | Eating Animation (Fabric) | **Eating Animation Neo/Forge port** (matyrobbrt, CF) + GroovyModLoader | Native, no Connector |
@@ -240,6 +240,12 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - Immersive Armors
 - Relics (+ ShatterByte Lib)
 - Skill Tree (RPG Series) (+ its deps)
+
+**Phase 3 build notes:**
+- **Dropped More Mob Variants Modernized:** its "1.21.1" build ships 1.21.5+ wolf-variant data and stops the world from loading. Vanilla 1.21.1 already has wolf variants.
+- **Added Spell Power Attributes:** Skill Tree and Spell Engine require it, but it isn't declared on Modrinth.
+- **Naturalist left out:** too much overlap with Alex's Mobs.
+- **Harmless log noise:** Simply Swords recipe errors for Mythic Metals (an optional mod we don't have).
 
 **Checklist:**
 - Better Combat swing animations and Eating Animation don't fight (both animate the player).
