@@ -10,6 +10,10 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
 repositories {
     maven {
+        url = 'https://maven.blamejared.com'
+        content { includeGroup 'mezz.jei' }
+    }
+    maven {
         url = 'https://api.modrinth.com/maven'
         content { includeGroup 'maven.modrinth' }
     }
@@ -27,8 +31,9 @@ neoForge {
 }
 
 dependencies {
-    // Only Iris's public API (net.irisshaders.iris.api.v0) is used; Iris is optional at runtime.
+    // Only the public APIs of Iris and JEI are used; both are optional at runtime.
     compileOnly "maven.modrinth:iris:${iris_version}"
+    compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
 }
 
 var generateModMetadata = tasks.register('generateModMetadata', ProcessResources) {

@@ -8,8 +8,10 @@ version="${mod_version}"
 displayName="${mod_name}"
 authors="Bankopack"
 description='''
-Turns Iris shaders off in listed dimensions (Ad Astra planets by default) and back on when you leave.
-Only re-enables shaders it turned off itself. Edit the list in config/dimshaders-client.toml.
+Small client-side tweaks for the Bankopack modpack:
+- Turns Iris shaders off in listed dimensions (Ad Astra by default) and back on when you leave.
+- Adds JEI mod-name aliases, so e.g. @rpg finds every RPG Series item.
+Configure in config/bankopack-client.toml.
 '''
 
 [[dependencies.${mod_id}]]
@@ -28,6 +30,13 @@ Only re-enables shaders it turned off itself. Edit the list in config/dimshaders
 
 [[dependencies.${mod_id}]]
     modId="iris"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="jei"
     type="optional"
     versionRange="*"
     ordering="AFTER"

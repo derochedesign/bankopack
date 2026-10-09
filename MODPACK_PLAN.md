@@ -379,12 +379,15 @@ The pack is built to run on a dedicated server. Every phase is boot-tested on `t
 ---
 
 ## Custom mods (source in `mods-src/`)
-### Bankopack Dimension Shaders (`dimshaders`)
-- **What it does:** turns Iris shaders off when you enter a listed dimension and back on when you leave. It only re-enables shaders it turned off itself, so players who keep shaders off are never overridden. It's client-only and does nothing if Iris isn't installed.
-- **Why:** shader packs draw their own sky over Ad Astra's planets (overworld clouds, a second sun). The existing per-dimension shader mods are Fabric 1.21.11 only.
-- **Config:** `config/dimshaders-client.toml` → `dimensions = ["ad_astra:*"]`. Use full IDs (`ad_astra:moon`) or `namespace:*` for a whole mod.
-- **Build:** `cd mods-src/dimshaders && ./gradlew build`, then copy `build/libs/dimshaders-<version>.jar` into `pack/mods/` and run `packwiz refresh`.
-
+### Bankopack Tweaks (`bankopack`, source in `mods-src/bankopack`)
+A client-only mod. Config: `config/bankopack-client.toml`.
+- **Per-dimension shaders:** turns Iris shaders off in listed dimensions and back on when you leave. It only re-enables shaders it turned off itself, and does nothing if Iris isn't installed.
+  - Why: shader packs draw their own sky over Ad Astra planets (overworld clouds, a second sun). The existing per-dimension shader mods are Fabric 1.21.11 only.
+  - `[shaders] dimensions = ["ad_astra:*"]`: use full IDs (`ad_astra:moon`) or `namespace:*`.
+- **JEI mod aliases:** `@rpg` in JEI lists items from every RPG Series mod (classes, community classes, Jewelry, Spell Engine, Runes, Skill Tree). This uses JEI's `addModAliases` API.
+  - `[jei] mod_aliases = ["rpg=wizards,paladins,..."]`: add more groups as `alias=modid1,modid2`. Restart the game after editing.
+- **Build:** `cd mods-src/bankopack && ./gradlew build`, then copy `build/libs/bankopack-<version>.jar` into `pack/mods/` (removing the old jar) and run `packwiz refresh`.
+- **History:** v1.0.0 was named `dimshaders` (shader switching only).
 ---
 
 ## Resource budget

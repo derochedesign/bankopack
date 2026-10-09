@@ -1,6 +1,7 @@
-package dev.bankopack.dimshaders;
+package dev.bankopack.tweaks;
 
 import com.mojang.logging.LogUtils;
+import dev.bankopack.tweaks.shaders.ShaderSwitcher;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -10,14 +11,15 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.common.NeoForge;
 import org.slf4j.Logger;
 
-@Mod(value = DimShaders.MODID, dist = Dist.CLIENT)
-public class DimShaders {
-    public static final String MODID = "dimshaders";
-    static final Logger LOGGER = LogUtils.getLogger();
+@Mod(value = BankopackTweaks.MODID, dist = Dist.CLIENT)
+public class BankopackTweaks {
+    public static final String MODID = "bankopack";
+    public static final Logger LOGGER = LogUtils.getLogger();
 
-    public DimShaders(IEventBus modBus, ModContainer container) {
+    public BankopackTweaks(IEventBus modBus, ModContainer container) {
         container.registerConfig(ModConfig.Type.CLIENT, Config.SPEC);
         // ShaderSwitcher references Iris classes, so only touch it when Iris is present.
+        // The JEI plugin is discovered by JEI itself via @JeiPlugin, so it needs no wiring here.
         if (ModList.get().isLoaded("iris")) {
             NeoForge.EVENT_BUS.addListener(ShaderSwitcher::onClientTick);
         } else {

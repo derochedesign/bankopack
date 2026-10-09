@@ -82,6 +82,10 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
+file = "mods/bankopack-1.1.0.jar"
+hash = "be843afe4f1817c7dd656d80994241e7b337f39840aaaa9392e58bd2abe02b45"
+
+[[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
 hash = "131785a187cbfd71ef841118008c0a47024b61da778899c3d7d917912972f739"
 metafile = true
@@ -205,10 +209,6 @@ metafile = true
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
-
-[[files]]
-file = "mods/dimshaders-1.0.0.jar"
-hash = "7741ab031215be3bcf9a567adc4b93c3aeb153261d345e3f133e6def7b6faf4a"
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
