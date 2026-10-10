@@ -636,16 +636,6 @@ hash = "08f35f067c7a764a894254a8e5c790a8de5e03f21fcff2875a14a31f16b6627a"
 metafile = true
 
 [[files]]
-file = "mods/silent-gear.pw.toml"
-hash = "087ba9ed2ea4bfbf8e8ec6fafae467f4b4e8d262f46f8066e3f84dc5e231ec21"
-metafile = true
-
-[[files]]
-file = "mods/silent-lib.pw.toml"
-hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
-metafile = true
-
-[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "f11837c4f049aeb3b7ceb086f4c7b1347bfad1826f47722cbdc8b2b38df0067e"
 metafile = true
