@@ -13,6 +13,10 @@ file = "config/rearm/config.toml"
 hash = "389aa7b667e62d16e3b51d094dbb65b2d7dc21f5e9120e8f6acd96cecab40eb7"
 
 [[files]]
+file = "config/simplytooltips/config.toml"
+hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "ed646f465b446113be3b7f4769740e3e73041e13163bb14d1f7e51a8f4bc1649"
 
