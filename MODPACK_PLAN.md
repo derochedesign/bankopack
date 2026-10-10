@@ -270,6 +270,8 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - Apotheosis enchanting doesn't clash with Grind Enchantments or Enchantment Descriptions.
 - Stat interactions between Apothic Attributes, Better Combat and Skill Tree behave.
 
+**Phase 4 build notes:** added Apotheosis (+ Apothic Attributes / Enchanting / Spawners, Placebo, Patchouli), Goety, EvilCraft (+ Cyclops Core), Silent Gear (+ Silent Lib). Boots clean. Harmless log noise: Silent Gear recipes for Woodcutter / Bonsai Trees (not installed) and one Farmer's Delight × Silent Gear cutting recipe.
+
 ### Phase 5 — Building & overworld structures
 **Building**
 - Chipped (+ Athena)

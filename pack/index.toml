@@ -52,6 +52,26 @@ hash = "3805fe2877cffdae5e7bf74d85069a2535daa39a0f3ed766755be49294a07680"
 metafile = true
 
 [[files]]
+file = "mods/apotheosis.pw.toml"
+hash = "e154d7fb16dc7eb6ace7b88b3896955bb66f58c2daafe93c7ae3327ee418a509"
+metafile = true
+
+[[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "8f5f05a72596ecc0dd11be483785c8a521e987dc2fe6d2fef212c2a382a0c779"
+metafile = true
+
+[[files]]
+file = "mods/apothic-enchanting.pw.toml"
+hash = "0d3ca07f510b7674932be8e109f394ab23aa4cd1aee04020ea0d509a0d1dd619"
+metafile = true
+
+[[files]]
+file = "mods/apothic-spawners.pw.toml"
+hash = "e3cf8a1207e85580723e384bf59688be26b80373b49c1d64972528cdc0dcac6d"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
 metafile = true
@@ -201,6 +221,11 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
+file = "mods/cyclops-core.pw.toml"
+hash = "b1e68d816d95a0069f69df080920cd80bc58e95a16eb07de37ff841522bc71e2"
+metafile = true
+
+[[files]]
 file = "mods/dark-mode-everywhere.pw.toml"
 hash = "6740f13cb017492d25062d1d28a4a27c129170629cbdaf8de1e4ebc02582d28d"
 metafile = true
@@ -248,6 +273,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+metafile = true
+
+[[files]]
+file = "mods/evilcraft.pw.toml"
+hash = "fc7bf515834f7de0dc95c7b50bd6b0489f478b1ca67822d8d1e79e665e5793d2"
 metafile = true
 
 [[files]]
@@ -318,6 +348,11 @@ metafile = true
 [[files]]
 file = "mods/gml.pw.toml"
 hash = "892c3b85c8a0c86e799a5dd2a97f016db9f71ae8b30f893908d1cf6e57cb7acc"
+metafile = true
+
+[[files]]
+file = "mods/goety.pw.toml"
+hash = "cf0e46d736aa6aa8fc6349ea60eca0fc2c276df8e3005af7e7fedd887ff52a66"
 metafile = true
 
 [[files]]
@@ -501,6 +536,11 @@ hash = "a9c1ecdef94c1e535f7c5ea05e9b720778b8fd9bf0211d7d52a69bb4b6044ad1"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "66721ef8bf191ccbc1ebe53ef163d2b233be19e3617dac277b16c765a67ba9c7"
 metafile = true
@@ -593,6 +633,16 @@ metafile = true
 [[files]]
 file = "mods/shield-api.pw.toml"
 hash = "08f35f067c7a764a894254a8e5c790a8de5e03f21fcff2875a14a31f16b6627a"
+metafile = true
+
+[[files]]
+file = "mods/silent-gear.pw.toml"
+hash = "087ba9ed2ea4bfbf8e8ec6fafae467f4b4e8d262f46f8066e3f84dc5e231ec21"
+metafile = true
+
+[[files]]
+file = "mods/silent-lib.pw.toml"
+hash = "d692170020a2e8b1dd1d0af610a14c25553bae66bb3f7372123115b5c7bc6157"
 metafile = true
 
 [[files]]
