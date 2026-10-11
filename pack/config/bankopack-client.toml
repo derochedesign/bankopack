@@ -1,7 +1,7 @@
 [shaders]
 	#Dimensions where Iris shaders are turned off automatically.
 	#Use full IDs like "ad_astra:moon", or "namespace:*" for every dimension from a mod.
-	dimensions = ["ad_astra:*", "the_bumblezone:the_bumblezone"]
+	dimensions = ["ad_astra:*", "the_bumblezone:the_bumblezone", "eternal_starlight:starlight"]
 
 [jei]
 	#Extra names JEI's @ mod search will match, as "alias=modid1,modid2,...".

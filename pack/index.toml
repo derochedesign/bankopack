@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/bankopack-client.toml"
-hash = "c7adf5dd4f114c0f53811c7bbbc7677098cca0baa85f1853a0c0d068bfb8c08b"
+hash = "d71ef17e5e35b443fce67df24b2631de17d66d9c7103fc035e263772c3ced885"
 
 [[files]]
 file = "config/biome_replacer.properties"
