@@ -413,7 +413,7 @@ The pack is built to run on a dedicated server. Every phase is boot-tested on `t
 A client-only mod. Config: `config/bankopack-client.toml`.
 - **Per-dimension shaders:** turns Iris shaders off in listed dimensions and back on when you leave. It only re-enables shaders it turned off itself, and does nothing if Iris isn't installed.
   - Why: shader packs draw their own sky over Ad Astra planets (overworld clouds, a second sun). The existing per-dimension shader mods are Fabric 1.21.11 only.
-  - `[shaders] dimensions = ["ad_astra:*", "the_bumblezone:the_bumblezone"]` , "eternal_starlight:starlight"] (shipped in `pack/config/bankopack-client.toml`; shaders render these far too dark): use full IDs (`ad_astra:moon`) or `namespace:*`.
+  - `[shaders] dimensions = ["ad_astra:*", "the_bumblezone:the_bumblezone", "eternal_starlight:starlight"]`: use full IDs (`ad_astra:moon`) or `namespace:*`. Shipped in `pack/config/bankopack-client.toml`; shaders render the Bumblezone and Eternal Starlight far too dark.
 - **JEI mod aliases:** `@rpg` in JEI lists items from every RPG Series mod (classes, community classes, Jewelry, Spell Engine, Runes, Skill Tree). This uses JEI's `addModAliases` API.
   - `[jei] mod_aliases = ["rpg=wizards,paladins,..."]`: add more groups as `alias=modid1,modid2`. Restart the game after editing.
 - **Simply Swords → Skill Tree weapon branches (data):** all 133 Simply Swords weapons are added to `minecraft:swords` / `rpg_series:weapon_type/*` tags, so Skill Tree's weapon branches recognise them. They're sorted by name keyword, then by Better Combat archetype:
