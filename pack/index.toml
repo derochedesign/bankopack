@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/bankopack-client.toml"
+hash = "c7adf5dd4f114c0f53811c7bbbc7677098cca0baa85f1853a0c0d068bfb8c08b"
+
+[[files]]
 file = "config/biome_replacer.properties"
 hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
