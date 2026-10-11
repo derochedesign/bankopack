@@ -292,6 +292,16 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - Structures sit well on steep Tectonic terrain.
 - Villages aren't spawning on cliffs (if they are, add *Improved Village Placement*).
 
+**Phase 5 build notes:**
+- **Added:**
+  - Chipped (+ Athena), Handcrafted
+  - Macaw's Windows / Fences & Walls / Bridges / Doors / Roofs / Stairs
+  - Rechiseled + Rechiseled: Create, Fusion, Glassential Renewed, Exposure
+  - YUNG's API, Better Mineshafts / Strongholds / Ocean Monuments / Desert Temples / Jungle Temples / Witch Huts / Dungeons, Extras, Bridges, Menu Tweaks (client-only), Cave Biomes
+- **TerraBlender added:** YUNG's Cave Biomes needs it, but it isn't declared on Modrinth.
+- **Every YUNG's structure type `/locate`s** in the Tectonic world (test seed). Still to do: playtest how they sit on steep terrain.
+- **Crit-tuning fix:** Apotheosis requires affix ranges in whole 0.01 steps, so the scaled values are rounded (Bankopack Tweaks 1.3.1).
+
 ### Phase 6 — Dimensions & sky
 **Nether & End**
 - BetterNether: New Dawn and BetterEnd: New Dawn (+ BCLib, WunderLib, WorldWeaver)

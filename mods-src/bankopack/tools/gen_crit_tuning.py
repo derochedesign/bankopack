@@ -45,6 +45,9 @@ def scale_crit_values(node):
 
 def scale_numbers(node):
     if isinstance(node, dict):
+        if "min" in node and "max" in node:
+            # Apotheosis interpolates ranges in 0.01 steps, so (max - min) must be a multiple of 0.01.
+            return {**node, "min": round(node["min"] * APOTH_SCALE, 2), "max": round(node["max"] * APOTH_SCALE, 2)}
         return {k: scale_numbers(v) for k, v in node.items()}
     if isinstance(node, (int, float)) and not isinstance(node, bool):
         return round(node * APOTH_SCALE, 4)
