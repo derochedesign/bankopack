@@ -340,6 +340,7 @@ Keep one long-running "real" test world too, to catch updates that break saves.
   - BetterEnd/BetterNether Patchouli guidebooks fail to load (old book format).
   - BCLib "failed fixing level.dat" on brand-new worlds.
   - Bumblezone compat entries for Goety and Legendary Monsters entities.
+- **Removed YUNG's Better End Island:** its own page rates True Ending "not recommended", and in testing the 4 summoning crystals in its central tower stayed invulnerable and kept healing the dragon. True Ending was the group's explicit pick.
 - **Pending decision:** Gateways to Eternity (wave arenas, by the Apotheosis author).
 
 ### Phase 7 — Immersion (all native NeoForge 1.21.1)
