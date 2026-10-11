@@ -398,6 +398,11 @@ A client-only mod. Config: `config/bankopack-client.toml`.
   - sai → dagger
   - cutlass → sickle
   - Regenerate with `tools/gen_simplyswords_tags.py <simplyswords.jar> src/main/resources` after Simply Swords updates. Verified with `execute if items` on the test server.
+- **Crit tuning (data + config):** the pack has two independent crit systems, Critical Strike (RPG Series) and Apothic Attributes (Apotheosis), so both are toned down:
+  - Critical Strike innate crit: 5% → **2%** (`pack/config/critical_strike/server_config.json`).
+  - *Critical Hit* enchantment: 4% → **3%** per level.
+  - Apotheosis *Intricate* affix and *Samurai* gem crit values ×**0.75** (perfect Samurai: 50% → 37.5%).
+  - The enchantment, affix and gem values are overridden by this mod's data, which loads after Apotheosis and Critical Strike. Regenerate with `tools/gen_crit_tuning.py <mods dir> src/main/resources`. In-game check: Critical Hit III should show +9% (was +12%).
 - **Build:** `cd mods-src/bankopack && ./gradlew build`, then copy `build/libs/bankopack-<version>.jar` into `pack/mods/` (removing the old jar) and run `packwiz refresh`.
 - **History:** v1.0.0 was named `dimshaders` (shader switching only).
 ---

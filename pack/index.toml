@@ -9,6 +9,10 @@ file = "config/cobblemon/main.json"
 hash = "51dfa11984ac0186b358e5cc8644d64a4cb8d4a1294488820b65663868b5c446"
 
 [[files]]
+file = "config/critical_strike/server_config.json"
+hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
+
+[[files]]
 file = "config/rearm/config.toml"
 hash = "389aa7b667e62d16e3b51d094dbb65b2d7dc21f5e9120e8f6acd96cecab40eb7"
 
@@ -106,8 +110,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.2.0.jar"
-hash = "ffe1a2fa9f9e45074d13a729b9980d08befac463fa5e99945199b5e2ee980a61"
+file = "mods/bankopack-1.3.0.jar"
+hash = "611893aaa1cb307b456bfd80cdd29f009806547ca20966969334e4b3e61b41ef"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
