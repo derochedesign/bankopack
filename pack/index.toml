@@ -948,6 +948,11 @@ hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
 metafile = true
 
 [[files]]
+file = "mods/yori3os-grappling-hooks.pw.toml"
+hash = "c4543b7ad9cd1462e6c1a84cb00dca204fb421d3e7491677594b4a5dd0ab6920"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api.pw.toml"
 hash = "dde31f05114c72cb2f58e522417487730b872e456f77fdd02c032c9235791f6c"
 metafile = true

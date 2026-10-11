@@ -1,0 +1,13 @@
+name = "Yori3o's Grappling Hooks"
+filename = "yo_hooks-5.2.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t1p8V2nl/versions/JUqC2yvc/yo_hooks-5.2.1.jar"
+hash-format = "sha512"
+hash = "1fdfe29297de9c6b99ae7408c2af1165e1daa8acffaa328e88cfbc26d61dc642fb4195a6fb19c42de937af3c198a26bbc13df7cccc1ec6ebefcd47778840f4be"
+
+[update]
+[update.modrinth]
+mod-id = "t1p8V2nl"
+version = "JUqC2yvc"
