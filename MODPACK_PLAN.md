@@ -433,6 +433,7 @@ A client-only mod. Config: `config/bankopack-client.toml`.
   - *Critical Hit* enchantment: 4% → **3%** per level.
   - Apotheosis *Intricate* affix and *Samurai* gem crit values ×**0.75** (perfect Samurai: 50% → 37.5%).
   - The enchantment, affix and gem values are overridden by this mod's data, which loads after Apotheosis and Critical Strike. Regenerate with `tools/gen_crit_tuning.py <mods dir> src/main/resources`. In-game check: Critical Hit III should show +9% (was +12%).
+- **Fix: The Birth of Steve archive buried at the bottom of the world (mixin).** Using the Archive Survey Map builds the Meridian Archive about 384 blocks away via `AdventureWorldManager.findDrySurface`, which calls `level.getHeight`. For unloaded chunks vanilla returns the world's minimum height, so the archive landed at about Y -63. `mixin/tbos/AdventureWorldManagerMixin` redirects both `getHeight` calls to load the chunk first. It's optional (`required: false`), so it's a no-op if TBoS is absent, and it was verified applied on the dedicated server via `-Dmixin.debug.export=true`. Already-placed archives don't move; on an affected world they stay at the bottom.
 - **Build:** `cd mods-src/bankopack && ./gradlew build`, then copy `build/libs/bankopack-<version>.jar` into `pack/mods/` (removing the old jar) and run `packwiz refresh`.
 - **History:** v1.0.0 was named `dimshaders` (shader switching only).
 ---

@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.bankopack.tweaks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "tbos.AdventureWorldManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
