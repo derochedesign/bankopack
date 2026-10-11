@@ -324,6 +324,24 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 - DH renders in each dimension.
 - The dragon fight works: BetterEnd, YUNG's End Island and True Ending all touch the End.
 
+**Phase 6 build notes:**
+- **Added:**
+  - BetterNether / BetterEnd: New Dawn (+ BCLib, WunderLib, WorldWeaver)
+  - YUNG's Better Nether Fortresses + Better End Island
+  - Deeper and Darker, Eternal Starlight, The Bumblezone
+  - The Aether + Deep Aether (+ owo-lib)
+  - Twilight Forest (CF)
+  - Enhanced Celestials (+ CorgiLib, Data Anchor)
+- **True Ending** ships as a datapack, loaded globally by **Paxi**. `pack.toml` sets `datapack-folder = "config/paxi/datapacks"`, so packwiz puts datapacks there. Confirmed in `/datapack list`.
+- **Roguelike runs:** **The Birth of Steve** (`tbos`, pinned to the NeoForge 0.10.1 build; plain `packwiz mr add` grabbed an old Fabric jar). Opt-in: an adventure leads to *Echoes of the Past*, a replayable procedural multi-floor dungeon dimension.
+  - You bring your own gear; loot is per player.
+  - Scaling: `healthPerDifficulty` / `damagePerDifficulty` in `config/tbos-common.json`. Raise these if it's too easy with modded gear.
+- **Harmless log noise:**
+  - BetterEnd/BetterNether Patchouli guidebooks fail to load (old book format).
+  - BCLib "failed fixing level.dat" on brand-new worlds.
+  - Bumblezone compat entries for Goety and Legendary Monsters entities.
+- **Pending decision:** Gateways to Eternity (wave arenas, by the Apotheosis author).
+
 ### Phase 7 — Immersion (all native NeoForge 1.21.1)
 **Sound**
 

@@ -1,0 +1,13 @@
+name = "True Ending - Ender Dragon Overhaul"
+filename = "true-ending-v1.1.2d.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MCnBYP0b/versions/ynFyyU6J/true-ending-v1.1.2d.zip"
+hash-format = "sha512"
+hash = "9989c4998d6f152ff81c823d60ea82e81a4347af3d9e07db8c935f85f3bb951b781b0f85ecaa4f87c44723599de21acaf64577f90eebd6828170b786e580f440"
+
+[update]
+[update.modrinth]
+mod-id = "MCnBYP0b"
+version = "ynFyyU6J"

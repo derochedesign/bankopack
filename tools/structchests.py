@@ -1,13 +1,13 @@
 # Boot the test server, locate a structure in a dimension, generate the area, and count chest-type
 # blocks in it (vanilla chests vs Lootr chests etc.) using non-destructive "clone ... filtered" tricks.
-# Usage: structchests.py <server_dir> <dimension> <structure_id> [radius] [y_min] [y_max]
+# Usage: structchests.py <server_dir> <dimension> <structure_id | biome:<id>> [radius] [y_min] [y_max] [block1,block2,...]
 import subprocess, sys, time, threading, re, atexit, signal
 
 srv, dim, structure = sys.argv[1], sys.argv[2], sys.argv[3]
 radius = int(sys.argv[4]) if len(sys.argv) > 4 else 48
 y_min = int(sys.argv[5]) if len(sys.argv) > 5 else 0
 y_max = int(sys.argv[6]) if len(sys.argv) > 6 else 160
-BLOCKS = ["minecraft:chest", "minecraft:trapped_chest", "minecraft:barrel", "minecraft:shulker_box",
+BLOCKS = sys.argv[7].split(",") if len(sys.argv) > 7 else ["minecraft:chest", "minecraft:trapped_chest", "minecraft:barrel", "minecraft:shulker_box",
           "lootr:lootr_chest", "lootr:lootr_trapped_chest", "lootr:lootr_barrel", "lootr:lootr_shulker",
           "minecraft:end_rod", "minecraft:purpur_block"]
 
@@ -35,7 +35,7 @@ t0 = time.time()
 while not done.is_set() and time.time() - t0 < 600: time.sleep(1)
 
 mark = len(lines)
-cmd(f"execute in {dim} run locate structure {structure}")
+cmd(f"execute in {dim} run locate biome {structure[6:]}" if structure.startswith("biome:") else f"execute in {dim} run locate structure {structure}")
 loc = None
 for _ in range(240):
     for l in lines[mark:]:

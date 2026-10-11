@@ -13,6 +13,11 @@ file = "config/critical_strike/server_config.json"
 hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
 
 [[files]]
+file = "config/paxi/datapacks/true-ending.pw.toml"
+hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
+metafile = true
+
+[[files]]
 file = "config/rearm/config.toml"
 hash = "389aa7b667e62d16e3b51d094dbb65b2d7dc21f5e9120e8f6acd96cecab40eb7"
 
@@ -42,6 +47,11 @@ metafile = true
 [[files]]
 file = "mods/aeronautics-hot-air-fix.pw.toml"
 hash = "55c8aefec97caf982304d74c1e7b5e0bc45b34da5be45afe9a1c9e23cfd144b3"
+metafile = true
+
+[[files]]
+file = "mods/aether.pw.toml"
+hash = "cc3f6e6e8f1838d16e47cce9241e32176279673efb1438ff4451ccffa9579b14"
 metafile = true
 
 [[files]]
@@ -124,6 +134,11 @@ hash = "131785a187cbfd71ef841118008c0a47024b61da778899c3d7d917912972f739"
 metafile = true
 
 [[files]]
+file = "mods/bclib-neoforge.pw.toml"
+hash = "561ad31048950924972bdf9f0c156ca9bc11ebbb5928c76e00e58f5b1afb12c3"
+metafile = true
+
+[[files]]
 file = "mods/berserker-rpg-class.pw.toml"
 hash = "6b2126b01063e2a2f9ae4912234723a1efa429abaaa559014945456fa7902aba"
 metafile = true
@@ -131,6 +146,16 @@ metafile = true
 [[files]]
 file = "mods/better-combat.pw.toml"
 hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
+metafile = true
+
+[[files]]
+file = "mods/betterend-neoforge.pw.toml"
+hash = "c430ac5fe10a7c373106a1956fe5bcab3f907157c834cf2ad09c0f9d98bb93c6"
+metafile = true
+
+[[files]]
+file = "mods/betternether-neoforge.pw.toml"
+hash = "a0d406e2b722812234673ac27acc6bb2cc8f537cd47f25ad7f2603e697514b22"
 metafile = true
 
 [[files]]
@@ -204,6 +229,11 @@ hash = "999c9dfaf3196f35ef1c6e650d344312813594a4c1fed98e4f7d247441933102"
 metafile = true
 
 [[files]]
+file = "mods/corgilib.pw.toml"
+hash = "9ae835550d113663b527b6ba934dd7d758d8e0a93c68bb44d84eb1ef1be69159"
+metafile = true
+
+[[files]]
 file = "mods/crafting-on-a-stick.pw.toml"
 hash = "4c074275546b78d3f7cefff44ac4fa4f69376f24710c0985decc8c2aa9ebadbc"
 metafile = true
@@ -249,6 +279,21 @@ hash = "6740f13cb017492d25062d1d28a4a27c129170629cbdaf8de1e4ebc02582d28d"
 metafile = true
 
 [[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "64bdeecf2b2217fc22d5237a6bcc3b5f54a4352233040aaa0dbec4e8216f6536"
+metafile = true
+
+[[files]]
+file = "mods/deep-aether.pw.toml"
+hash = "e3211d7d54a7203a183ed3b453be5dd52d27f389dbef26dd7e769f20e1dea81f"
+metafile = true
+
+[[files]]
+file = "mods/deeperdarker.pw.toml"
+hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
+metafile = true
+
+[[files]]
 file = "mods/default-options.pw.toml"
 hash = "a6967d761dde867ccc1af53dc9f4e530eb9917a9cb21d0fc15708e8cd2c0f2ba"
 metafile = true
@@ -289,8 +334,18 @@ hash = "1045ba1bb46eb77e2fea9be04268c2c73c161b94f3bceddbd4c3dbff1c0bf555"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-celestials.pw.toml"
+hash = "e50f87650e3a5becf3cd1772e8053a8bc04c48859a6fa814e75e6c71eaa87e6c"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "30d6875d934c57d5827f29f35ca77efc72a21df361ad3d578b93e7e137a39654"
+metafile = true
+
+[[files]]
+file = "mods/eternal-starlight.pw.toml"
+hash = "6e1beac08fed14accc3edb3b5cd75220c3476d2ff27ce3b415c035623da41cda"
 metafile = true
 
 [[files]]
@@ -599,6 +654,11 @@ hash = "8cf9452197ae7deae53c504a98406494cbd2468055bff5d9d0d981c50eb09748"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "46831c04077a06df823bcd0f254833a90a9a9ccc78f5069f4b4c27fa301ac0cf"
+metafile = true
+
+[[files]]
 file = "mods/paladins-and-priests.pw.toml"
 hash = "a9c1ecdef94c1e535f7c5ea05e9b720778b8fd9bf0211d7d52a69bb4b6044ad1"
 metafile = true
@@ -606,6 +666,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "d7f360ebb9f009d6dc0b368cd8fa399bdff70c0f6ef931687b2a35137f72715d"
+metafile = true
+
+[[files]]
+file = "mods/paxi.pw.toml"
+hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
 metafile = true
 
 [[files]]
@@ -789,6 +854,21 @@ hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
 metafile = true
 
 [[files]]
+file = "mods/the-birth-of-steve.pw.toml"
+hash = "7df4358a1bf2ea9f7edb7a4b3cbb695662d87495f4f4f01ce0ef71d98b9b7c1a"
+metafile = true
+
+[[files]]
+file = "mods/the-bumblezone.pw.toml"
+hash = "afee8d508e5bee4073a0b328441e8948ade246e8fab109b988bd0bb2c5853175"
+metafile = true
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "e697bd3a78edee29ae0bdfbf3cd4261dcbe4517ffb5ef84851e4cc0abcbda7e1"
 metafile = true
@@ -821,6 +901,16 @@ metafile = true
 [[files]]
 file = "mods/wizards.pw.toml"
 hash = "e6e7bdb68b3a0a824b3c6a19c7f4ec880555f912d6f354d67bbd4c8250922591"
+metafile = true
+
+[[files]]
+file = "mods/worldweaver-neoforge.pw.toml"
+hash = "68062a45211bfdbd3dfa4abf526be61c96adc49c485543d1484e8790193c9011"
+metafile = true
+
+[[files]]
+file = "mods/wunderlib-neoforge.pw.toml"
+hash = "2327c95d7332226e1d8c0372909367ee84c1ecedea9eacd84ddb8328a28d1350"
 metafile = true
 
 [[files]]
@@ -859,6 +949,11 @@ hash = "1496ffa30020676979e65921b91e583a2fdc77e50001e2ed55f99edf1a0ae880"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-end-island.pw.toml"
+hash = "03d964cba45be30fbcbef52f89f3953185737f55c8934d12e199b67194c2b368"
+metafile = true
+
+[[files]]
 file = "mods/yungs-better-jungle-temples.pw.toml"
 hash = "c2dc09f214e7c1cecca6cf434776c2616f6d36bd27c06a6b39f985da0453a4f5"
 metafile = true
@@ -866,6 +961,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-mineshafts.pw.toml"
 hash = "e839608ebc974e9e7819adc7bf29132ea86fc41b46af540fe0fa39b2007b2439"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses.pw.toml"
+hash = "50c1731148d91a4ef05cfc47f759ca8fb3dad254e15ce4ecc5732d6fbfa68637"
 metafile = true
 
 [[files]]
