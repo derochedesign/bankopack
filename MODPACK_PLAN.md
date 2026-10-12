@@ -399,6 +399,11 @@ Not available on NeoForge 1.21.1: Presence Footsteps, Wakes, Visuality, Extra So
   - Sound Physics `reverb_gain` 1.0 → 0.55 and `default_block_reflectivity` 0.5 → 0.35 (small rooms sounded like caves).
   - Added **Mouse Tweaks** (shift-drag and scroll item moving, like ATM10).
   - The configs are shipped in `pack/config/` and overwrite players' copies on sync.
+- **Performance pass (spark profiles in a jungle):**
+  - Main costs: shaders (Iris, ~15%, mostly the shadow pass), DH (~8%), Cobblemon models (~8%), Xaero World Map + Minimap (~7%), Subtle Effects (~5%). Phase 7 overall is ~8%.
+  - The F3 screen alone cost ~11% of each frame, so don't judge FPS with F3 open.
+  - Jungle fixes: added **More Culling** (hidden leaf faces aren't drawn; client-only) and Falling Leaves `leafSpawnRate` 10 → 4 (shipped config).
+  - Profile analysis scripts live in the session scratchpad; spark's "Sources" view gives the same per-mod breakdown.
 - **Better Clouds skipped:** Complementary draws its own clouds.
 - **Client-only mods** are marked automatically by packwiz from Modrinth's metadata.
 - **Harmless log noise:** an HTTP connect timeout from an update check.

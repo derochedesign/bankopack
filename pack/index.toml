@@ -17,6 +17,10 @@ file = "config/critical_strike/server_config.json"
 hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
 
 [[files]]
+file = "config/fallingleaves-client.toml"
+hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
+
+[[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"
 hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
 metafile = true
@@ -723,6 +727,11 @@ metafile = true
 [[files]]
 file = "mods/more-rpg-library.pw.toml"
 hash = "d84884704122020409f4bb341fa39afa2252cb089d387cee3f0bd8f91262c91d"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "d6183e3e5f6f98aa2dc8dec2491ca2a4802262007f75781ef449296f7d9671ba"
 metafile = true
 
 [[files]]
