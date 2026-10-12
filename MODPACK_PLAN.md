@@ -461,8 +461,19 @@ A client-only mod. Config: `config/bankopack-client.toml`.
 - **TBoS gameplay notes (by design):**
   - Cantor Cache chests stay sealed until the floor's lesser warden or guardians are defeated ("%s still binds this seal").
   - The in-run **Waystone** binds your floor checkpoint and sends you out; "Your Archive run is already active" means rejoin through a Waystone, not the Lens. Waystones are craftable (Chronicle Bronze + 3 Archive Stone + Lenswork Crystal).
+- **`/bankopack terrainstats <radius> <step>`** (op, 1.6.0+): samples terrain height from the generator's noise (no chunk generation) and reports ocean / flat / hills / highlands / mountains shares and local relief. The mod now runs on the server too; its client-only parts still only load on clients.
 - **Build:** `cd mods-src/bankopack && ./gradlew build`, then copy `build/libs/bankopack-<version>.jar` into `pack/mods/` (removing the old jar) and run `packwiz refresh`.
 - **History:** v1.0.0 was named `dimshaders` (shader switching only).
+---
+
+## Side packs
+### Worldgen test (`packs/worldgen-test/`, Prism instance "Bankopack Worldgen Test")
+For comparing other big-terrain generators with DH + Iris; never shipped to players.
+- Contents: Tellus 0.8.3, JJThunder To The Max 0.6.0 (datapack via Paxi), Distant Horizons, Sodium, Iris, ModernFix, FerriteCore, Lithium, ImmediatelyFast, Entity Culling, Xaero's maps, JEI.
+- **Tellus:** pick the Tellus world preset when creating a world (needs internet). Stock DH, so leave Tellus's "1:1 / increased height" off (that needs the author's DH fork).
+- **JJThunder:** applies to the default world type through Paxi.
+
+
 ---
 
 ## Resource budget

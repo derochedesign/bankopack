@@ -2,3 +2,4 @@
 pack/** -text
 mods-src/**/gradlew text eol=lf
 *.bat text eol=crlf
+packs/** -text

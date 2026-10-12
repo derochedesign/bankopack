@@ -1,0 +1,13 @@
+name = "Tellus"
+filename = "Tellus-neoforge-1.21.1-0.8.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tTcL5uOD/versions/ktBVq1PY/Tellus-neoforge-1.21.1-0.8.3.jar"
+hash-format = "sha512"
+hash = "b3e92a8ca1a029f4b310f9518a129f7157a28f802cc5dc459c5f8fdb3efba5eeb8b747972f97e16bd8288983cbd7c6cf85260f0eba22476efeda7808d1c7804a"
+
+[update]
+[update.modrinth]
+mod-id = "tTcL5uOD"
+version = "ktBVq1PY"

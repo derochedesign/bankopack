@@ -1,0 +1,16 @@
+name = "Bankopack Worldgen Test"
+author = "aaron"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c1cc7c607208099db0606d9ca5b6ee57d09618a30ff25912e76035771a8c8e12"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"
+
+[options]
+datapack-folder = "config/paxi/datapacks"

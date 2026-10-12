@@ -1,0 +1,13 @@
+name = "JJThunder To The Max"
+filename = "JJThunder_To_The_Max_1.21.0_1.21.1_v0.6.0.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1NnAVIR5/versions/fQwTBBdJ/JJThunder_To_The_Max_1.21.0_1.21.1_v0.6.0.zip"
+hash-format = "sha512"
+hash = "4fc65fab1df943d06510866e85dac6879039b6f0fd262381720134d34273cd799345cb92bf568a856ce46e1642916716e7d5b6983d63ae52e409835aad60f36f"
+
+[update]
+[update.modrinth]
+mod-id = "1NnAVIR5"
+version = "fQwTBBdJ"
