@@ -342,7 +342,7 @@ Keep one long-running "real" test world too, to catch updates that break saves.
   - Bumblezone compat entries for Goety and Legendary Monsters entities.
 - **Removed YUNG's Better End Island:** its own page rates True Ending "not recommended", and in testing the 4 summoning crystals in its central tower stayed invulnerable and kept healing the dragon. True Ending was the group's explicit pick.
 - **Traversal (after playtest, for the steep terrain):** **Paragliders** (glide down; campfire updrafts) and **Yori3o's Grappling Hooks** (material-tiered hooks, climb ropes, Sable-compatible). Waystones rejected (everyone would skip other travel); ParCool rejected (too invasive).
-- **Pending decision:** Gateways to Eternity (wave arenas, by the Apotheosis author).
+- **Added Gateways to Eternity** (wave-based arenas opened with Gate Pearls; by the Apotheosis author). Replaces Birth of Steve as the opt-in "test your gear" activity.
 
 ### Phase 7 — Immersion (all native NeoForge 1.21.1)
 **Sound**
