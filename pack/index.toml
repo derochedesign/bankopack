@@ -65,6 +65,11 @@ hash = "bcc34f607a107a148928c80c8fdef326170975df392ce7f476a47df956b1fc5c"
 metafile = true
 
 [[files]]
+file = "mods/aeronama.pw.toml"
+hash = "2cec4eef1f111199f709fbae075070f8f395c2969cdf14db0e0a896e46dd16f7"
+metafile = true
+
+[[files]]
 file = "mods/aeronautics-hot-air-fix.pw.toml"
 hash = "55c8aefec97caf982304d74c1e7b5e0bc45b34da5be45afe9a1c9e23cfd144b3"
 metafile = true
@@ -150,8 +155,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.5.0.jar"
-hash = "2116926d0c5101388d18036dedbd9179f0a616cee2dc56856129f62ad844eadc"
+file = "mods/bankopack-1.6.0.jar"
+hash = "b1db7928fd06d0127a95a2f47589041ebc4a847d6f707d3801b1fdfa739d4c98"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
