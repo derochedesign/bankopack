@@ -30,6 +30,14 @@ file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
 [[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "fb5d542413807c72800f7b226e4cbfe94b47d9ee7b66e344cd953fa5d06c6531"
+
+[[files]]
+file = "config/subtle_effects/entities.toml"
+hash = "2128c6ec74fd4797913f3af6976b17382b3d6cf6214c0ebbe871d9d2fb10e96d"
+
+[[files]]
 file = "config/tectonic.json"
 hash = "ed646f465b446113be3b7f4769740e3e73041e13163bb14d1f7e51a8f4bc1649"
 
@@ -715,6 +723,11 @@ metafile = true
 [[files]]
 file = "mods/more-rpg-library.pw.toml"
 hash = "d84884704122020409f4bb341fa39afa2252cb089d387cee3f0bd8f91262c91d"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6bc414cc0f2d4c078fe83f384d786343f701f371d657c5279b5b0df1595804bd"
 metafile = true
 
 [[files]]
