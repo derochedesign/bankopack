@@ -333,7 +333,7 @@ Keep one long-running "real" test world too, to catch updates that break saves.
   - Twilight Forest (CF)
   - Enhanced Celestials (+ CorgiLib, Data Anchor)
 - **True Ending** ships as a datapack, loaded globally by **Paxi**. `pack.toml` sets `datapack-folder = "config/paxi/datapacks"`, so packwiz puts datapacks there. Confirmed in `/datapack list`.
-- **Roguelike runs:** **The Birth of Steve** (`tbos`, pinned to the NeoForge 0.10.1 build; plain `packwiz mr add` grabbed an old Fabric jar). Opt-in: an adventure leads to *Echoes of the Past*, a replayable procedural multi-floor dungeon dimension.
+- **Roguelike runs: The Birth of Steve, REMOVED for now (revisit later).** Playtest: the journal tabs (Story / Archive Run / Abilities) don't switch, and the Extract/Continue choice never appeared, so a floor's reward cache stays sealed and runs can't be finished. It's v0.10 and young. To re-add: `packwiz mr add https://modrinth.com/mod/the-birth-of-steve/version/<neoforge id>`; our Bankopack Tweaks placement fixes still apply (inert while it's absent). Original notes: **The Birth of Steve** (`tbos`, pinned to the NeoForge 0.10.1 build; plain `packwiz mr add` grabbed an old Fabric jar). Opt-in: an adventure leads to *Echoes of the Past*, a replayable procedural multi-floor dungeon dimension.
   - You bring your own gear; loot is per player.
   - Scaling: `healthPerDifficulty` / `damagePerDifficulty` in `config/tbos-common.json`. Raise these if it's too easy with modded gear.
 - **Harmless log noise:**

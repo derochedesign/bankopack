@@ -878,11 +878,6 @@ hash = "81c5c05f9ed4c07b9f027ff6c421939bb04e476075091f135d34aaa05af1f950"
 metafile = true
 
 [[files]]
-file = "mods/the-birth-of-steve.pw.toml"
-hash = "7df4358a1bf2ea9f7edb7a4b3cbb695662d87495f4f4f01ce0ef71d98b9b7c1a"
-metafile = true
-
-[[files]]
 file = "mods/the-bumblezone.pw.toml"
 hash = "afee8d508e5bee4073a0b328441e8948ade246e8fab109b988bd0bb2c5853175"
 metafile = true
