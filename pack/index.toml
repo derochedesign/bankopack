@@ -233,6 +233,11 @@ hash = "999c9dfaf3196f35ef1c6e650d344312813594a4c1fed98e4f7d247441933102"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "65c8086d2ec3d39acc7bd36c7a0306ccc43b602b38fa07d13291bc478ef7dfff"
+metafile = true
+
+[[files]]
 file = "mods/corgilib.pw.toml"
 hash = "9ae835550d113663b527b6ba934dd7d758d8e0a93c68bb44d84eb1ef1be69159"
 metafile = true
@@ -780,6 +785,11 @@ metafile = true
 [[files]]
 file = "mods/sablecompat.pw.toml"
 hash = "b9ceb0fa4707ced2e0467f334ce8b6cb2fd60c729b47aee065e2bb0d5b905189"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "ce9ddada6ffd55a512149cc474c6a453281a997a5fdf1b7b4a2cc73f875e704a"
 metafile = true
 
 [[files]]
