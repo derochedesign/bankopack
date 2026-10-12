@@ -1,0 +1,13 @@
+name = "Bankopack Worldgen Test (Tellus)"
+author = "aaron"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c3579d205ec44defb1b4fd0b5de140b4024499e7df82a0fec76afc5964d47617"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"

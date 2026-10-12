@@ -467,12 +467,11 @@ A client-only mod. Config: `config/bankopack-client.toml`.
 ---
 
 ## Side packs
-### Worldgen test (`packs/worldgen-test/`, Prism instance "Bankopack Worldgen Test")
-For comparing other big-terrain generators with DH + Iris; never shipped to players.
-- Contents: Tellus 0.8.3, JJThunder To The Max 0.6.0 (datapack via Paxi), Distant Horizons, Sodium, Iris, ModernFix, FerriteCore, Lithium, ImmediatelyFast, Entity Culling, Xaero's maps, JEI.
-- **Tellus:** pick the Tellus world preset when creating a world (needs internet). Stock DH, so leave Tellus's "1:1 / increased height" off (that needs the author's DH fork).
-- **JJThunder:** applies to the default world type through Paxi.
-
+### Worldgen tests (never shipped to players)
+For comparing other big-terrain generators with DH + Iris. Each has DH, Sodium, Iris, ModernFix, FerriteCore, Lithium, ImmediatelyFast, Entity Culling, Xaero's maps and JEI.
+- **`packs/worldgen-tellus/`** → Prism "Bankopack Worldgen Test (Tellus)": Tellus 0.8.3. Pick the Tellus world preset when creating a world (needs internet). Stock DH, so leave Tellus's "1:1 / increased height" off (that needs the author's DH fork).
+- **`packs/worldgen-jjthunder/`** → Prism "Bankopack Worldgen Test (JJThunder)": JJThunder To The Max 0.6.0, a datapack loaded globally via Paxi. Use the default world type.
+- **They must stay separate:** JJThunder's datapack replaces `minecraft:dimension/overworld` and `dimension_type/overworld`, plus 35 vanilla biomes. Loaded globally, it would override the Tellus world preset, and its biome edits would leak into Tellus worlds.
 
 ---
 

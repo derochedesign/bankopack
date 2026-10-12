@@ -61,11 +61,6 @@ hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
 metafile = true
 
 [[files]]
-file = "mods/tellus.pw.toml"
-hash = "f66342a8c506da56488e02f81f8b8e83d6e5e18cca142a563d1b8b4bb1b6a3d0"
-metafile = true
-
-[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "aba95d9a82a7cedda4c0ce936ead9c764d0ffbc10483f0648d022213df7bb703"
 metafile = true
