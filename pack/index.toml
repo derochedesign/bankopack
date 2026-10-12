@@ -21,6 +21,10 @@ file = "config/fallingleaves-client.toml"
 hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
 
 [[files]]
+file = "config/firstperson.json"
+hash = "fbd03d7e8607cfd00d70c43f08d59651d85acc0728a4a99875fd2e93bddb3d1a"
+
+[[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"
 hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
 metafile = true
