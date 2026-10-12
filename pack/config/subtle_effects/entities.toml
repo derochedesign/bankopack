@@ -69,10 +69,10 @@ reverseDirectionForHarmfulEffects = true
 glowingPotionRings = true
 
 [humanoids.frostyBreath]
-displayType = "THIRD_PERSON_ONLY"
+displayType = "DEFAULT"
 alpha = 0.5
 waitTime = 60
-seasons = "DEFAULT"
+seasons = "OFF"
 additionalBiomes = [  ]
 
 [humanoids.player]
