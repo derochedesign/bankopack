@@ -386,6 +386,18 @@ Keep one long-running "real" test world too, to catch updates that break saves.
 
 Not available on NeoForge 1.21.1: Presence Footsteps, Wakes, Visuality, Extra Sounds (Fabric only), and Dynamic Surroundings.
 
+**Phase 7 build notes:**
+- **Added:**
+  - AmbientSounds (+ CreativeCore), Sound Physics Remastered, Create: Sound of Steam
+  - Particle Rain, Subtle Effects
+  - EMF + ETF + **Fresh Animations** (resource pack in `pack/resourcepacks/`; enable it in Resource Packs, then capture it in Default Options so new players get it on)
+  - Not Enough Animations, First-person Model
+  - Serene Seasons (+ GlitchCore), Snow! Real Magic! (+ Kiwi)
+  - Chat Heads, Legendary Tooltips (+ Iceberg, Prism), Visual Workbench
+- **Better Clouds skipped:** Complementary draws its own clouds.
+- **Client-only mods** are marked automatically by packwiz from Modrinth's metadata.
+- **Harmless log noise:** an HTTP connect timeout from an update check.
+
 ### Phase 8 — Optional / later
 - Dynamic Trees (if not done in Phase 5)
 - Waystones (fast travel across very big terrain)

@@ -1,0 +1,13 @@
+name = "Subtle Effects"
+filename = "SubtleEffects-neoforge-1.21.1-1.15.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4q8UOK1d/versions/LKvZcuE0/SubtleEffects-neoforge-1.21.1-1.15.0.jar"
+hash-format = "sha512"
+hash = "0bfaeb859f865cb3a68c6dff713ea45d7e38fb4f7b05c5ac6f5acf83163ae9ce0d910c704a89857dcbb4308480de1aa125a2cd5a243c946d5208ba1108b3f61c"
+
+[update]
+[update.modrinth]
+mod-id = "4q8UOK1d"
+version = "LKvZcuE0"
