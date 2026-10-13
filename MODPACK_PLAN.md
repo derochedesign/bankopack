@@ -17,7 +17,7 @@ Researched 2026-10-07 against the Modrinth API + CurseForge. Source column: **MR
 
 **Tectonic** (mod version, NeoForge) has Terralith support built in, so no separate Terratonic datapack is needed. It works with TerraBlender biome mods, structure mods, Cobblemon and Distant Horizons.
 
-### Seeds worth keeping
+### Seeds worth keeping (full list + config snapshots in `seeds/`)
 - `3128558057160963598`: the group liked it in the Phase 2 playtest. It's now the test server's seed for terrain comparisons. Terrain will differ slightly if Tectonic settings change before the real world is made.
 
 ### Tectonic config (current: `pack/config/tectonic.json`)
