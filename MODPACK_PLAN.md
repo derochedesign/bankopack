@@ -486,6 +486,15 @@ A client-only mod. Config: `config/bankopack-client.toml`.
 - **History:** v1.0.0 was named `dimshaders` (shader switching only).
 ---
 
+## Quest book (FTB Quests)
+- **Source of truth:** `quests/build_quests.py` (readable Python spec) generates `pack/config/ftbquests/quests/` (chapters, `lang/en_us.snbt` for all text, `data.snbt`).
+- **Validation:** every task/reward ID is checked against a registry built by `quests/collect_ids.py` from all mod jars, including nested jar-in-jar mods. Unknown IDs fail the build.
+- **Regenerate:** `python quests/collect_ids.py <instance>/mods ids.json` (plus vanilla IDs), then `python quests/build_quests.py ids.json pack/config/ftbquests/quests`, then `packwiz refresh`.
+- **Design:** 7 independent, optional chapters (Welcome, Pokémon, Create & Flight, Classes & Magic, Gear & World Tiers, Beyond the Overworld, Bosses). No cross-chapter gating, so any system can be ignored. Small rewards.
+- **Status:** verified on the test server ("Loaded 7 chapters, 63 quests"). In-game edits made with FTB's editor would be overwritten by the next generated sync, so change `build_quests.py` instead, or switch to hand-editing the SNBT files and retire the generator.
+
+---
+
 ## Side packs
 ### Worldgen tests (never shipped to players)
 For comparing other big-terrain generators with DH + Iris. Each has DH, Sodium, Iris, ModernFix, FerriteCore, Lithium, ImmediatelyFast, Entity Culling, Xaero's maps and JEI.

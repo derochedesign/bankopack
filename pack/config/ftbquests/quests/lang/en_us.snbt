@@ -1,0 +1,142 @@
+{
+	"chapter.459194B83D1E22FC.chapter_subtitle": ["Apotheosis loot, enchanting and the world-tier gateways."]
+	"chapter.459194B83D1E22FC.title": "Gear & World Tiers"
+	"chapter.6B7E0F6325F16188.chapter_subtitle": ["Every dimension in the pack. Visit them in any order."]
+	"chapter.6B7E0F6325F16188.title": "Beyond the Overworld"
+	"chapter.89F59AA5059D8507.chapter_subtitle": ["Cobblemon - completely optional. Ignore this chapter if Pokémon aren't your thing."]
+	"chapter.89F59AA5059D8507.title": "Pokémon"
+	"chapter.A2342087C3E31DF2.chapter_subtitle": ["Machines, trains and airships. Hold W over any Create item for a tutorial."]
+	"chapter.A2342087C3E31DF2.title": "Create & Flight"
+	"chapter.AB373BC1863F4EDD.chapter_subtitle": ["Pick a combat class, learn its skills, or study Iron's spellcasting."]
+	"chapter.AB373BC1863F4EDD.title": "Classes & Magic"
+	"chapter.F93E32936A23A83E.chapter_subtitle": ["Start here. Every chapter is optional - follow whatever interests you."]
+	"chapter.F93E32936A23A83E.title": "Welcome to Bankopack"
+	"chapter.FA25D1A2C851F11B.chapter_subtitle": ["The big fights. Gear up first - and bring friends."]
+	"chapter.FA25D1A2C851F11B.title": "Bosses"
+	"quest.000A2AE661E58801.quest_desc": ["Waits in the &bBurning Arena&r in the Nether."]
+	"quest.000A2AE661E58801.title": "Ignis"
+	"quest.04799DA6BA192B54.quest_desc": ["Guards the &bRuined Citadel&r in the End."]
+	"quest.04799DA6BA192B54.title": "Ender Guardian"
+	"quest.05F16A6C0EDEA9AC.quest_desc": ["A PC stores the Pokémon you aren't carrying in your party."]
+	"quest.05F16A6C0EDEA9AC.title": "Box Storage"
+	"quest.0A3EECDFE0AD3358.quest_desc": ["The first Twilight Forest boss, in a courtyard."]
+	"quest.0A3EECDFE0AD3358.title": "The Naga"
+	"quest.0ECA2495A33D279B.quest_desc": ["A starry dimension with its own bosses and gear. Check JEI for how to get there."]
+	"quest.0ECA2495A33D279B.title": "Eternal Starlight"
+	"quest.12DC313135AB267D.quest_desc": ["Nature's Compass points you to any biome you choose - handy with this many of them."]
+	"quest.12DC313135AB267D.title": "Biome Hunter"
+	"quest.1C6FF91D4AC58B74.quest_desc": ["A boiler made from fluid tanks, a blaze burner and steam engines is serious power."]
+	"quest.1C6FF91D4AC58B74.title": "Full Steam"
+	"quest.1E2B5F9E55B20CBA.quest_desc": ["Farmer's Delight cooking gives much better food with useful effects.", "Cooking pots work over a fire or campfire. Check JEI for recipes."]
+	"quest.1E2B5F9E55B20CBA.title": "A Proper Kitchen"
+	"quest.1E8373E306AA468E.quest_desc": ["Looted gear can roll &baffixes&r with rarities. The Reforging Table rerolls them."]
+	"quest.1E8373E306AA468E.title": "Reforging"
+	"quest.1EB9BAC21AEF8120.quest_desc": ["Wizard-style spells use &brunes&r as ammunition, much like arrows for a bow."]
+	"quest.1EB9BAC21AEF8120.title": "Rune Crafting"
+	"quest.201678BED4BE4291.quest_desc": ["With True Ending the dragon has new attacks and phases. Destroy the crystals first."]
+	"quest.201678BED4BE4291.title": "The Ender Dragon"
+	"quest.2262FC42EA064B78.quest_desc": ["Prefer something simpler? Immersive Aircraft has ready-to-fly planes and airships."]
+	"quest.2262FC42EA064B78.title": "Prop Plane"
+	"quest.291B3C2852C4501F.quest_desc": ["Mega Showdown adds Mega Evolution, Z-Moves, Terastallization and Dynamax.", "Wear a Mega Bracelet (it goes in an &baccessory&r slot), set a Key Stone in it,", "and give a compatible Pokémon its Mega Stone."]
+	"quest.291B3C2852C4501F.title": "Mega Evolution"
+	"quest.2B158A7B089C67C8.quest_desc": ["Improve and reroll individual affixes on your favourite gear. Gems can be socketed at a smithing table."]
+	"quest.2B158A7B089C67C8.title": "Augmenting"
+	"quest.320CB8AC46236416.quest_desc": ["A Propeller Bearing with sails (or a ready-made propeller) driven by a Portable Engine moves your ship.", "Use a wrench on the bearing to reverse thrust."]
+	"quest.320CB8AC46236416.title": "Thrust"
+	"quest.3613530C9B497875.quest_desc": ["The Healing Machine fully heals your party. It recharges over time."]
+	"quest.3613530C9B497875.title": "Pokémon Center"
+	"quest.38965F181FD84DB4.quest_desc": ["Press your &bPokémon summary&r key (see Controls) to pick a starter Pokémon.", "Wild Pokémon roam the world - weaken them in battle, then throw a Poké Ball."]
+	"quest.38965F181FD84DB4.title": "Choose Your Starter"
+	"quest.526C8CF16A0F80B2.quest_desc": ["The Gateway of the Sunlit Ascent. Bring friends - lives are shared."]
+	"quest.526C8CF16A0F80B2.title": "Finish Your Ascent"
+	"quest.532780D9DB293403.quest_desc": ["Precision mechanisms unlock Create's more advanced machines."]
+	"quest.532780D9DB293403.title": "Brass Age"
+	"quest.55DF3D7332FFA9FE.quest_desc": ["Open the &bSkill Tree&r screen (see Controls). Class skills grant stats and spells;", "Weapon Skills branches unlock while holding that weapon type (daggers, glaives, claymores...)."]
+	"quest.55DF3D7332FFA9FE.title": "Skill Trees"
+	"quest.584AFC1BAC6B7B32.quest_desc": ["Build a Tier 1 rocket at a NASA Workbench, fuel it, place it on a launch pad and launch.", "Bring a space suit - there's no air up there."]
+	"quest.584AFC1BAC6B7B32.title": "Fly Me to the Moon"
+	"quest.6016E755EB24E4DB.quest_desc": ["In the fire swamp."]
+	"quest.6016E755EB24E4DB.title": "The Hydra"
+	"quest.6E88A420F2FE3AF4.quest_desc": ["Found in the Nether's &bSoul Blacksmith&r. The first big Cataclysm boss."]
+	"quest.6E88A420F2FE3AF4.title": "Netherite Monstrosity"
+	"quest.713927290BBFD237.quest_desc": ["Imprisoned in the snowy &bFrosted Prison&r."]
+	"quest.713927290BBFD237.title": "Maledictus"
+	"quest.77AB01B5735F1F18.quest_desc": ["NPC &btrainers&r wander the world (Radical Cobblemon Trainers) and will challenge you.", "Beat them to climb the trainer ranks - your Trainer Card tracks progress."]
+	"quest.77AB01B5735F1F18.title": "Trainer Battles"
+	"quest.7871C7BE36619952.quest_desc": ["Guardian of the Aether's bronze dungeons."]
+	"quest.7871C7BE36619952.title": "The Slider"
+	"quest.863018811F3FBDD0.quest_desc": ["Rises over the warm-ocean &bAcropolis&r."]
+	"quest.863018811F3FBDD0.title": "Scylla"
+	"quest.87E13B289262AE88.quest_desc": ["Iron's Spells 'n Spellbooks is a separate magic system with its own mana.", "Inscribe scrolls into a spell book at the Inscription Table."]
+	"quest.87E13B289262AE88.title": "Iron's Spellcasting"
+	"quest.89B7476C05882565.quest_desc": ["A Traveler's Backpack gives you lots of extra storage plus two fluid tanks.", "It's worn on your back - press its keybind to open it while you walk."]
+	"quest.89B7476C05882565.title": "Pack Up"
+	"quest.91AA5BE99AC39090.quest_desc": ["Buried in the desert's &bCursed Pyramid&r."]
+	"quest.91AA5BE99AC39090.title": "Ancient Remnant"
+	"quest.9270154D4EC22EB4.quest_desc": ["Apotheosis reworks enchanting: different shelves change power, quanta (randomness) and arcana (rarity).", "The enchanting table shows the stats your shelves give."]
+	"quest.9270154D4EC22EB4.title": "Better Bookshelves"
+	"quest.9734DF801400FB2B.quest_desc": ["Create Aeronautics turns builds into real physics objects. Glue your build with Super Glue,", "then use a Physics Assembler on it. Hold W over any Aeronautics block to see how it works."]
+	"quest.9734DF801400FB2B.title": "Physics!"
+	"quest.975E83D24BDA93D6.quest_desc": ["Classes: &bWizard&r (arcane/fire/frost), &bPaladin&r & &bPriest&r, &bRogue&r & &bWarrior&r, &bArcher&r,", "plus &bBerserker&r, &bForcemaster&r, &bWitcher&r, &bElemental Wizard&r and &bBard&r.", "Equip the spell book and hold a weapon to cast. Type &a@rpg&r in JEI to browse everything."]
+	"quest.975E83D24BDA93D6.title": "Choose a Class"
+	"quest.98C258442607B6D0.quest_desc": ["Tougher invaders with real gear of their own."]
+	"quest.98C258442607B6D0.title": "The Thundering Summit"
+	"quest.99967447C616E9DF.quest_desc": ["Rare loot is gated by &bWorld Tier&r. Each tier has a matching Gateway: craft its Gate Pearl (see JEI),", "throw it, and survive the waves. Clearing it is how you progress to the next tier."]
+	"quest.99967447C616E9DF.title": "Leave the Frontier"
+	"quest.9C382C25CEC3FB4D.quest_desc": ["Classic, but still dangerous."]
+	"quest.9C382C25CEC3FB4D.title": "The Wither"
+	"quest.9E8266AD03A9E04C.quest_desc": ["Classes are built around &bspell books&r. Craft a Spell Binding Table (surround it with bookshelves)", "to create your class's spell book and unlock its spells."]
+	"quest.9E8266AD03A9E04C.title": "The Spell Binding Table"
+	"quest.A04036FD959CDCBD.quest_desc": ["The final tier. After this, the Endless Invader gateway is the ultimate test."]
+	"quest.A04036FD959CDCBD.title": "The Apothic Pinnacle"
+	"quest.A591340770B744DF.quest_desc": ["The Pokédex tracks what you've seen and caught. Any colour works."]
+	"quest.A591340770B744DF.title": "Gotta Log 'Em All"
+	"quest.A9862A55BB3452C8.quest_desc": ["Steering wheels and throttle levers give your ship proper controls."]
+	"quest.A9862A55BB3452C8.title": "Captain's Wheel"
+	"quest.AD22D6E97454D1FD.quest_desc": ["Pastures let your Pokémon roam freely near your base."]
+	"quest.AD22D6E97454D1FD.title": "Ranch Life"
+	"quest.AED0F097C46C0806.quest_desc": ["Seasons are on. Some crops only grow in certain seasons, and winter gets cold.", "A calendar tells you the season and how long it lasts."]
+	"quest.AED0F097C46C0806.title": "Seasons Change"
+	"quest.B12549E37E66FDF5.quest_desc": ["Almost every early Create machine starts with andesite alloy."]
+	"quest.B12549E37E66FDF5.title": "Andesite Alloy"
+	"quest.B7B1862372B0D6BB.quest_desc": ["Make a small pool of water ringed with flowers or grass and throw a &bdiamond&r into it.", "A progression of bosses lives here."]
+	"quest.B7B1862372B0D6BB.title": "The Twilight Forest"
+	"quest.BFD1E196C8480A68.quest_desc": ["Water wheels turn flowing water into rotation. Connect machines with shafts and cogwheels."]
+	"quest.BFD1E196C8480A68.title": "Rotational Power"
+	"quest.C02610FF839A08A4.quest_desc": ["The dragon fight is overhauled (True Ending) - come prepared. The outer islands are full of new biomes."]
+	"quest.C02610FF839A08A4.title": "The End"
+	"quest.C1B89DC3CE373DEA.quest_desc": ["The mechanical press makes plates and, with a basin, mixes and compacts."]
+	"quest.C1B89DC3CE373DEA.title": "Under Pressure"
+	"quest.C411A3CD46F10A44.quest_desc": ["Hot Air Burners fill an enclosed balloon of Envelope blocks with hot air to give lift.", "Power the burner with redstone - a lever works."]
+	"quest.C411A3CD46F10A44.title": "Up, Up and Away"
+	"quest.C7D6FDCEF55CA283.quest_desc": ["Deeper and Darker's dimension is reached through a portal in an &bAncient City&r.", "Check JEI and the mod's items for how to activate it."]
+	"quest.C7D6FDCEF55CA283.title": "The Otherside"
+	"quest.C9814E8944EDFB47.quest_desc": ["Bankopack is a big, exploration-heavy pack: huge terrain, classes and spells, Create airships,", "Pokémon, dimensions and bosses. None of it is required - use this book as a map, not a checklist.", "", "&eUseful to know:&r", "- &bJEI&r (right side of your inventory) shows every recipe. Type &a@rpg&r to see all class/RPG items.", "- &bXaero's World Map&r opens with &aM&r. FTB Chunks lets you claim land from the map.", "- Hold the &bUltimine&r key (default &a`&r) while mining to mine whole veins.", "- Hover a Create item and hold &aW&r to watch its Ponder tutorial."]
+	"quest.C9814E8944EDFB47.title": "Welcome!"
+	"quest.DCF2E0EC2A1FB7C9.quest_desc": ["When you die, your items (including curios and backpack contents) go into a &bgravestone&r", "where you fell. Go back and open it to get everything back."]
+	"quest.DCF2E0EC2A1FB7C9.title": "Death Happens"
+	"quest.E47592D5ECBD0C3E.quest_desc": ["Atop the Lich Tower."]
+	"quest.E47592D5ECBD0C3E.title": "The Lich"
+	"quest.E4A9F3D3B7F0E81E.quest_desc": ["Beneath the waves, in the &bSunken City&r of a deep ocean."]
+	"quest.E4A9F3D3B7F0E81E.title": "The Leviathan"
+	"quest.E603BFEE536AA8F1.quest_desc": ["Break unwanted affix gear down into rarity materials."]
+	"quest.E603BFEE536AA8F1.title": "Salvage"
+	"quest.E737AFBCCD2C4E00.quest_desc": ["Create trains run on tracks with stations and schedules - great on this huge terrain."]
+	"quest.E737AFBCCD2C4E00.title": "All Aboard"
+	"quest.EF17F38658B28EB1.quest_desc": ["Throw an &bender pearl&r at a bee nest or beehive. A giant enclosed hive - mind the bees."]
+	"quest.EF17F38658B28EB1.title": "The Bumblezone"
+	"quest.EFA33DDAD7EC6591.quest_desc": ["Better Nether biomes and redesigned fortresses await."]
+	"quest.EFA33DDAD7EC6591.title": "Into the Nether"
+	"quest.F0804A514087D53B.quest_desc": ["The terrain here is &lvertical&r. A paraglider turns every cliff into a shortcut.", "Gliding uses stamina. Campfires (and other heat) create &bupdrafts&r you can ride upward."]
+	"quest.F0804A514087D53B.title": "Ride the Wind"
+	"quest.F57B52BC332F4734.quest_desc": ["Build a portal frame from &bglowstone&r and pour in a water bucket.", "Floating islands, dungeons and the Deep Aether's extra biomes."]
+	"quest.F57B52BC332F4734.title": "The Aether"
+	"quest.F7A9E017D312DF01.quest_desc": ["Grappling hooks pull you up cliffs. Climb or descend the rope with your movement keys and jump off it.", "Better materials (iron, gold, diamond, netherite) give a longer rope."]
+	"quest.F7A9E017D312DF01.title": "Get a Grip"
+	"quest.F8975E4FB0D52F14.quest_desc": ["Forge new spell scrolls from ink and focus items."]
+	"quest.F8975E4FB0D52F14.title": "Scroll Forge"
+	"quest.F9E1C4272D089026.quest_desc": ["Craft Poké Balls from apricorns, which grow on apricorn trees around the world."]
+	"quest.F9E1C4272D089026.title": "Gotta Catch 'Em"
+	"quest.FC615D8268E92C37.quest_desc": ["Deep underground in the &bAncient Factory&r."]
+	"quest.FC615D8268E92C37.title": "The Harbinger"
+}

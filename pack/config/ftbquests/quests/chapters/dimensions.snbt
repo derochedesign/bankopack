@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: ""
+	icon: { count: 1, id: "minecraft:ender_eye" }
+	id: "6B7E0F6325F16188"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "EFA33DDAD7EC6591"
+			x: 0.0d
+			y: 0.0d
+			dependencies: []
+			tasks: [{ id: "BEFB3856A50F0379", type: "dimension", dimension: "minecraft:the_nether" }]
+			rewards: [{ id: "659A97BB642FAB77", type: "xp", xp: 200 }]
+		}
+		{
+			id: "C02610FF839A08A4"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["EFA33DDAD7EC6591"]
+			tasks: [{ id: "141C5B1E3D613C4D", type: "dimension", dimension: "minecraft:the_end" }]
+			rewards: [{ id: "73C708CA79963F9A", type: "xp", xp: 300 }]
+		}
+		{
+			id: "F57B52BC332F4734"
+			x: 0.0d
+			y: 1.5d
+			dependencies: []
+			tasks: [{ id: "A916B0146638AADD", type: "dimension", dimension: "aether:the_aether" }]
+			rewards: [{ id: "8164C4CAAEE8EC9C", type: "xp", xp: 300 }]
+		}
+		{
+			id: "B7B1862372B0D6BB"
+			x: 0.0d
+			y: 3.0d
+			dependencies: []
+			tasks: [{ id: "D0BD4FD2B1621BA2", type: "dimension", dimension: "twilightforest:twilight_forest" }]
+			rewards: [{ id: "FC14EB2C3E6C2FDD", type: "xp", xp: 300 }]
+		}
+		{
+			id: "EF17F38658B28EB1"
+			x: 0.0d
+			y: 4.5d
+			dependencies: []
+			tasks: [{ id: "714CFE27A6CC19F2", type: "dimension", dimension: "the_bumblezone:the_bumblezone" }]
+			rewards: [{ id: "117F68804BC9EB84", type: "xp", xp: 300 }]
+		}
+		{
+			id: "C7D6FDCEF55CA283"
+			x: 0.0d
+			y: 6.0d
+			dependencies: []
+			tasks: [{ id: "CA867BD2E1F83099", type: "dimension", dimension: "deeperdarker:otherside" }]
+			rewards: [{ id: "49FABF12B3C616D5", type: "xp", xp: 400 }]
+		}
+		{
+			id: "0ECA2495A33D279B"
+			x: 0.0d
+			y: 7.5d
+			dependencies: []
+			tasks: [{ id: "481A59583DF7197D", type: "dimension", dimension: "eternal_starlight:starlight" }]
+			rewards: [{ id: "702FF75C7BE69089", type: "xp", xp: 400 }]
+		}
+		{
+			id: "584AFC1BAC6B7B32"
+			x: 0.0d
+			y: 9.0d
+			dependencies: []
+			tasks: [{ id: "3901AE3B33E93438", type: "dimension", dimension: "ad_astra:moon" }]
+			rewards: [{ id: "FB7C67F6767F438F", type: "xp", xp: 500 }]
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: { count: 1, id: "ftbquests:book" }
+	id: "F93E32936A23A83E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "C9814E8944EDFB47"
+			x: 0.0d
+			y: 0.0d
+			dependencies: []
+			tasks: [{ id: "EE687AA10F5CF3F2", type: "checkmark" }]
+			rewards: [{ id: "AEB601E69700A1FC", type: "xp", xp: 50 }]
+		}
+		{
+			id: "89B7476C05882565"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["C9814E8944EDFB47"]
+			tasks: [{ id: "A02CDFD9FD3022C3", type: "item", item: { count: 1, id: "travelersbackpack:standard" } }]
+			rewards: [{ id: "98FFBCF43F29C30C", type: "item", item: { count: 4, id: "minecraft:leather" } }]
+		}
+		{
+			id: "F0804A514087D53B"
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["C9814E8944EDFB47"]
+			tasks: [{ id: "905B47289CCC4EF2", type: "item", item: { count: 1, id: "paraglider:paraglider" } }]
+			rewards: [{ id: "5A47AD69B8F305F3", type: "item", item: { count: 8, id: "minecraft:feather" } }]
+		}
+		{
+			id: "F7A9E017D312DF01"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["F0804A514087D53B"]
+			tasks: [{ id: "FF97165FFD1E58BB", type: "item", item: { count: 1, id: "yo_hooks:copper_grappling_hook" } }]
+			rewards: [{ id: "720B61509CA2A30D", type: "item", item: { count: 8, id: "minecraft:copper_ingot" } }]
+		}
+		{
+			id: "12DC313135AB267D"
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["C9814E8944EDFB47"]
+			tasks: [{ id: "AC34CD2DD3438A76", type: "item", item: { count: 1, id: "naturescompass:naturescompass" } }]
+			rewards: [{ id: "02191CE674D28E51", type: "xp", xp: 100 }]
+		}
+		{
+			id: "AED0F097C46C0806"
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["12DC313135AB267D"]
+			tasks: [{ id: "C741973F9B569B6F", type: "item", item: { count: 1, id: "sereneseasons:calendar" } }]
+			rewards: [{ id: "76DDC5D1737DF037", type: "item", item: { count: 16, id: "minecraft:wheat_seeds" } }]
+		}
+		{
+			id: "1E2B5F9E55B20CBA"
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["C9814E8944EDFB47"]
+			tasks: [{ id: "D761860228F7FBDD", type: "item", item: { count: 1, id: "farmersdelight:cooking_pot" } }]
+			rewards: [{ id: "A58C21359DCB0CE1", type: "item", item: { count: 8, id: "minecraft:bread" } }]
+		}
+		{
+			id: "DCF2E0EC2A1FB7C9"
+			x: 2.0d
+			y: 6.0d
+			dependencies: ["C9814E8944EDFB47"]
+			tasks: [{ id: "B8215AF0B06CF8D3", type: "checkmark" }]
+			rewards: [{ id: "F16E8E8EC886E7ED", type: "xp", xp: 50 }]
+		}
+	]
+}

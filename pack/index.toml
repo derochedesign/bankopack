@@ -29,6 +29,46 @@ file = "config/fallingleaves-client.toml"
 hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/bosses.snbt"
+hash = "c736644eda090a7f4f412d9f63f6ff5998a5a2bee8aabc91b78c40baa0d04a8b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/classes.snbt"
+hash = "78cf55d3c310e7014d753b5ef7b237086a5189f4b1b43901c5617e4fdc81dbe3"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "e1ebe61e471169c3ff8a9b0d1976bc8e2620d4fdd8f08cf5fbad95d28b4682b0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/dimensions.snbt"
+hash = "3ddca72b1c2a331d819184c6ed3cbff676094c9de537c8a382091b9fc99b0961"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/gear.snbt"
+hash = "c38dfb01a96fdb11cff8401a32732c7f246868938d8620ed250e61c531c7a2f7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pokemon.snbt"
+hash = "12e601457536b4699b6f314feac3544a7e32d84ebcd44cd9992d3d77cd2201a2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/welcome.snbt"
+hash = "cac70f096bf525ab89e0658d1c5de69d37d3d66ba24c105c7ec3a7d7eb4b8427"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "782faa93e8a0936c9befb1c61caed23ec693bb4626f514c93d78724cb5c8b519"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "70052ec86b48b90f261b3d1c6383c992fa3bd116abf711bfc15a75ce4a483c8e"
+
+[[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"
 hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
 metafile = true
@@ -140,7 +180,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
 metafile = true
 
 [[files]]
@@ -485,6 +525,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "19d86081a1c7654a91f437d85ea34af4e3f2b899c8e0e50d48a04ca97babf7b4"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "93330f6ec85532067df176c6baee0e0f6d685c78088b1a2217726f6421899148"
 metafile = true
 
 [[files]]

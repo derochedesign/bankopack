@@ -1,0 +1,101 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: { count: 1, id: "create:cogwheel" }
+	id: "A2342087C3E31DF2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "B12549E37E66FDF5"
+			x: 0.0d
+			y: 0.0d
+			dependencies: []
+			tasks: [{ id: "6ACC5C53C6C6F513", type: "item", item: { count: 1, id: "create:andesite_alloy" }, count: 8L }]
+			rewards: [{ id: "7C1624FCA6EABE2E", type: "item", item: { count: 8, id: "create:andesite_alloy" } }]
+		}
+		{
+			id: "BFD1E196C8480A68"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["B12549E37E66FDF5"]
+			tasks: [{ id: "9E0549E27EEB2112", type: "item", item: { count: 1, id: "create:water_wheel" } }]
+			rewards: [{ id: "5C8C016395EA656E", type: "item", item: { count: 16, id: "create:shaft" } }]
+		}
+		{
+			id: "C1B89DC3CE373DEA"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["BFD1E196C8480A68"]
+			tasks: [{ id: "30ED9FD468C49DEF", type: "item", item: { count: 1, id: "create:mechanical_press" } }]
+			rewards: [{ id: "B92A2CEAE2A3B86E", type: "item", item: { count: 8, id: "minecraft:iron_ingot" } }]
+		}
+		{
+			id: "532780D9DB293403"
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["C1B89DC3CE373DEA"]
+			tasks: [{ id: "D000485110DD6245", type: "item", item: { count: 1, id: "create:precision_mechanism" } }]
+			rewards: [{ id: "15CC7A3E7DF0B59B", type: "item", item: { count: 8, id: "create:brass_ingot" } }]
+		}
+		{
+			id: "1C6FF91D4AC58B74"
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["532780D9DB293403"]
+			tasks: [{ id: "C30E88A7E7850B82", type: "item", item: { count: 1, id: "create:steam_engine" } }]
+			rewards: [{ id: "8724BF450C745436", type: "xp", xp: 300 }]
+		}
+		{
+			id: "9734DF801400FB2B"
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["C1B89DC3CE373DEA"]
+			tasks: [{ id: "C6A31427BCEFEE72", type: "item", item: { count: 1, id: "simulated:physics_assembler" } }]
+			rewards: [{ id: "5AB7F255F460FA4B", type: "xp", xp: 200 }]
+		}
+		{
+			id: "C411A3CD46F10A44"
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["9734DF801400FB2B"]
+			tasks: [{ id: "C3EFA75636A479D1", type: "item", item: { count: 1, id: "aeronautics:adjustable_burner" } }, { id: "48FCFFEE687D244A", type: "item", item: { count: 1, id: "aeronautics:white_envelope" }, count: 16L }]
+			rewards: [{ id: "5A4DA8FBE45993CA", type: "item", item: { count: 16, id: "minecraft:coal" } }]
+		}
+		{
+			id: "320CB8AC46236416"
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["C411A3CD46F10A44"]
+			tasks: [{ id: "CD954CCFF87F53F8", type: "item", item: { count: 1, id: "aeronautics:propeller_bearing" } }, { id: "32573AB141FD53C5", type: "item", item: { count: 1, id: "simulated:white_portable_engine" } }]
+			rewards: [{ id: "9DCCF1751A9C8737", type: "xp", xp: 300 }]
+		}
+		{
+			id: "A9862A55BB3452C8"
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["320CB8AC46236416"]
+			tasks: [{ id: "BADD7AD03DE2784A", type: "item", item: { count: 1, id: "simulated:steering_wheel" } }]
+			rewards: [{ id: "233F7C1CB11BFEE7", type: "xp", xp: 300 }]
+		}
+		{
+			id: "E737AFBCCD2C4E00"
+			x: 8.0d
+			y: 3.0d
+			dependencies: ["532780D9DB293403"]
+			tasks: [{ id: "ABA24FB9E183CA9B", type: "item", item: { count: 1, id: "create:track_station" } }]
+			rewards: [{ id: "203A04055BAC0EEA", type: "xp", xp: 300 }]
+		}
+		{
+			id: "2262FC42EA064B78"
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["B12549E37E66FDF5"]
+			tasks: [{ id: "A7165BD9AC42B522", type: "item", item: { count: 1, id: "immersive_aircraft:biplane" } }]
+			rewards: [{ id: "F79521888FCD9CCD", type: "xp", xp: 300 }]
+			optional: true
+		}
+	]
+}
