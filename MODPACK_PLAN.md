@@ -411,7 +411,8 @@ Not available on NeoForge 1.21.1: Presence Footsteps, Wakes, Visuality, Extra So
   - Sound Physics `reverb_gain` 1.0 → 0.55 and `default_block_reflectivity` 0.5 → 0.35 (small rooms sounded like caves).
   - Added **Mouse Tweaks** (shift-drag and scroll item moving, like ATM10).
   - The configs are shipped in `pack/config/` and overwrite players' copies on sync.
-- **First-person Model + Better Combat:** FPM's body-model arms pushed Better Combat swings almost off-screen. Shipped `config/firstperson.json` with `vanillaHandsMode = "ITEMS"` (vanilla-style hands while holding items; body still visible).
+- **First-person Model REMOVED:** its body model lunges forward during Better Combat attacks while the camera stays fixed (you see your own neck/body move). Better Combat's own first-person animations are used instead.
+- **Better Combat client config shipped** (`config/bettercombat/client.json5`): crosshair highlight off, `firstPersonAnimations = AUTO`.
 - **Performance pass (spark profiles in a jungle):**
   - Main costs: shaders (Iris, ~15%, mostly the shadow pass), DH (~8%), Cobblemon models (~8%), Xaero World Map + Minimap (~7%), Subtle Effects (~5%). Phase 7 overall is ~8%.
   - The F3 screen alone cost ~11% of each frame, so don't judge FPS with F3 open.

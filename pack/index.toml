@@ -5,6 +5,10 @@ file = "config/bankopack-client.toml"
 hash = "d71ef17e5e35b443fce67df24b2631de17d66d9c7103fc035e263772c3ced885"
 
 [[files]]
+file = "config/bettercombat/client.json5"
+hash = "073deb1ed8efc831daf114edba8c905a83b8c527c9ff9e6380c4f3cc098ee566"
+
+[[files]]
 file = "config/biome_replacer.properties"
 hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
@@ -23,10 +27,6 @@ hash = "ca187fe5c82c892b512d33479b28c0ade281734322ad2261732654cb3fb52d88"
 [[files]]
 file = "config/fallingleaves-client.toml"
 hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
-
-[[files]]
-file = "config/firstperson.json"
-hash = "fbd03d7e8607cfd00d70c43f08d59651d85acc0728a4a99875fd2e93bddb3d1a"
 
 [[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"
@@ -445,11 +445,6 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
-metafile = true
-
-[[files]]
-file = "mods/first-person-model.pw.toml"
-hash = "c9f1d5f4883252ca57b26c2fd4264a12f3b407be21097bbfefacdcb9fa9d7e4a"
 metafile = true
 
 [[files]]
