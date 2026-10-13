@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "minecraft:snowy_taiga", "required": false },
+    { "id": "minecraft:ice_spikes", "required": false },
+    { "id": "terralith:wintry_lowlands", "required": false },
+    { "id": "terralith:snowy_shield", "required": false },
+    { "id": "terralith:wintry_forest", "required": false }
+  ]
+}

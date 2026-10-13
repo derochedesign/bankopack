@@ -354,6 +354,10 @@ Keep one long-running "real" test world too, to catch updates that break saves.
   - Bumblezone compat entries for Goety and Legendary Monsters entities.
 - **Removed YUNG's Better End Island:** its own page rates True Ending "not recommended", and in testing the 4 summoning crystals in its central tower stayed invulnerable and kept healing the dragon. True Ending was the group's explicit pick.
 - **Traversal (after playtest, for the steep terrain):** **Paragliders** (glide down; campfire updrafts) and **Yori3o's Grappling Hooks** (material-tiered hooks, climb ropes, Sable-compatible). Waystones rejected (everyone would skip other travel); ParCool rejected (too invasive).
+- **Content additions (gameplay-gap review):**
+  - **Towns and Towers** (+ Cristel Lib), **When Dungeons Arise**, **L_Ender's Cataclysm** (+ Lionfish API). Every Cataclysm boss structure `/locate`s in its dimension, including the Ruined Citadel despite BetterEnd.
+  - Frosted Prison was about 20k blocks away (Terralith makes snowy plains rare); Bankopack Tweaks 1.7.1 adds snowy taiga, ice spikes and Terralith wintry lowlands, snowy shield and wintry forest to `#cataclysm:has_structure/frosted_prison_biomes`, bringing it to about 9.6k.
+  - **Cobblemon: Mega Showdown 1.2.0** (built for Cobblemon 1.8.1; pinned, since 1.3.0 needs Cobblemon 1.8.2). It brings **Accessories**, a second accessory system next to Curios.
 - **Added Gateways to Eternity** (wave-based arenas opened with Gate Pearls; by the Apotheosis author). Replaces Birth of Steve as the opt-in "test your gear" activity.
 
 ### Phase 7 — Immersion (all native NeoForge 1.21.1)

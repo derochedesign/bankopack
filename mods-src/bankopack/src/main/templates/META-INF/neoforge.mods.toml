@@ -13,6 +13,7 @@ Small tweaks for the Bankopack modpack:
 - Adds JEI mod-name aliases, so e.g. @rpg finds every RPG Series item.
 - Data: sorts Simply Swords weapons into RPG Series weapon-type tags so Skill Tree's weapon branches recognise them.
 - Data: tones down crit chance from Apotheosis (Intricate affix, Samurai gem) and Critical Strike (Critical Hit enchant).
+- Data: L_Ender's Cataclysm Frosted Prison can also generate in snowy taiga, ice spikes and Terralith's flatter snowy biomes (plain snowy plains is rare with Terralith).
 - Fix: The Birth of Steve shrines and Meridian Archive are placed on dry land (wider search) and no longer buried at the bottom of the world.
 Configure in config/bankopack-client.toml.
 '''

@@ -59,6 +59,11 @@ hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
 
 [[files]]
+file = "mods/accessories.pw.toml"
+hash = "19cbfb37dc29169b50599dfa328fe12a0ec9caaec8ac02627b5846f3bd9d1425"
+metafile = true
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "5386763a89493ea2c4ab581e66ace9317641e4c6c5f094769b13e83b1f6be7aa"
 metafile = true
@@ -159,8 +164,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.6.0.jar"
-hash = "b1db7928fd06d0127a95a2f47589041ebc4a847d6f707d3801b1fdfa739d4c98"
+file = "mods/bankopack-1.7.1.jar"
+hash = "a66d4f8db64ec2aeeda4ac9e4aeeb4f440447d890340d3bc0aab20bdf56c50ea"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
@@ -230,6 +235,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-mega-showdown.pw.toml"
+hash = "4f9290843e0556fe8f7764dbd824cf2d7245aa26c266a23a4a3605e04ec19a4f"
 metafile = true
 
 [[files]]
@@ -305,6 +315,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "63d1560de24b53cad7052d19c1a44b4eab64ad9f696d01c9f2a72fccd5540557"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "08a334ae5565e122d26b819cba16ce784776a10fe100ab2b22de72a5a2bac653"
 metafile = true
 
 [[files]]
@@ -638,6 +653,11 @@ hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "f262b49b1038ef9f67704e0629da6aafa84cf4f760273589f5d73530ca5d74b5"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
 hash = "ebf0dae777cc19c354a662dc8144009dff7269b2d05624b4591fcb7de56fc14e"
 metafile = true
@@ -650,6 +670,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "9ca14134538c66b6d8ef74107f6b15ba9487ec632d984427e84ad38aa47afa60"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "64acab1580ca6edd8b1dd185e914aeee7aa551a88a7cd7f0f9370a82aaadfef6"
 metafile = true
 
 [[files]]
@@ -1028,6 +1053,11 @@ hash = "a303683e4c74640f419c31db329e9afc3ee8f388abc5c6a536dc6169c274b5c6"
 metafile = true
 
 [[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "a9afe82b3d1b4975dd9f8b3272898450aeb29365678b3779059977301f88c101"
+metafile = true
+
+[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "c1e0c805d5ccd49535a6820aa8a2461a516437f90312fcadd393f928e3ce7bf2"
 metafile = true
@@ -1040,6 +1070,11 @@ metafile = true
 [[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "2684f71394862cff4c20d0f4d8491c0f86f12e66879381295e9088e0eded025d"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "485906ff55a5d6ad06070abb80663d6adadc3e4b32f8b52240d8596e7aaef9fa"
 metafile = true
 
 [[files]]
