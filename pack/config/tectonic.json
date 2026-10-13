@@ -29,15 +29,15 @@
   },
   "continents": {
     // Horizontally scales continents. Lower values = larger continents and oceans between them.
-    "continents_scale": 0.13,
+    "continents_scale": 0.08,
     // Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.
-    "erosion_scale": 0.10,
+    "erosion_scale": 0.2,
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
-    "flat_terrain_skew": 0.1,
+    "flat_terrain_skew": -0.2,
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
     "jungle_pillars": true,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
-    "ocean_offset": -0.5,
+    "ocean_offset": -0.46,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
     "ridge_scale": 0.15,
     // Underground rivers under snowy biomes will generate with ice.
@@ -62,7 +62,7 @@
   },
   "global_terrain": {
     // Increases the effects of Vertical Scale on mountainous terrain. This will increase the scale of mountains and plateaus faster than lowlands.
-    "elevation_boost": 0.0,
+    "elevation_boost": -0.3,
     // Rare, deep underground tunnels of lava sometimes generate at the bottom of the world.
     "lava_tunnels": true,
     "max_y": 640,

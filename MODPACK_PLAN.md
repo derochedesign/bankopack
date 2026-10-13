@@ -38,6 +38,18 @@ Measured peak heights for one mountain range (seed `bankopack`, 256×256 area, 1
 
 - **No floating islands:** Biome Replacer (`config/biome_replacer.properties`) removes Terralith's Skylands biomes (`#terralith:skylands > null`). Verified on the test server: `/locate biome #terralith:skylands` finds nothing. Delete that line to bring them back.
 - **Less spiky mountains:** `erosion_scale` 0.25 → **0.10** and `ridge_scale` 0.25 → **0.15** (broader ranges, same height). Measured on seed `3128558057160963598`: average slope 20 → 11 blocks per 16, cliff-like steps (32+ blocks) 20% → 4%, worst single drop 167 → 55. `ultrasmooth` made no measurable difference, so it stays off (its config warns about broken deep oceans).
+- **Terrain mix retune ("gradual build-up" toward big peaks, inspired by Tellus/JJThunder).** Measured with `/bankopack terrainstats 8192 256` (noise-only samples over a 16k×16k area, seed `3128558057160963598`). Land share by height above sea:
+
+  | Config | Ocean | Flat 0–20 | Low hills 20–60 | Hills 60–140 | Highlands 140–250 | Mountains 250+ | Max Y |
+  |---|---|---|---|---|---|---|---|
+  | old (erosion 0.10, flat_skew 0.1, elev_boost 0, ocean −0.5, continents 0.13) | 57% | 36.9% | 13.0% | 15.8% | 16.5% | 17.8% | 500 |
+  | **new (erosion 0.20, flat_skew −0.2, elev_boost −0.3, ocean −0.46, continents 0.08)** | 48% | 33.4% | 12.8% | 22.4% | 19.9% | 11.5% | 467 |
+
+  - Negative `elevation_boost` holds back mountains relative to lowlands.
+  - Lower `continents_scale` gives longer coast-to-mountain ramps.
+  - `ocean_offset` must stay ≤ −0.45 or deep oceans (and ocean monuments) stop generating. Verified at −0.46: deep ocean and YUNG's monuments still `/locate`.
+  - `erosion_scale` and `flat_terrain_skew` alone barely change the mix.
+  - Trade-off: slopes are slightly steeper than with erosion 0.10.
 - **Range-edge cliffs** (e.g. lowland → mountain in `terralith:arid_highlands`) come from the vertical stretch, not plateaus. On seed `3128558057160963598`, the share of near-vertical steps (24+ blocks rise per 8 blocks) at that spot was 6.6% at scale 3.0, 5.3% at 2.75 and 4.5% at 2.5. `flat_terrain_skew` 0.5 didn't help there and made badlands steeper, so it stays at 0.1. Measured with `tools/terrainstats.py`.
 - Other knobs worth trying: `continents_scale` (lower = bigger continents), `erosion_scale` (lower = broader ranges), biome noise (large biomes).
 - **Lock the config before the real world is created.** Changing terrain settings afterward leaves cliff seams where new chunks meet old ones.
