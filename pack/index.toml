@@ -17,6 +17,10 @@ file = "config/critical_strike/server_config.json"
 hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
 
 [[files]]
+file = "config/enhancedcelestials2core/translations.json"
+hash = "ca187fe5c82c892b512d33479b28c0ade281734322ad2261732654cb3fb52d88"
+
+[[files]]
 file = "config/fallingleaves-client.toml"
 hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
 
@@ -391,6 +395,11 @@ metafile = true
 [[files]]
 file = "mods/enhanced-celestials-2-default-lunar-events.pw.toml"
 hash = "70f586b80beb657a8676b1147b1b96c4abd0aa421c819aa138038e082c41bc4d"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials-2-shader-support.pw.toml"
+hash = "118cc51b91c098a97d8a95de27c43d95556515a3bde0dce7a2a3eb1eff336a64"
 metafile = true
 
 [[files]]

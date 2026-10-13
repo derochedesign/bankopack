@@ -417,6 +417,9 @@ Not available on NeoForge 1.21.1: Presence Footsteps, Wakes, Visuality, Extra So
   - The F3 screen alone cost ~11% of each frame, so don't judge FPS with F3 open.
   - Jungle fixes: added **More Culling** (hidden leaf faces aren't drawn; client-only) and Falling Leaves `leafSpawnRate` 10 → 4 (shipped config).
   - Profile analysis scripts live in the session scratchpad; spark's "Sources" view gives the same per-mod breakdown.
+- **Enhanced Celestials 2 join prompts:**
+  - Added **EC2 Shader Support** (client-only), so lunar-event moon colours work with Iris.
+  - Shipped `config/enhancedcelestials2core/translations.json` with `Translation_Mode = DISABLED`. This hides the "/ecc translate config" prompt and stops the translation download that caused the HTTP timeouts in logs; English is built in.
 - **Better Clouds skipped:** Complementary draws its own clouds.
 - **Client-only mods** are marked automatically by packwiz from Modrinth's metadata.
 - **Harmless log noise:** an HTTP connect timeout from an update check.
