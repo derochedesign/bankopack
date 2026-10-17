@@ -81,6 +81,10 @@ file = "config/ftbquests/quests/lang/en_us.snbt"
 hash = "c4949fc78215cd2250c730bfefa69881576e48750c3660d4de9bb9159656c25d"
 
 [[files]]
+file = "config/particlerain/config.json"
+hash = "11106bcbfb54d190f0eaec05f6e9f1c6338402cbc7f8beca66d58a202f4f6876"
+
+[[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"
 hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
 metafile = true
