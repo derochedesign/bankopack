@@ -1,0 +1,10 @@
+{
+  "type": "femboycream:add_item",
+  "conditions": [
+    {"condition": "neoforge:loot_table_id", "loot_table_id": "minecraft:chests/village/village_savanna_house"}
+  ],
+  "item": "femboycream:femboy_cream",
+  "chance": 0.045,
+  "min": 1,
+  "max": 1
+}

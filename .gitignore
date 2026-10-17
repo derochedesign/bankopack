@@ -13,3 +13,4 @@ packwiz.json
 mods-src/*/build/
 mods-src/*/.gradle/
 mods-src/*/run/
+__pycache__/

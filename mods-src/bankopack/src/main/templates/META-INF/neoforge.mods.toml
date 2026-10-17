@@ -15,6 +15,7 @@ Small tweaks for the Bankopack modpack:
 - Data: tones down crit chance from Apotheosis (Intricate affix, Samurai gem) and Critical Strike (Critical Hit enchant).
 - Data: L_Ender's Cataclysm Frosted Prison can also generate in snowy taiga, ice spikes and Terralith's flatter snowy biomes (plain snowy plains is rare with Terralith).
 - Data: Ignis no longer breaks the Burning Arena's cracked floor (lava), and the Ender Guardian no longer breaks the Ruined Citadel floor (void).
+- Data: Femboy Cream jars are rare in village chests (4.5% per chest, about 1 village in 5) instead of guaranteed.
 - Fix: The Birth of Steve shrines and Meridian Archive are placed on dry land (wider search) and no longer buried at the bottom of the world.
 Configure in config/bankopack-client.toml.
 '''
@@ -74,6 +75,13 @@ config="bankopack.mixins.json"
 
 [[dependencies.${mod_id}]]
     modId="spell_engine"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="femboycream"
     type="optional"
     versionRange="*"
     ordering="AFTER"
