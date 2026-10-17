@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/accessories.json5"
-hash = "8ee394f63c9fefe2a3b4abee266533c62c027a620c2d4fcd266a8c09df08e52a"
+hash = "ab092d16630688b25a37612342c9d08f7874dd76ce5381e36f1274f59473cba9"
 
 [[files]]
 file = "config/bankopack-client.toml"
