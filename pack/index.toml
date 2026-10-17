@@ -57,6 +57,10 @@ file = "config/fallingleaves-client.toml"
 hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
 
 [[files]]
+file = "config/ftbessentials.snbt"
+hash = "5318b2e8442f3b702951eb9b544fbe5ab57a88e7ccd2754eab64b4b69c7019d9"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
@@ -948,11 +952,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "d935e4ce118d15c88b10809df85e801f0e9577855f870f3c28e5a0bd5e7fecf6"
-metafile = true
-
-[[files]]
-file = "mods/precise-gui-scale.pw.toml"
-hash = "697a1014d97a62448bb069cc4e1a9a50e9632d5f3727e95123a166be33f722d5"
 metafile = true
 
 [[files]]
