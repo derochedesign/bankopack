@@ -582,7 +582,7 @@
 		#Ignis's Life steal Multiplier
 		# Default: 1.0
 		# Range: 0.0 ~ 1000000.0
-		healing_multiplier = 1.0
+		healing_multiplier = 0.5
 		#Enable separate music per boss phase
 		separate_phase_music = true
 
