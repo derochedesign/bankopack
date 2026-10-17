@@ -15,6 +15,7 @@
 			dependencies: []
 			tasks: [{ id: "3EFB3856A50F0379", type: "dimension", dimension: "minecraft:the_nether" }]
 			rewards: [{ id: "659A97BB642FAB77", type: "xp", xp: 200 }]
+			icon: { count: 1, id: "ftbquests:custom_icon", components: { "ftbquests:icon": "minecraft:block/nether_portal" } }
 		}
 		{
 			id: "402610FF839A08A4"
@@ -23,6 +24,7 @@
 			dependencies: ["6FA33DDAD7EC6591"]
 			tasks: [{ id: "141C5B1E3D613C4D", type: "dimension", dimension: "minecraft:the_end" }]
 			rewards: [{ id: "73C708CA79963F9A", type: "xp", xp: 300 }]
+			icon: { count: 1, id: "minecraft:end_portal_frame" }
 		}
 		{
 			id: "757B52BC332F4734"
@@ -31,6 +33,7 @@
 			dependencies: []
 			tasks: [{ id: "2916B0146638AADD", type: "dimension", dimension: "aether:the_aether" }]
 			rewards: [{ id: "0164C4CAAEE8EC9C", type: "xp", xp: 300 }]
+			icon: { count: 1, id: "ftbquests:custom_icon", components: { "ftbquests:icon": "aether:block/miscellaneous/aether_portal" } }
 		}
 		{
 			id: "37B1862372B0D6BB"
@@ -39,6 +42,7 @@
 			dependencies: []
 			tasks: [{ id: "50BD4FD2B1621BA2", type: "dimension", dimension: "twilightforest:twilight_forest" }]
 			rewards: [{ id: "7C14EB2C3E6C2FDD", type: "xp", xp: 300 }]
+			icon: { count: 1, id: "twilightforest:twilight_portal_miniature_structure" }
 		}
 		{
 			id: "6F17F38658B28EB1"
@@ -47,6 +51,7 @@
 			dependencies: []
 			tasks: [{ id: "714CFE27A6CC19F2", type: "dimension", dimension: "the_bumblezone:the_bumblezone" }]
 			rewards: [{ id: "117F68804BC9EB84", type: "xp", xp: 300 }]
+			icon: { count: 1, id: "minecraft:bee_nest" }
 		}
 		{
 			id: "47D6FDCEF55CA283"
@@ -55,6 +60,7 @@
 			dependencies: []
 			tasks: [{ id: "4A867BD2E1F83099", type: "dimension", dimension: "deeperdarker:otherside" }]
 			rewards: [{ id: "49FABF12B3C616D5", type: "xp", xp: 400 }]
+			icon: { count: 1, id: "ftbquests:custom_icon", components: { "ftbquests:icon": "deeperdarker:block/otherside_portal" } }
 		}
 		{
 			id: "0ECA2495A33D279B"
@@ -63,6 +69,7 @@
 			dependencies: []
 			tasks: [{ id: "481A59583DF7197D", type: "dimension", dimension: "eternal_starlight:starlight" }]
 			rewards: [{ id: "702FF75C7BE69089", type: "xp", xp: 400 }]
+			icon: { count: 1, id: "ftbquests:custom_icon", components: { "ftbquests:icon": "eternal_starlight:block/starlight_portal" } }
 		}
 		{
 			id: "584AFC1BAC6B7B32"
@@ -71,6 +78,7 @@
 			dependencies: []
 			tasks: [{ id: "3901AE3B33E93438", type: "dimension", dimension: "ad_astra:moon" }]
 			rewards: [{ id: "7B7C67F6767F438F", type: "xp", xp: 500 }]
+			icon: { count: 1, id: "ad_astra:tier_1_rocket" }
 		}
 	]
 }

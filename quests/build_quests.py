@@ -167,24 +167,24 @@ CHAPTERS = [
        subtitle=["Every dimension in the pack, in any order."],
        quests=[
     Q("nether", "The Nether", [dim("minecraft:the_nether")], [xp(200)], [
-      "Better Nether adds biomes, and fortresses are redesigned."]),
+      "Better Nether adds biomes, and fortresses are redesigned."], icon="sprite:minecraft:block/nether_portal"),
     Q("end", "The End", [dim("minecraft:the_end")], [xp(300)], [
-      "True Ending overhauls the dragon fight. The outer islands have new biomes."], deps=["nether"]),
+      "True Ending overhauls the dragon fight. The outer islands have new biomes."], deps=["nether"], icon="minecraft:end_portal_frame"),
     Q("aether", "The Aether", [dim("aether:the_aether")], [xp(300)], [
       "Build a portal frame from &bglowstone&r and pour in a water bucket.",
-      "Deep Aether adds extra biomes."]),
+      "Deep Aether adds extra biomes."], icon="sprite:aether:block/miscellaneous/aether_portal"),
     Q("twilight", "The Twilight Forest", [dim("twilightforest:twilight_forest")], [xp(300)], [
       "Make a small pool of water surrounded by flowers or grass and throw a &bdiamond&r into it.",
-      "Its bosses are meant to be fought in order."]),
+      "Its bosses are meant to be fought in order."], icon="twilightforest:twilight_portal_miniature_structure"),
     Q("bumblezone", "The Bumblezone", [dim("the_bumblezone:the_bumblezone")], [xp(300)], [
-      "Throw an &bender pearl&r at a bee nest or beehive to enter."]),
+      "Throw an &bender pearl&r at a bee nest or beehive to enter."], icon="minecraft:bee_nest"),
     Q("otherside", "The Otherside", [dim("deeperdarker:otherside")], [xp(400)], [
-      "Deeper and Darker's dimension. The portal is in an &bAncient City&r; check JEI for how to activate it."]),
+      "Deeper and Darker's dimension. The portal is in an &bAncient City&r; check JEI for how to activate it."], icon="sprite:deeperdarker:block/otherside_portal"),
     Q("starlight", "Eternal Starlight", [dim("eternal_starlight:starlight")], [xp(400)], [
-      "A dimension with its own bosses and gear. Check JEI for how to get there."]),
+      "A dimension with its own bosses and gear. Check JEI for how to get there."], icon="sprite:eternal_starlight:block/starlight_portal"),
     Q("moon", "The Moon", [dim("ad_astra:moon")], [xp(500)], [
       "Build a Tier 1 rocket at a NASA Workbench, fuel it, place it on a launch pad and launch.",
-      "You need a space suit: there's no air."]),
+      "You need a space suit: there's no air."], icon="ad_astra:tier_1_rocket"),
   ]),
 
   dict(key="bosses", title="Bosses", icon="cataclysm:ignitium_ingot",
@@ -230,6 +230,13 @@ def s(v): return json.dumps(v, ensure_ascii=False)  # SNBT-compatible quoted str
 
 def stack(i, n=1): return f'{{ count: {n}, id: {s(i)} }}'
 
+def icon_stack(i):
+    """An item ID, or "sprite:<texture>" for FTB Quests' custom icon showing a block-atlas texture
+    (e.g. an animated portal block that has no item form)."""
+    if i.startswith("sprite:"):
+        return f'{{ count: 1, id: "ftbquests:custom_icon", components: {{ "ftbquests:icon": {s(i[7:])} }} }}'
+    return stack(i)
+
 def snbt_task(t, tid):
     base = f'id: {s(tid)}, type: {s(t["type"])}'
     if t["type"] == "item":
@@ -259,7 +266,7 @@ def validate(ids):
         keys = {q["key"] for q in ch["quests"]}
         icons = [ch["icon"]] + [q["icon"] for q in ch["quests"] if q["icon"]]
         for i in icons:
-            if i not in known["item"]: problems.append(f'{ch["key"]}: icon {i}')
+            if not i.startswith("sprite:") and i not in known["item"]: problems.append(f'{ch["key"]}: icon {i}')
         for q in ch["quests"]:
             for d in q["deps"]:
                 if d not in keys: problems.append(f'{ch["key"]}/{q["key"]}: unknown dependency {d}')
@@ -321,7 +328,7 @@ def main(ids_path, out_dir):
             x, y = pos[q["key"]]
             fields = [f"id: {s(qid)}", f"x: {x}d", f"y: {y}d", f"dependencies: [{deps}]", f"tasks: [{tasks}]", f"rewards: [{rewards}]"]
             if q["optional"]: fields.append("optional: true")
-            if q["icon"]: fields.append(f"icon: {stack(q['icon'])}")
+            if q["icon"]: fields.append(f"icon: {icon_stack(q['icon'])}")
             qs.append("\t\t{\n\t\t\t" + "\n\t\t\t".join(fields) + "\n\t\t}")
         chapter = "\n".join([
             "{",
@@ -329,7 +336,7 @@ def main(ids_path, out_dir):
             f'\tdefault_quest_shape: ""',
             f"\tfilename: {s(ch['key'])}",
             f'\tgroup: ""',
-            f"\ticon: {stack(ch['icon'])}",
+            f"\ticon: {icon_stack(ch['icon'])}",
             f"\tid: {s(cid)}",
             f"\torder_index: {order}",
             "\tquest_links: [ ]",
