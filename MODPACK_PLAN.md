@@ -412,6 +412,7 @@ Not available on NeoForge 1.21.1: Presence Footsteps, Wakes, Visuality, Extra So
   - Chat Heads, Legendary Tooltips (+ Iceberg, Prism), Visual Workbench
 - **Phase 7 playtest tweaks:**
   - Subtle Effects frosty breath: `seasons = "OFF"` (with Serene Seasons, the default showed breath in every biome during late autumn, winter and early spring, and new worlds start in early spring). Own breath is still shown, but only in actually cold biomes.
+  - Subtle Effects item rarity particles → `NOT_COMMON` (every dropped item sparkled white; now only uncommon+ loot sparkles).
   - Sound Physics `reverb_gain` 1.0 → 0.55 and `default_block_reflectivity` 0.5 → 0.35 (small rooms sounded like caves).
   - Added **Mouse Tweaks** (shift-drag and scroll item moving, like ATM10).
   - The configs are shipped in `pack/config/` and overwrite players' copies on sync.
