@@ -66,7 +66,7 @@ hash = "c8d792d9707b27c4c06d4262940768834726af1c710d7460c089fc1d5ae82c82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "50c68dc6ef64e82cf53c3d1c530bc3b2ba999e4b0dbdfc5a6a965a94fdde9889"
+hash = "5a998e1674c2eff18f7ed637577e5e6a05ab36b89e7e90355ca0300fff62dc08"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -74,7 +74,7 @@ hash = "782faa93e8a0936c9befb1c61caed23ec693bb4626f514c93d78724cb5c8b519"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "691ddc3ab5877d1e0f6d9c7a3a9fc8dc804c8dd5ecd52dfd3f7a23c8863c0dab"
+hash = "c4949fc78215cd2250c730bfefa69881576e48750c3660d4de9bb9159656c25d"
 
 [[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"

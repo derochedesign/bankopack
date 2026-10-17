@@ -37,8 +37,8 @@
 			x: 4.0d
 			y: 0.0d
 			dependencies: ["70804A514087D53B"]
-			tasks: [{ id: "7F97165FFD1E58BB", type: "item", item: { count: 1, id: "yo_hooks:copper_grappling_hook" } }]
-			rewards: [{ id: "720B61509CA2A30D", type: "item", item: { count: 8, id: "minecraft:copper_ingot" } }]
+			tasks: [{ id: "7F97165FFD1E58BB", type: "item", item: { count: 1, id: "yo_hooks:iron_grappling_hook" } }]
+			rewards: [{ id: "720B61509CA2A30D", type: "item", item: { count: 4, id: "minecraft:iron_ingot" } }]
 		}
 		{
 			id: "12DC313135AB267D"
