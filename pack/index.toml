@@ -13,6 +13,10 @@ file = "config/biome_replacer.properties"
 hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
 [[files]]
+file = "config/cataclysm-common.toml"
+hash = "72c22f5bf0a9604e48a9f097f78198b5ecedb2d01d9e79acbd5095d954f21187"
+
+[[files]]
 file = "config/cobblemon/main.json"
 hash = "51dfa11984ac0186b358e5cc8644d64a4cb8d4a1294488820b65663868b5c446"
 
