@@ -93,6 +93,10 @@ file = "config/ftbquests/quests/lang/en_us.snbt"
 hash = "c4949fc78215cd2250c730bfefa69881576e48750c3660d4de9bb9159656c25d"
 
 [[files]]
+file = "config/ftbultimine-server.snbt"
+hash = "905763341f90d93de609fb277647ad75ca9fad298afc449b70201955e3db6519"
+
+[[files]]
 file = "config/particlerain/config.json"
 hash = "11106bcbfb54d190f0eaec05f6e9f1c6338402cbc7f8beca66d58a202f4f6876"
 
@@ -698,6 +702,11 @@ hash = "8c1835e4c54b3a3f5d79bcf0e3b0f25cc3113fe43c1190104a76ed5d8d839a3b"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "ab503e89461dff879ee793253e173625b6ab868f570a371323ef725e567cf5ea"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
@@ -765,6 +774,11 @@ metafile = true
 [[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "9ca14134538c66b6d8ef74107f6b15ba9487ec632d984427e84ad38aa47afa60"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "0d2a00252d64ed7d2d9b19994f7accb780304be61f3903d36e810714b414c6cb"
 metafile = true
 
 [[files]]
