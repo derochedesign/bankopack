@@ -463,7 +463,7 @@ The pack is built to run on a dedicated server. Every phase is boot-tested on `t
 - **Shaders:** Complementary Reimagined and Unbound r5.9.3 ship in `pack/shaderpacks/` (client-only, downloaded from Modrinth). Reimagined is on by default for new players.
 - **No servers.dat default:** it would put the home IP in the public repo. The join address is in the player guide instead.
 - **Claims and protection:** FTB Chunks (claims + force-loading), FTB Teams, FTB Essentials (homes, TPA, etc.).
-- **Hosting:** TBD (rented host vs. a home PC). Decide before Phase 6 or so.
+- **Hosting (live 2026-10-17):** the home NAS (itzg container, 8 GB heap) pulls the pack from the public GitHub `pack.toml` on every start, so push + restart the app = server updated. World seed `-1326410097851951334`; whitelist enforced (add players with `/whitelist add <name>`). Players join through router port-forward TCP 25565. Players install via the importable Prism instance `prism/Bankopack.zip` (NeoForge 21.1.256, packwiz bootstrap pre-launch pointed at GitHub, 10 GB).
 
 ---
 
