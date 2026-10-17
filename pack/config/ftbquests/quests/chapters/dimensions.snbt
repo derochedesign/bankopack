@@ -9,39 +9,39 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "EFA33DDAD7EC6591"
+			id: "6FA33DDAD7EC6591"
 			x: 0.0d
 			y: 0.0d
 			dependencies: []
-			tasks: [{ id: "BEFB3856A50F0379", type: "dimension", dimension: "minecraft:the_nether" }]
+			tasks: [{ id: "3EFB3856A50F0379", type: "dimension", dimension: "minecraft:the_nether" }]
 			rewards: [{ id: "659A97BB642FAB77", type: "xp", xp: 200 }]
 		}
 		{
-			id: "C02610FF839A08A4"
+			id: "402610FF839A08A4"
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["EFA33DDAD7EC6591"]
+			dependencies: ["6FA33DDAD7EC6591"]
 			tasks: [{ id: "141C5B1E3D613C4D", type: "dimension", dimension: "minecraft:the_end" }]
 			rewards: [{ id: "73C708CA79963F9A", type: "xp", xp: 300 }]
 		}
 		{
-			id: "F57B52BC332F4734"
+			id: "757B52BC332F4734"
 			x: 0.0d
 			y: 1.5d
 			dependencies: []
-			tasks: [{ id: "A916B0146638AADD", type: "dimension", dimension: "aether:the_aether" }]
-			rewards: [{ id: "8164C4CAAEE8EC9C", type: "xp", xp: 300 }]
+			tasks: [{ id: "2916B0146638AADD", type: "dimension", dimension: "aether:the_aether" }]
+			rewards: [{ id: "0164C4CAAEE8EC9C", type: "xp", xp: 300 }]
 		}
 		{
-			id: "B7B1862372B0D6BB"
+			id: "37B1862372B0D6BB"
 			x: 0.0d
 			y: 3.0d
 			dependencies: []
-			tasks: [{ id: "D0BD4FD2B1621BA2", type: "dimension", dimension: "twilightforest:twilight_forest" }]
-			rewards: [{ id: "FC14EB2C3E6C2FDD", type: "xp", xp: 300 }]
+			tasks: [{ id: "50BD4FD2B1621BA2", type: "dimension", dimension: "twilightforest:twilight_forest" }]
+			rewards: [{ id: "7C14EB2C3E6C2FDD", type: "xp", xp: 300 }]
 		}
 		{
-			id: "EF17F38658B28EB1"
+			id: "6F17F38658B28EB1"
 			x: 0.0d
 			y: 4.5d
 			dependencies: []
@@ -49,11 +49,11 @@
 			rewards: [{ id: "117F68804BC9EB84", type: "xp", xp: 300 }]
 		}
 		{
-			id: "C7D6FDCEF55CA283"
+			id: "47D6FDCEF55CA283"
 			x: 0.0d
 			y: 6.0d
 			dependencies: []
-			tasks: [{ id: "CA867BD2E1F83099", type: "dimension", dimension: "deeperdarker:otherside" }]
+			tasks: [{ id: "4A867BD2E1F83099", type: "dimension", dimension: "deeperdarker:otherside" }]
 			rewards: [{ id: "49FABF12B3C616D5", type: "xp", xp: 400 }]
 		}
 		{
@@ -70,7 +70,7 @@
 			y: 9.0d
 			dependencies: []
 			tasks: [{ id: "3901AE3B33E93438", type: "dimension", dimension: "ad_astra:moon" }]
-			rewards: [{ id: "FB7C67F6767F438F", type: "xp", xp: 500 }]
+			rewards: [{ id: "7B7C67F6767F438F", type: "xp", xp: 500 }]
 		}
 	]
 }

@@ -42,31 +42,31 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
-hash = "c736644eda090a7f4f412d9f63f6ff5998a5a2bee8aabc91b78c40baa0d04a8b"
+hash = "e991f60ffca3bdaf60c789ed4d9a6d143dfeaa2b82fc902dee82047d6775ee16"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/classes.snbt"
-hash = "78cf55d3c310e7014d753b5ef7b237086a5189f4b1b43901c5617e4fdc81dbe3"
+hash = "51a46c482f2d4ff70ab48855b2b20de690b341e66ecce795083caccfdb6e5f81"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "e1ebe61e471169c3ff8a9b0d1976bc8e2620d4fdd8f08cf5fbad95d28b4682b0"
+hash = "675e488cecb571af17b7835e354e1e17f4b9679b1331c40f32f97a1cba5b3f48"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dimensions.snbt"
-hash = "3ddca72b1c2a331d819184c6ed3cbff676094c9de537c8a382091b9fc99b0961"
+hash = "b98ee350ed80ca4ea84869e6efc16d3ef8655a7cdcc29ce3279ab16a6ac64b0e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gear.snbt"
-hash = "c38dfb01a96fdb11cff8401a32732c7f246868938d8620ed250e61c531c7a2f7"
+hash = "41ac1d1d892269ffb24be5c83d3c8a707dbf792c9b4917469a3592e95452e25b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pokemon.snbt"
-hash = "12e601457536b4699b6f314feac3544a7e32d84ebcd44cd9992d3d77cd2201a2"
+hash = "c8d792d9707b27c4c06d4262940768834726af1c710d7460c089fc1d5ae82c82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "cac70f096bf525ab89e0658d1c5de69d37d3d66ba24c105c7ec3a7d7eb4b8427"
+hash = "50c68dc6ef64e82cf53c3d1c530bc3b2ba999e4b0dbdfc5a6a965a94fdde9889"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -74,7 +74,7 @@ hash = "782faa93e8a0936c9befb1c61caed23ec693bb4626f514c93d78724cb5c8b519"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "70052ec86b48b90f261b3d1c6383c992fa3bd116abf711bfc15a75ce4a483c8e"
+hash = "691ddc3ab5877d1e0f6d9c7a3a9fc8dc804c8dd5ecd52dfd3f7a23c8863c0dab"
 
 [[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"

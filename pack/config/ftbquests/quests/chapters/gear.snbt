@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "9270154D4EC22EB4"
+			id: "1270154D4EC22EB4"
 			x: 0.0d
 			y: 0.0d
 			dependencies: []
@@ -20,57 +20,57 @@
 			id: "1E8373E306AA468E"
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["9270154D4EC22EB4"]
-			tasks: [{ id: "A99A8EA1E7CFA12B", type: "item", item: { count: 1, id: "apotheosis:reforging_table" } }]
+			dependencies: ["1270154D4EC22EB4"]
+			tasks: [{ id: "299A8EA1E7CFA12B", type: "item", item: { count: 1, id: "apotheosis:reforging_table" } }]
 			rewards: [{ id: "1E45A35DD84EBEDB", type: "xp", xp: 200 }]
 		}
 		{
-			id: "E603BFEE536AA8F1"
+			id: "6603BFEE536AA8F1"
 			x: 4.0d
 			y: 0.0d
 			dependencies: ["1E8373E306AA468E"]
-			tasks: [{ id: "A2F2F3D5A0B41706", type: "item", item: { count: 1, id: "apotheosis:salvaging_table" } }]
-			rewards: [{ id: "D1EA4BEDB40E7E6D", type: "xp", xp: 150 }]
+			tasks: [{ id: "22F2F3D5A0B41706", type: "item", item: { count: 1, id: "apotheosis:salvaging_table" } }]
+			rewards: [{ id: "51EA4BEDB40E7E6D", type: "xp", xp: 150 }]
 		}
 		{
 			id: "2B158A7B089C67C8"
 			x: 6.0d
 			y: 0.0d
-			dependencies: ["E603BFEE536AA8F1"]
-			tasks: [{ id: "CD0F4B4417676F8C", type: "item", item: { count: 1, id: "apotheosis:augmenting_table" } }]
+			dependencies: ["6603BFEE536AA8F1"]
+			tasks: [{ id: "4D0F4B4417676F8C", type: "item", item: { count: 1, id: "apotheosis:augmenting_table" } }]
 			rewards: [{ id: "071FC4B0A0D7FC29", type: "xp", xp: 200 }]
 		}
 		{
-			id: "99967447C616E9DF"
+			id: "19967447C616E9DF"
 			x: 4.0d
 			y: 1.5d
 			dependencies: ["1E8373E306AA468E"]
-			tasks: [{ id: "C9B12FEDB2F03363", type: "advancement", advancement: "apotheosis:gateways/frontier", criterion: "" }]
-			rewards: [{ id: "A5576FEDC8D95887", type: "item", item: { count: 2, id: "minecraft:diamond" } }]
+			tasks: [{ id: "49B12FEDB2F03363", type: "advancement", advancement: "apotheosis:gateways/frontier", criterion: "" }]
+			rewards: [{ id: "25576FEDC8D95887", type: "item", item: { count: 2, id: "minecraft:diamond" } }]
 		}
 		{
 			id: "526C8CF16A0F80B2"
 			x: 6.0d
 			y: 1.5d
-			dependencies: ["99967447C616E9DF"]
+			dependencies: ["19967447C616E9DF"]
 			tasks: [{ id: "67972660C3E9CEC6", type: "advancement", advancement: "apotheosis:gateways/ascent", criterion: "" }]
 			rewards: [{ id: "189BE7C174A437D5", type: "item", item: { count: 4, id: "minecraft:diamond" } }]
 		}
 		{
-			id: "98C258442607B6D0"
+			id: "18C258442607B6D0"
 			x: 8.0d
 			y: 0.0d
 			dependencies: ["526C8CF16A0F80B2"]
-			tasks: [{ id: "DC67C95F94AFF787", type: "advancement", advancement: "apotheosis:gateways/summit", criterion: "" }]
-			rewards: [{ id: "CD754044CA8209CF", type: "item", item: { count: 6, id: "minecraft:diamond" } }]
+			tasks: [{ id: "5C67C95F94AFF787", type: "advancement", advancement: "apotheosis:gateways/summit", criterion: "" }]
+			rewards: [{ id: "4D754044CA8209CF", type: "item", item: { count: 6, id: "minecraft:diamond" } }]
 		}
 		{
-			id: "A04036FD959CDCBD"
+			id: "204036FD959CDCBD"
 			x: 10.0d
 			y: 0.0d
-			dependencies: ["98C258442607B6D0"]
+			dependencies: ["18C258442607B6D0"]
 			tasks: [{ id: "563974F500A5CB9C", type: "advancement", advancement: "apotheosis:gateways/pinnacle", criterion: "" }]
-			rewards: [{ id: "F4178AEAA12FBCC2", type: "item", item: { count: 1, id: "minecraft:netherite_ingot" } }]
+			rewards: [{ id: "74178AEAA12FBCC2", type: "item", item: { count: 1, id: "minecraft:netherite_ingot" } }]
 		}
 	]
 }

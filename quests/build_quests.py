@@ -224,8 +224,10 @@ CHAPTERS = [
 # Generation
 # ---------------------------------------------------------------------------------------------
 def oid(*parts):
-    h = hashlib.sha1("/".join(parts).encode()).hexdigest()[:16].upper()
-    return h if int(h, 16) else "0000000000000001"
+    # FTB Quests re-assigns IDs that read as negative longs, so keep the top bit clear.
+    # (IDs starting 0-7 are unchanged by this, so existing progress on those is kept.)
+    n = int(hashlib.sha1("/".join(parts).encode()).hexdigest()[:16], 16) & 0x7FFFFFFFFFFFFFFF
+    return f"{n or 1:016X}"
 
 def s(v): return json.dumps(v, ensure_ascii=False)  # SNBT-compatible quoted string
 

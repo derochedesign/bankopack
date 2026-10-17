@@ -4,12 +4,12 @@
 	filename: "classes"
 	group: ""
 	icon: { count: 1, id: "spell_engine:spell_binding" }
-	id: "AB373BC1863F4EDD"
+	id: "2B373BC1863F4EDD"
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			id: "9E8266AD03A9E04C"
+			id: "1E8266AD03A9E04C"
 			x: 0.0d
 			y: 0.0d
 			dependencies: []
@@ -17,32 +17,32 @@
 			rewards: [{ id: "046D614D23FD0750", type: "item", item: { count: 16, id: "minecraft:lapis_lazuli" } }]
 		}
 		{
-			id: "975E83D24BDA93D6"
+			id: "175E83D24BDA93D6"
 			x: 2.0d
 			y: 0.0d
-			dependencies: ["9E8266AD03A9E04C"]
-			tasks: [{ id: "C33CF31ACBA18364", type: "checkmark" }]
+			dependencies: ["1E8266AD03A9E04C"]
+			tasks: [{ id: "433CF31ACBA18364", type: "checkmark" }]
 			rewards: [{ id: "3259CFE441DCB60F", type: "xp", xp: 200 }]
 		}
 		{
 			id: "1EB9BAC21AEF8120"
 			x: 4.0d
 			y: 0.0d
-			dependencies: ["975E83D24BDA93D6"]
-			tasks: [{ id: "BAC4708F19866E2D", type: "item", item: { count: 1, id: "runes:crafting_altar" } }]
-			rewards: [{ id: "AF851FE17490A204", type: "xp", xp: 150 }]
+			dependencies: ["175E83D24BDA93D6"]
+			tasks: [{ id: "3AC4708F19866E2D", type: "item", item: { count: 1, id: "runes:crafting_altar" } }]
+			rewards: [{ id: "2F851FE17490A204", type: "xp", xp: 150 }]
 			optional: true
 		}
 		{
 			id: "55DF3D7332FFA9FE"
 			x: 4.0d
 			y: 1.5d
-			dependencies: ["975E83D24BDA93D6"]
+			dependencies: ["175E83D24BDA93D6"]
 			tasks: [{ id: "0D4E9BCCB5A916FF", type: "checkmark" }]
-			rewards: [{ id: "B8090B820EA85AD0", type: "xp", xp: 200 }]
+			rewards: [{ id: "38090B820EA85AD0", type: "xp", xp: 200 }]
 		}
 		{
-			id: "87E13B289262AE88"
+			id: "07E13B289262AE88"
 			x: 0.0d
 			y: 1.5d
 			dependencies: []
@@ -51,12 +51,12 @@
 			optional: true
 		}
 		{
-			id: "F8975E4FB0D52F14"
+			id: "78975E4FB0D52F14"
 			x: 2.0d
 			y: 1.5d
-			dependencies: ["87E13B289262AE88"]
-			tasks: [{ id: "AF5A475FACD64DBC", type: "item", item: { count: 1, id: "irons_spellbooks:scroll_forge" } }]
-			rewards: [{ id: "F11C0B9DE7A8FE1D", type: "xp", xp: 200 }]
+			dependencies: ["07E13B289262AE88"]
+			tasks: [{ id: "2F5A475FACD64DBC", type: "item", item: { count: 1, id: "irons_spellbooks:scroll_forge" } }]
+			rewards: [{ id: "711C0B9DE7A8FE1D", type: "xp", xp: 200 }]
 			optional: true
 		}
 	]
