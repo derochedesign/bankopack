@@ -14,7 +14,7 @@ hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "fd914895193d915ea6fcabec79e11798fc47151d47a91355185c7b504047815f"
+hash = "bc07062f568535d140029b16419626931f5988f2ef353d237182e2a967c6c596"
 
 [[files]]
 file = "config/cobblemon/main.json"
