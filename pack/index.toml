@@ -102,6 +102,10 @@ hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
 metafile = true
 
 [[files]]
+file = "config/rctmod-server.toml"
+hash = "e4c2d89f220d40baae99f05f032a556f84593e64cc3f33e99e8111414d5c0f9d"
+
+[[files]]
 file = "config/rearm/config.toml"
 hash = "389aa7b667e62d16e3b51d094dbb65b2d7dc21f5e9120e8f6acd96cecab40eb7"
 
