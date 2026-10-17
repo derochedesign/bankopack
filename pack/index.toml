@@ -109,6 +109,10 @@ file = "config/particlerain/config.json"
 hash = "11106bcbfb54d190f0eaec05f6e9f1c6338402cbc7f8beca66d58a202f4f6876"
 
 [[files]]
+file = "config/particlerain/particles.json"
+hash = "2fe2f00bece137514e678dbd579972d4e14d3d7b64ba866f7af2fbf094b7b417"
+
+[[files]]
 file = "config/paxi/datapacks/true-ending.pw.toml"
 hash = "82ff304ca30f125cc33378ccdc35564941a8910240266ee7107dbfbac428e755"
 metafile = true
