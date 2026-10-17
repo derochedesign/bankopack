@@ -4,6 +4,7 @@
   "package": "dev.bankopack.tweaks.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "server.AutosaveMessageMixin",
     "tbos.AdventureWorldManagerMixin"
   ],
   "injectors": {
