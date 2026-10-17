@@ -29,8 +29,20 @@ file = "config/critical_strike/server_config.json"
 hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
 
 [[files]]
+file = "config/defaultoptions-common.toml"
+hash = "67862d1368587745015bb1638baf4e2593aadf113682532c979c8197bd372e3e"
+
+[[files]]
+file = "config/defaultoptions/extra/config/iris.properties"
+hash = "64aac9654feaed34d6b823e8f5f45aac6090e8290453ec75dc1fcd7e06b3e2fc"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "80299b855fef12dae09efe471661e6a1a8d722da332c62f48f70591efc441961"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "f5505e5b2e0b49d2dbcab2168c32f0d2938ce7f257db6e8ecefc6adea6269bd5"
 
 [[files]]
 file = "config/enhancedcelestials2core/translations.json"
@@ -1290,4 +1302,14 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "6a1556a0e4fcb411b33efafc3382b4abd9a6e671f140dc0d42e9aad2808e24f3"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
 metafile = true

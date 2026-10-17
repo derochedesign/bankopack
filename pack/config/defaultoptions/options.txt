@@ -1,0 +1,2 @@
+soundCategory_record:0.3
+biomeBlendRadius:2
