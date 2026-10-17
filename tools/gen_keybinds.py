@@ -100,6 +100,10 @@ LAYOUT = {
     "key.evilcraft.fart": U,
     "key.ftbchunks.minimap.zoomIn": U,                   # FTB minimap is disabled (Xaero's is used)
     "key.ftbchunks.minimap.zoomOut": U,
+
+    # --- Weavers Paradise (clothing) ----------------------------------------------------------
+    "weaversparadise.keybind.open_upper_wear": k("f9"),   # default [ (RFTools)
+    "weaversparadise.keybind.trinket_sound": k("f10"),    # default X (chestplate abilities)
 }
 
 # Bindings that only work inside a screen/tooltip or while holding a modifier: sharing is fine.
@@ -114,7 +118,9 @@ def main(src, dst):
     for line in open(src, encoding="utf-8"):
         m = re.match(r"key_([^:]+):([^:\s]+)(?::(\S*))?", line.strip())
         if m: binds[m.group(1)] = (m.group(2), m.group(3) or "")
-    missing = [n for n in LAYOUT if n not in binds]
+    # Mods added after the options.txt snapshot was taken; their binds are written even if absent from it.
+    newer = ("weaversparadise.",)
+    missing = [n for n in LAYOUT if n not in binds and not n.startswith(newer)]
     if missing: sys.exit("not in options.txt (renamed or removed mod?): " + ", ".join(missing))
     for n, key in LAYOUT.items(): binds[n] = (key, "")
     with open(dst, "w", encoding="utf-8", newline="\n") as f:

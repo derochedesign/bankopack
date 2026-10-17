@@ -30,7 +30,7 @@ hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "162dd161e059fb5e68b4cfe91f0e8610348ca3192f8322fa3d5a06c4bae33070"
+hash = "80299b855fef12dae09efe471661e6a1a8d722da332c62f48f70591efc441961"
 
 [[files]]
 file = "config/enhancedcelestials2core/translations.json"
@@ -1018,6 +1018,11 @@ hash = "08f35f067c7a764a894254a8e5c790a8de5e03f21fcff2875a14a31f16b6627a"
 metafile = true
 
 [[files]]
+file = "mods/simple-hats.pw.toml"
+hash = "e49e5bbd1acba6a50c445e3d087552bc134e3559eae8a29da2332b4d11588228"
+metafile = true
+
+[[files]]
 file = "mods/simply-swords.pw.toml"
 hash = "f11837c4f049aeb3b7ceb086f4c7b1347bfad1826f47722cbdc8b2b38df0067e"
 metafile = true
@@ -1145,6 +1150,16 @@ metafile = true
 [[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "2684f71394862cff4c20d0f4d8491c0f86f12e66879381295e9088e0eded025d"
+metafile = true
+
+[[files]]
+file = "mods/vortylib.pw.toml"
+hash = "1ff921ca0cac67d3c9e596005d2ccaabd27b53dd69641a763473d5a421d31936"
+metafile = true
+
+[[files]]
+file = "mods/weavers-paradise.pw.toml"
+hash = "8eeb922014848ec3402ecbbe034e9022384683147002b9092ab40fddce3fc9a3"
 metafile = true
 
 [[files]]
