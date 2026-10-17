@@ -33,6 +33,10 @@ file = "config/defaultoptions-common.toml"
 hash = "67862d1368587745015bb1638baf4e2593aadf113682532c979c8197bd372e3e"
 
 [[files]]
+file = "config/defaultoptions/extra/config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "b07a7d659026de564aca82cf021ca8bd6c11ef463ae48f87f3ab9b4007c7aadf"
+
+[[files]]
 file = "config/defaultoptions/extra/config/iris.properties"
 hash = "64aac9654feaed34d6b823e8f5f45aac6090e8290453ec75dc1fcd7e06b3e2fc"
 
