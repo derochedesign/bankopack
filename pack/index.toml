@@ -38,7 +38,7 @@ hash = "64aac9654feaed34d6b823e8f5f45aac6090e8290453ec75dc1fcd7e06b3e2fc"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "80299b855fef12dae09efe471661e6a1a8d722da332c62f48f70591efc441961"
+hash = "8325dd9cd7239807852d0000dff4ee6e9799a2e6b96495fec0142b4fcf208b85"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -112,6 +112,10 @@ hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "fb5d542413807c72800f7b226e4cbfe94b47d9ee7b66e344cd953fa5d06c6531"
+
+[[files]]
+file = "config/spell_engine/client.json5"
+hash = "c1b35001ab8fdee0e30dc7cf9fd482eb10564979caf4d01e26e71bd4ca2c7b69"
 
 [[files]]
 file = "config/subtle_effects/entities.toml"

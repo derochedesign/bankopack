@@ -11,7 +11,8 @@ Rules used for the layout:
 - Situational actions (only in a GUI, only while riding, only while holding/wearing a specific item,
   only in a transformed form) may share a key, but only with other situational actions whose
   situations can't overlap, or with a global action that is harmless to trigger at the same time.
-- NeoForge modifier combos (Alt+X) don't help in-game: the plain X binding fires as well.
+- Modifier combos work: NeoForge only fires the plain X binding when no Alt/Ctrl/Shift+X binding
+  matches, so Alt+1 does not also switch to hotbar slot 1. A LAYOUT value may be (key, "ALT").
 """
 import re, sys
 from collections import defaultdict
@@ -26,6 +27,10 @@ LAYOUT = {
     "key.irons_spellbooks.spellbook_cast": k("v"),
     "key.irons_spellbooks.spell_wheel": k("g"),
     "key.irons_spellbooks.spell_bar_modifier": U,       # alt+scroll clashed with Relics; use the wheel (G)
+    # Spell Engine (RPG Series classes): hold Alt + 1-9 to cast; plain 1-9 always stay the hotbar.
+    # pack/config/spell_engine/client.json5 turns off its fallback to the plain number keys.
+    **{f"keybindings.spell_engine.spell_hotbar_{i}": (k(str(i)), "ALT") for i in range(1, 10)},
+    "keybindings.spell_engine.bypass_spell_hotbar": U,     # held, it blocks casting (would cancel Alt+N)
     "key.cobblemon.summary": k("h"),
     "key.cobblemon.hideparty": k("o"),
     "key.puffish_skills.open": k("k"),
@@ -122,7 +127,7 @@ def main(src, dst):
     newer = ("weaversparadise.",)
     missing = [n for n in LAYOUT if n not in binds and not n.startswith(newer)]
     if missing: sys.exit("not in options.txt (renamed or removed mod?): " + ", ".join(missing))
-    for n, key in LAYOUT.items(): binds[n] = (key, "")
+    for n, key in LAYOUT.items(): binds[n] = key if isinstance(key, tuple) else (key, "")
     with open(dst, "w", encoding="utf-8", newline="\n") as f:
         for n in sorted(binds):
             key, mods = binds[n]
