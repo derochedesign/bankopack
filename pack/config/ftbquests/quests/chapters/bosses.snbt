@@ -35,7 +35,7 @@
 		{
 			id: "647592D5ECBD0C3E"
 			x: 2.0d
-			y: 0.0d
+			y: 3.0d
 			dependencies: ["0A3EECDFE0AD3358"]
 			tasks: [{ id: "657B1875B01772D9", type: "kill", entity: "twilightforest:lich", value: 1L }]
 			rewards: [{ id: "73179AEB9930120D", type: "xp", xp: 400 }]
@@ -43,7 +43,7 @@
 		{
 			id: "6016E755EB24E4DB"
 			x: 4.0d
-			y: 0.0d
+			y: 3.0d
 			dependencies: ["647592D5ECBD0C3E"]
 			tasks: [{ id: "37CEF38A2A38A5AC", type: "kill", entity: "twilightforest:hydra", value: 1L }]
 			rewards: [{ id: "1A33F9D09764D11D", type: "item", item: { count: 3, id: "minecraft:diamond" } }]
@@ -59,7 +59,7 @@
 		{
 			id: "6E88A420F2FE3AF4"
 			x: 2.0d
-			y: 1.5d
+			y: 0.0d
 			dependencies: ["1C382C25CEC3FB4D"]
 			tasks: [{ id: "57E4E7D3603E13F7", type: "kill", entity: "cataclysm:netherite_monstrosity", value: 1L }]
 			rewards: [{ id: "2589DFC2DA49F9CF", type: "item", item: { count: 2, id: "minecraft:netherite_scrap" } }]
@@ -67,7 +67,7 @@
 		{
 			id: "000A2AE661E58801"
 			x: 4.0d
-			y: 1.5d
+			y: 0.0d
 			dependencies: ["6E88A420F2FE3AF4"]
 			tasks: [{ id: "30C9C145D6F58DA5", type: "kill", entity: "cataclysm:ignis", value: 1L }]
 			rewards: [{ id: "0478AFAB4F38BD4E", type: "item", item: { count: 2, id: "minecraft:netherite_scrap" } }]
@@ -75,7 +75,7 @@
 		{
 			id: "04799DA6BA192B54"
 			x: 2.0d
-			y: 3.0d
+			y: 1.5d
 			dependencies: ["201678BED4BE4291"]
 			tasks: [{ id: "1325EDE513B501D7", type: "kill", entity: "cataclysm:ender_guardian", value: 1L }]
 			rewards: [{ id: "3D94B852720859D3", type: "item", item: { count: 2, id: "minecraft:netherite_scrap" } }]
@@ -91,7 +91,7 @@
 		{
 			id: "64A9F3D3B7F0E81E"
 			x: 2.0d
-			y: 4.5d
+			y: 6.0d
 			dependencies: ["7C615D8268E92C37"]
 			tasks: [{ id: "356DADEC574E386C", type: "kill", entity: "cataclysm:the_leviathan", value: 1L }]
 			rewards: [{ id: "3F146CD535AD16D0", type: "item", item: { count: 3, id: "minecraft:netherite_scrap" } }]
@@ -99,7 +99,7 @@
 		{
 			id: "11AA5BE99AC39090"
 			x: 2.0d
-			y: 6.0d
+			y: 7.5d
 			dependencies: ["7C615D8268E92C37"]
 			tasks: [{ id: "5360FB611CFA6E80", type: "kill", entity: "cataclysm:ancient_remnant", value: 1L }]
 			rewards: [{ id: "0CE97EDA88E6C6CD", type: "item", item: { count: 3, id: "minecraft:netherite_scrap" } }]
@@ -107,7 +107,7 @@
 		{
 			id: "713927290BBFD237"
 			x: 2.0d
-			y: 7.5d
+			y: 9.0d
 			dependencies: ["7C615D8268E92C37"]
 			tasks: [{ id: "1D48C4E39DDAC349", type: "kill", entity: "cataclysm:maledictus", value: 1L }]
 			rewards: [{ id: "51F611342A051E58", type: "item", item: { count: 3, id: "minecraft:netherite_scrap" } }]
@@ -115,7 +115,7 @@
 		{
 			id: "063018811F3FBDD0"
 			x: 4.0d
-			y: 3.0d
+			y: 6.0d
 			dependencies: ["64A9F3D3B7F0E81E"]
 			tasks: [{ id: "1788A0107A89AB3B", type: "kill", entity: "cataclysm:scylla", value: 1L }]
 			rewards: [{ id: "4D9F9B89974D016B", type: "item", item: { count: 3, id: "minecraft:netherite_scrap" } }]

@@ -51,7 +51,7 @@
 		{
 			id: "1734DF801400FB2B"
 			x: 6.0d
-			y: 1.5d
+			y: 3.0d
 			dependencies: ["41B89DC3CE373DEA"]
 			tasks: [{ id: "46A31427BCEFEE72", type: "item", item: { count: 1, id: "simulated:physics_assembler" } }]
 			rewards: [{ id: "5AB7F255F460FA4B", type: "xp", xp: 200 }]
@@ -59,7 +59,7 @@
 		{
 			id: "4411A3CD46F10A44"
 			x: 8.0d
-			y: 1.5d
+			y: 3.0d
 			dependencies: ["1734DF801400FB2B"]
 			tasks: [{ id: "43EFA75636A479D1", type: "item", item: { count: 1, id: "aeronautics:adjustable_burner" } }, { id: "48FCFFEE687D244A", type: "item", item: { count: 1, id: "aeronautics:white_envelope" }, count: 16L }]
 			rewards: [{ id: "5A4DA8FBE45993CA", type: "item", item: { count: 16, id: "minecraft:coal" } }]
@@ -67,7 +67,7 @@
 		{
 			id: "320CB8AC46236416"
 			x: 10.0d
-			y: 0.0d
+			y: 3.0d
 			dependencies: ["4411A3CD46F10A44"]
 			tasks: [{ id: "4D954CCFF87F53F8", type: "item", item: { count: 1, id: "aeronautics:propeller_bearing" } }, { id: "32573AB141FD53C5", type: "item", item: { count: 1, id: "simulated:white_portable_engine" } }]
 			rewards: [{ id: "1DCCF1751A9C8737", type: "xp", xp: 300 }]
@@ -75,7 +75,7 @@
 		{
 			id: "29862A55BB3452C8"
 			x: 12.0d
-			y: 0.0d
+			y: 3.0d
 			dependencies: ["320CB8AC46236416"]
 			tasks: [{ id: "3ADD7AD03DE2784A", type: "item", item: { count: 1, id: "simulated:steering_wheel" } }]
 			rewards: [{ id: "233F7C1CB11BFEE7", type: "xp", xp: 300 }]
@@ -83,7 +83,7 @@
 		{
 			id: "6737AFBCCD2C4E00"
 			x: 8.0d
-			y: 3.0d
+			y: 1.5d
 			dependencies: ["532780D9DB293403"]
 			tasks: [{ id: "2BA24FB9E183CA9B", type: "item", item: { count: 1, id: "create:track_station" } }]
 			rewards: [{ id: "203A04055BAC0EEA", type: "xp", xp: 300 }]
@@ -91,7 +91,7 @@
 		{
 			id: "2262FC42EA064B78"
 			x: 2.0d
-			y: 1.5d
+			y: 4.5d
 			dependencies: ["312549E37E66FDF5"]
 			tasks: [{ id: "27165BD9AC42B522", type: "item", item: { count: 1, id: "immersive_aircraft:biplane" } }]
 			rewards: [{ id: "779521888FCD9CCD", type: "xp", xp: 300 }]

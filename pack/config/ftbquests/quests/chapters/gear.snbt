@@ -59,7 +59,7 @@
 		{
 			id: "18C258442607B6D0"
 			x: 8.0d
-			y: 0.0d
+			y: 1.5d
 			dependencies: ["526C8CF16A0F80B2"]
 			tasks: [{ id: "5C67C95F94AFF787", type: "advancement", advancement: "apotheosis:gateways/summit", criterion: "" }]
 			rewards: [{ id: "4D754044CA8209CF", type: "item", item: { count: 6, id: "minecraft:diamond" } }]
@@ -67,7 +67,7 @@
 		{
 			id: "204036FD959CDCBD"
 			x: 10.0d
-			y: 0.0d
+			y: 1.5d
 			dependencies: ["18C258442607B6D0"]
 			tasks: [{ id: "563974F500A5CB9C", type: "advancement", advancement: "apotheosis:gateways/pinnacle", criterion: "" }]
 			rewards: [{ id: "74178AEAA12FBCC2", type: "item", item: { count: 1, id: "minecraft:netherite_ingot" } }]

@@ -27,7 +27,7 @@
 		{
 			id: "3613530C9B497875"
 			x: 2.0d
-			y: 1.5d
+			y: 3.0d
 			dependencies: ["38965F181FD84DB4"]
 			tasks: [{ id: "7D14940ACB2AE9D8", type: "item", item: { count: 1, id: "cobblemon:healing_machine" } }]
 			rewards: [{ id: "7908216F822BDE60", type: "xp", xp: 150 }]
@@ -35,7 +35,7 @@
 		{
 			id: "05F16A6C0EDEA9AC"
 			x: 4.0d
-			y: 0.0d
+			y: 3.0d
 			dependencies: ["3613530C9B497875"]
 			tasks: [{ id: "5F17176D276B1139", type: "item", item: { count: 1, id: "cobblemon:pc" } }]
 			rewards: [{ id: "5FE72A6747941786", type: "xp", xp: 150 }]
@@ -43,7 +43,7 @@
 		{
 			id: "2591340770B744DF"
 			x: 4.0d
-			y: 1.5d
+			y: 0.0d
 			dependencies: ["79E1C4272D089026"]
 			tasks: [{ id: "6E33C764C7E5400B", type: "item", item: { count: 1, id: "cobblemon:pokedex_red" } }]
 			rewards: [{ id: "67DD193122DA90ED", type: "xp", xp: 150 }]
@@ -51,7 +51,7 @@
 		{
 			id: "2D22D6E97454D1FD"
 			x: 6.0d
-			y: 0.0d
+			y: 3.0d
 			dependencies: ["05F16A6C0EDEA9AC"]
 			tasks: [{ id: "151A40FEA054616A", type: "item", item: { count: 1, id: "cobblemon:pasture" } }]
 			rewards: [{ id: "2AC5308E0E4A6ACE", type: "xp", xp: 150 }]
@@ -59,7 +59,7 @@
 		{
 			id: "77AB01B5735F1F18"
 			x: 4.0d
-			y: 3.0d
+			y: 1.5d
 			dependencies: ["79E1C4272D089026"]
 			tasks: [{ id: "7279DE95395E8259", type: "checkmark" }]
 			rewards: [{ id: "0F190F53695989D8", type: "item", item: { count: 10, id: "cobblemon:poke_ball" } }]

@@ -272,21 +272,29 @@ def validate(ids):
     return problems
 
 def layout(quests):
-    """Place quests by dependency depth (columns) and order (rows)."""
+    """Tree layout: column = dependency depth, and each branch gets its own block of rows, so
+    connection lines never cross. A quest sits on the same row as its first child (a straight line);
+    later children go below. Every quest is placed under its first dependency."""
+    byk = {q["key"]: q for q in quests}
+    children = {q["key"]: [] for q in quests}
+    for q in quests:
+        if q["deps"]: children[q["deps"][0]].append(q)
     depth = {}
     def d(q):
-        if q["key"] in depth: return depth[q["key"]]
-        byk = {x["key"]: x for x in quests}
-        depth[q["key"]] = 0 if not q["deps"] else 1 + max(d(byk[k]) for k in q["deps"])
+        if q["key"] not in depth:
+            depth[q["key"]] = 0 if not q["deps"] else 1 + max(d(byk[k]) for k in q["deps"])
         return depth[q["key"]]
-    for q in quests: d(q)
-    rows = {}
-    pos = {}
+    row, nxt = {}, [0]
+    def place(q):
+        kids = children[q["key"]]
+        if not kids:
+            row[q["key"]] = nxt[0]; nxt[0] += 1
+        else:
+            for k in kids: place(k)
+            row[q["key"]] = row[kids[0]["key"]]
     for q in quests:
-        col = depth[q["key"]]
-        row = rows.get(col, 0); rows[col] = row + 1
-        pos[q["key"]] = (col * 2.0, row * 1.5)
-    return pos
+        if not q["deps"]: place(q)
+    return {q["key"]: (d(q) * 2.0, row[q["key"]] * 1.5) for q in quests}
 
 def main(ids_path, out_dir):
     ids = json.load(open(ids_path))

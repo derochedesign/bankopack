@@ -44,7 +44,7 @@
 		{
 			id: "07E13B289262AE88"
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 			dependencies: []
 			tasks: [{ id: "1BF0108D6B07D5E3", type: "item", item: { count: 1, id: "irons_spellbooks:inscription_table" } }]
 			rewards: [{ id: "4189155878A6CE84", type: "item", item: { count: 4, id: "irons_spellbooks:common_ink" } }]
@@ -53,7 +53,7 @@
 		{
 			id: "78975E4FB0D52F14"
 			x: 2.0d
-			y: 1.5d
+			y: 3.0d
 			dependencies: ["07E13B289262AE88"]
 			tasks: [{ id: "2F5A475FACD64DBC", type: "item", item: { count: 1, id: "irons_spellbooks:scroll_forge" } }]
 			rewards: [{ id: "711C0B9DE7A8FE1D", type: "xp", xp: 200 }]

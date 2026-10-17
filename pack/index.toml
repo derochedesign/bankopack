@@ -42,15 +42,15 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bosses.snbt"
-hash = "e991f60ffca3bdaf60c789ed4d9a6d143dfeaa2b82fc902dee82047d6775ee16"
+hash = "1bb348b4d2593fdc427a37c685b521b303eefe5a0d626248003530e550aaa6c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/classes.snbt"
-hash = "51a46c482f2d4ff70ab48855b2b20de690b341e66ecce795083caccfdb6e5f81"
+hash = "0eb74a57810a28e1d23452298a93750e507afcec074b7c7eddb770b7f288cbe3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "675e488cecb571af17b7835e354e1e17f4b9679b1331c40f32f97a1cba5b3f48"
+hash = "157b024b02e4571b9227cdb69187b963b89bf227f8fa0c4229c1131345ca7086"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/dimensions.snbt"
@@ -58,15 +58,15 @@ hash = "b98ee350ed80ca4ea84869e6efc16d3ef8655a7cdcc29ce3279ab16a6ac64b0e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gear.snbt"
-hash = "41ac1d1d892269ffb24be5c83d3c8a707dbf792c9b4917469a3592e95452e25b"
+hash = "289faccb962856cdf1d18f8eb8c1d046b4d86ac9996fda0bc921c5578872618d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pokemon.snbt"
-hash = "c8d792d9707b27c4c06d4262940768834726af1c710d7460c089fc1d5ae82c82"
+hash = "3fdb61b96315b7cdfe85fcebc10ca465af3b83e9587629bd2a39cbf45ba3b57f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "5a998e1674c2eff18f7ed637577e5e6a05ab36b89e7e90355ca0300fff62dc08"
+hash = "6743a26c9bcb66ceb56003dd8474f995beb5595efc8a38604d9c28517e9c4ccd"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
