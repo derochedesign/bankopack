@@ -22,7 +22,7 @@ hash = "bc07062f568535d140029b16419626931f5988f2ef353d237182e2a967c6c596"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "51dfa11984ac0186b358e5cc8644d64a4cb8d4a1294488820b65663868b5c446"
+hash = "0034d00acf1805439e795f6038498e9ba75179df280304c522d746600186cd35"
 
 [[files]]
 file = "config/critical_strike/server_config.json"
