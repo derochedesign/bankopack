@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "server.AutosaveMessageMixin",
+    "server.NaturalSpawnerMixin",
     "tbos.AdventureWorldManagerMixin"
   ],
   "injectors": {
