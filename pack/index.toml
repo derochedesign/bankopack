@@ -58,7 +58,7 @@ hash = "4ffe1efde066e143e32def04300cc2fdd9ff1908aaf5bbdf505b65f2b883fcfe"
 
 [[files]]
 file = "config/ftbessentials.snbt"
-hash = "5318b2e8442f3b702951eb9b544fbe5ab57a88e7ccd2754eab64b4b69c7019d9"
+hash = "c1283c6a352afd3b3bc708417d5d76d16663bdac18e635c3b6a515f9fb3055cb"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
