@@ -126,6 +126,10 @@ file = "config/rearm/config.toml"
 hash = "389aa7b667e62d16e3b51d094dbb65b2d7dc21f5e9120e8f6acd96cecab40eb7"
 
 [[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "146219d47a5ae913423c0ecdc59ebd3f5a2a358d3e4cc4bdcf412476de9e4b1c"
+
+[[files]]
 file = "config/simplytooltips/config.toml"
 hash = "8d841088fcf91c96c3c4bff112f604961129c55687906fa0e8fd3968cc45002a"
 
