@@ -30,6 +30,9 @@ public class BankopackTweaks {
             } else {
                 LOGGER.info("Iris not installed; dimension-based shader switching is inactive");
             }
+            if (ModList.get().isLoaded("jei")) {
+                NeoForge.EVENT_BUS.addListener(dev.bankopack.tweaks.jei.FtbRecipeKeys::onKeyPressed);
+            }
         }
     }
 }

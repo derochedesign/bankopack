@@ -7,10 +7,14 @@ import java.util.Map;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.registration.IModInfoRegistration;
+import mezz.jei.api.runtime.IJeiRuntime;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.fml.ModList;
 
-/** Registers extra mod-name aliases so JEI's @ search can group several mods under one name. */
+/**
+ * Registers extra mod-name aliases so JEI's @ search can group several mods under one name, and hands the JEI
+ * runtime to {@link FtbRecipeKeys}.
+ */
 @JeiPlugin
 public class BankopackJeiPlugin implements IModPlugin {
     private static final ResourceLocation UID = ResourceLocation.fromNamespaceAndPath(BankopackTweaks.MODID, "mod_aliases");
@@ -29,5 +33,15 @@ public class BankopackJeiPlugin implements IModPlugin {
                 }
             }
         }
+    }
+
+    @Override
+    public void onRuntimeAvailable(IJeiRuntime jeiRuntime) {
+        FtbRecipeKeys.setRuntime(jeiRuntime);
+    }
+
+    @Override
+    public void onRuntimeUnavailable() {
+        FtbRecipeKeys.setRuntime(null);
     }
 }
