@@ -29,6 +29,10 @@ file = "config/critical_strike/server_config.json"
 hash = "5badba4aded9fa02b018922a6930fe0f97875725344d578083cd1ec61c43d842"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "162dd161e059fb5e68b4cfe91f0e8610348ca3192f8322fa3d5a06c4bae33070"
+
+[[files]]
 file = "config/enhancedcelestials2core/translations.json"
 hash = "ca187fe5c82c892b512d33479b28c0ade281734322ad2261732654cb3fb52d88"
 
