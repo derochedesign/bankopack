@@ -277,8 +277,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.19.0.jar"
-hash = "ce22383814b4180d432020de14f0dedf50347e15405955e4eac6e0832f1f507a"
+file = "mods/bankopack-1.20.0.jar"
+hash = "a7f0603f096890d0b78ffa97d196921869e2d145f18eebf156ab09b469fde0b8"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"

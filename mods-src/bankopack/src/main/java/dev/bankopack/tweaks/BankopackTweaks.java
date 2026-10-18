@@ -37,6 +37,7 @@ public class BankopackTweaks {
         NeoForge.EVENT_BUS.addListener(TerrainStatsCommand::register);
         dev.bankopack.tweaks.world.JoinProtection.register();
         if (ModList.get().isLoaded("mtr")) dev.bankopack.tweaks.world.MtrNodeDrops.register();
+        if (ModList.get().isLoaded("rctmod")) dev.bankopack.tweaks.world.StoryTrainerAnnouncer.register();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
             BankopackClient.init(modBus, container);
