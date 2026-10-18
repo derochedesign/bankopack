@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "tag": "c:ingots/iron"
+    },
+    "P": {
+      "item": "paraglider:paraglider"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "MPM",
+    "MMM"
+  ],
+  "result": {
+    "id": "paraglider:paraglider",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\": \"Iron Paraglider\"}",
+      "minecraft:lore": [
+        "{\"text\": \"Glides 2x longer on the same stamina\", \"italic\": false, \"color\": \"gray\"}"
+      ],
+      "minecraft:rarity": "uncommon",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "paraglider:paragliding_stamina_efficiency",
+            "id": "bankopack:iron_paraglider",
+            "amount": 1.0,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": true
+      }
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "paraglider"
+    }
+  ]
+}
