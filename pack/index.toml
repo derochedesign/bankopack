@@ -105,6 +105,10 @@ file = "config/ftbultimine-server.snbt"
 hash = "905763341f90d93de609fb277647ad75ca9fad298afc449b70201955e3db6519"
 
 [[files]]
+file = "config/gravestone-server.toml"
+hash = "d37470a9acd9368d82dde1b33ed52cdbb201e81d4ea811bc3b0cbc10800ddf33"
+
+[[files]]
 file = "config/particlerain/config.json"
 hash = "11106bcbfb54d190f0eaec05f6e9f1c6338402cbc7f8beca66d58a202f4f6876"
 
