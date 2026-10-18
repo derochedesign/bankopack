@@ -86,3 +86,11 @@ config="bankopack.mixins.json"
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+# Overrides its blood moon event files (no sleep blocking), so our data must load after it.
+[[dependencies.${mod_id}]]
+    modId="enhancedcelestials2defaultlunarevents"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
