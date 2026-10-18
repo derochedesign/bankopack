@@ -302,6 +302,11 @@ hash = "c430ac5fe10a7c373106a1956fe5bcab3f907157c834cf2ad09c0f9d98bb93c6"
 metafile = true
 
 [[files]]
+file = "mods/bettergrassify.pw.toml"
+hash = "a850075a3b7e380701f0291f6151487d0a05bb54db125c8edf9f96a696b73188"
+metafile = true
+
+[[files]]
 file = "mods/betternether-neoforge.pw.toml"
 hash = "a0d406e2b722812234673ac27acc6bb2cc8f537cd47f25ad7f2603e697514b22"
 metafile = true
@@ -579,6 +584,11 @@ metafile = true
 [[files]]
 file = "mods/forcemaster-rpg-class.pw.toml"
 hash = "58230603e8f3c65794d3e5c909ced20db14fc65937fc7241aaf4486c1b3c1a22"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "0aa7d07cd287890eabee0a1d0e998f2bf320f67c30a74d6756ef3791c52967c8"
 metafile = true
 
 [[files]]
