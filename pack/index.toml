@@ -5,10 +5,6 @@ file = "config/accessories.json5"
 hash = "ab092d16630688b25a37612342c9d08f7874dd76ce5381e36f1274f59473cba9"
 
 [[files]]
-file = "config/bankopack-client.toml"
-hash = "d71ef17e5e35b443fce67df24b2631de17d66d9c7103fc035e263772c3ced885"
-
-[[files]]
 file = "config/bettercombat/client.json5"
 hash = "073deb1ed8efc831daf114edba8c905a83b8c527c9ff9e6380c4f3cc098ee566"
 
@@ -277,8 +273,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.14.0.jar"
-hash = "1dbfddc02c8306a0de19d98cc7139e3a082e16bbd5bad3f40f6f9fa642c9a5b6"
+file = "mods/bankopack-1.15.0.jar"
+hash = "62d434450829630d34ac3243cba2c00fa10ea04b5c9f9e2b81bbf11227920c61"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"

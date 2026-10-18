@@ -11,13 +11,14 @@ public final class Config {
 
     private static final ModConfigSpec.ConfigValue<List<? extends String>> SHADER_OFF_DIMENSIONS;
     private static final ModConfigSpec.ConfigValue<List<? extends String>> JEI_MOD_ALIASES;
+    public static final ModConfigSpec.DoubleValue GUI_SCALE;
 
     static {
         BUILDER.push("shaders");
         SHADER_OFF_DIMENSIONS = BUILDER
             .comment("Dimensions where Iris shaders are turned off automatically.",
                      "Use full IDs like \"ad_astra:moon\", or \"namespace:*\" for every dimension from a mod.")
-            .defineListAllowEmpty("dimensions", List.of("ad_astra:*"), () -> "", Config::isValidDimensionEntry);
+            .defineListAllowEmpty("dimensions", List.of("ad_astra:*", "the_bumblezone:the_bumblezone", "eternal_starlight:starlight"), () -> "", Config::isValidDimensionEntry);
         BUILDER.pop();
 
         BUILDER.push("jei");
@@ -28,6 +29,14 @@ public final class Config {
                 "rpg=wizards,paladins,rogues,archers,jewelry,spell_engine,runes,skill_tree_rpgs,more_rpg_classes,"
                     + "berserker_rpg,forcemaster_rpg,witcher_rpg,elemental_wizards_rpg,bards_rpg"),
                 () -> "", Config::isValidAliasEntry);
+        BUILDER.pop();
+
+        BUILDER.push("gui");
+        GUI_SCALE = BUILDER
+            .comment("GUI scale to use instead of the whole-number Video Settings slider, e.g. 2.5.",
+                     "Capped to the largest scale your window fits (the same limit as vanilla's Auto).",
+                     "Set to 0 to use the vanilla slider again.")
+            .defineInRange("gui_scale", 2.5, 0.0, 8.0);
         BUILDER.pop();
     }
 

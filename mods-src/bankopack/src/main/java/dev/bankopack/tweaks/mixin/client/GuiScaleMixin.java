@@ -1,7 +1,7 @@
 package dev.bankopack.tweaks.mixin.client;
 
 import com.mojang.blaze3d.platform.Window;
-import dev.bankopack.tweaks.GuiScaleConfig;
+import dev.bankopack.tweaks.Config;
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -24,7 +24,7 @@ public abstract class GuiScaleMixin {
     private double bankopack$fractionalGuiScale(double vanillaScale) {
         double wanted;
         try {
-            wanted = GuiScaleConfig.SCALE.get();
+            wanted = Config.GUI_SCALE.get();
         } catch (IllegalStateException notLoadedYet) {
             return vanillaScale;
         }
