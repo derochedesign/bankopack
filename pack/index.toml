@@ -119,7 +119,7 @@ metafile = true
 
 [[files]]
 file = "config/rctmod-server.toml"
-hash = "e4c2d89f220d40baae99f05f032a556f84593e64cc3f33e99e8111414d5c0f9d"
+hash = "37bec8e81fc06e7e88e746f86f3e0ab821b31a9e36bed052a18413383bcff404"
 
 [[files]]
 file = "config/rearm/config.toml"
@@ -273,8 +273,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.16.0.jar"
-hash = "6f5dc1f5e038bf2313180716b1d0e00a8c944684ceeeb6e5689c6ba4370e7974"
+file = "mods/bankopack-1.17.0.jar"
+hash = "6a10b238cb554939a52cab7eac6e5eda12f41b48cb246ccd9dbd2ac670229928"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"

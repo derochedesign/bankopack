@@ -1,0 +1,27 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void"
+  ],
+  "biomeTagWhitelist": [
+    "is_nether",
+    "has_structure/end_city",
+    "is_badlands",
+    "is_wasteland",
+    "is_savanna"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "rocket_admin_ariana_0044"
+    ]
+  ],
+  "series": [
+    "radicalred"
+  ],
+  "signatureItem": "cobblemon:destiny_knot",
+  "spawnWeightFactor": 2.0,
+  "type": "team_rocket"
+}

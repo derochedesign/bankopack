@@ -94,3 +94,11 @@ config="bankopack.mixins.json"
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+# Overrides its story trainers' spawn data (higher spawn weight), so our data must load after it.
+[[dependencies.${mod_id}]]
+    modId="rctmod"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

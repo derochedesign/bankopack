@@ -1,0 +1,27 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void",
+    "is_nether",
+    "is_end"
+  ],
+  "biomeTagWhitelist": [
+    "is_badlands",
+    "is_wasteland",
+    "is_savanna"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "leader_erika_01a1"
+    ]
+  ],
+  "series": [
+    "radicalred"
+  ],
+  "signatureItem": "cobblemon:upgrade",
+  "spawnWeightFactor": 2.0,
+  "type": "team_rocket"
+}

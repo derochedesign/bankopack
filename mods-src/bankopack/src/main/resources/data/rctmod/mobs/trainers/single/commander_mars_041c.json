@@ -1,0 +1,27 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void",
+    "is_end"
+  ],
+  "biomeTagWhitelist": [
+    "is_nether",
+    "is_badlands",
+    "is_wasteland",
+    "is_savanna"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "commander_saturn_041f"
+    ]
+  ],
+  "series": [
+    "bdsp"
+  ],
+  "signatureItem": "minecraft:fire_charge",
+  "spawnWeightFactor": 2.0,
+  "type": "team_galactic"
+}

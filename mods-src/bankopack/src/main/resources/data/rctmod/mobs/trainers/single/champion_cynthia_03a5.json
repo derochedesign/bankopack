@@ -1,0 +1,24 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void"
+  ],
+  "biomeTagWhitelist": [
+    "has_structure/end_city",
+    "is_rare"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "elite_four_lucian_03a2"
+    ]
+  ],
+  "series": [
+    "bdsp"
+  ],
+  "signatureItem": "cobblemon:prism_scale",
+  "spawnWeightFactor": 2.0,
+  "type": "champ"
+}

@@ -1,0 +1,27 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void"
+  ],
+  "biomeTagWhitelist": [
+    "is_nether",
+    "has_structure/end_city",
+    "is_badlands",
+    "is_wasteland",
+    "is_savanna"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "leader_blaine_01a3"
+    ]
+  ],
+  "series": [
+    "radicalred"
+  ],
+  "signatureItem": "cobblemon:covert_cloak",
+  "spawnWeightFactor": 2.0,
+  "type": "team_rocket"
+}

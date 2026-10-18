@@ -1,0 +1,25 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void"
+  ],
+  "biomeTagWhitelist": [
+    "is_rare",
+    "has_structure/end_city"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": true,
+  "requiredDefeats": [
+    [
+      "champion_terry_01b6",
+      "champion_terry_01b7",
+      "champion_terry_01b8"
+    ]
+  ],
+  "series": [
+    "radicalred"
+  ],
+  "spawnWeightFactor": 2.0,
+  "type": "rival"
+}
