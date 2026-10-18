@@ -25,18 +25,27 @@ public final class JoinProtection {
     private record Guard(Vec3 start, int ticks) {}
 
     private static final Map<UUID, Guard> GUARDED = new HashMap<>();
+    /** Players who clicked Disconnect, with ticks left before protection lapses (in case they never leave). */
+    private static final Map<UUID, Integer> LEAVING = new HashMap<>();
+    private static final int LEAVING_MAX_TICKS = 20 * 30;
 
     private JoinProtection() {}
 
     public static void register() {
         NeoForge.EVENT_BUS.addListener(PlayerEvent.PlayerLoggedInEvent.class, e -> guard(e.getEntity()));
         NeoForge.EVENT_BUS.addListener(PlayerEvent.PlayerChangedDimensionEvent.class, e -> guard(e.getEntity()));
-        NeoForge.EVENT_BUS.addListener(PlayerEvent.PlayerLoggedOutEvent.class, e -> GUARDED.remove(e.getEntity().getUUID()));
+        NeoForge.EVENT_BUS.addListener(PlayerEvent.PlayerLoggedOutEvent.class, e -> {
+            GUARDED.remove(e.getEntity().getUUID());
+            LEAVING.remove(e.getEntity().getUUID());
+        });
         NeoForge.EVENT_BUS.addListener(LivingIncomingDamageEvent.class, e -> {
-            if (e.getEntity() instanceof ServerPlayer p && GUARDED.containsKey(p.getUUID())) e.setCanceled(true);
+            if (e.getEntity() instanceof ServerPlayer p && (GUARDED.containsKey(p.getUUID()) || LEAVING.containsKey(p.getUUID()))) {
+                e.setCanceled(true);
+            }
         });
         NeoForge.EVENT_BUS.addListener(PlayerTickEvent.Post.class, e -> {
             if (!(e.getEntity() instanceof ServerPlayer p)) return;
+            LEAVING.computeIfPresent(p.getUUID(), (id, left) -> left > 1 ? left - 1 : null);
             Guard g = GUARDED.get(p.getUUID());
             if (g == null) return;
             if (p.position().distanceToSqr(g.start()) > MOVE_DISTANCE_SQR || g.ticks() >= MAX_TICKS) {
@@ -57,6 +66,11 @@ public final class JoinProtection {
 
     private static void releaseIfServer(net.minecraft.world.entity.player.Player player) {
         if (player instanceof ServerPlayer p) release(p);
+    }
+
+    /** Called when the client says it clicked Disconnect; lasts until logout or 30 seconds. */
+    public static void guardLeaving(ServerPlayer p) {
+        LEAVING.put(p.getUUID(), LEAVING_MAX_TICKS);
     }
 
     private static void guard(net.minecraft.world.entity.player.Player player) {

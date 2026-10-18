@@ -33,8 +33,10 @@ public class BankopackTweaks {
     public BankopackTweaks(IEventBus modBus, ModContainer container) {
         container.registerConfig(ModConfig.Type.CLIENT, Config.SPEC);
         BIOME_MODIFIERS.register(modBus);
+        modBus.addListener(dev.bankopack.tweaks.network.LeavingPayload::register);
         NeoForge.EVENT_BUS.addListener(TerrainStatsCommand::register);
         dev.bankopack.tweaks.world.JoinProtection.register();
+        if (ModList.get().isLoaded("mtr")) dev.bankopack.tweaks.world.MtrNodeDrops.register();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
             BankopackClient.init(modBus, container);

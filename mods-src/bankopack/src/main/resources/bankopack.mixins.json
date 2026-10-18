@@ -12,6 +12,7 @@
     "defaultRequire": 0
   },
   "client": [
-    "client.GuiScaleMixin"
+    "client.GuiScaleMixin",
+    "client.PauseScreenMixin"
   ]
 }
