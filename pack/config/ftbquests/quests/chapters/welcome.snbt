@@ -65,9 +65,18 @@
 			rewards: [{ id: "258C21359DCB0CE1", type: "item", item: { count: 8, id: "minecraft:bread" } }]
 		}
 		{
-			id: "5CF2E0EC2A1FB7C9"
+			id: "5B5C845071F248DF"
 			x: 2.0d
 			y: 6.0d
+			dependencies: ["49814E8944EDFB47"]
+			tasks: [{ id: "06E40D42D950D7D2", type: "checkmark" }]
+			rewards: [{ id: "7F5C517E5AF11CDF", type: "item", item: { count: 1, id: "immersiveengineering:manual" } }, { id: "39174F8A3932CDB3", type: "item", item: { count: 1, id: "ae2:guide" } }, { id: "381DB3DB6A9FC5DC", type: "item", item: { count: 1, id: "industrialforegoing:book_manual" } }, { id: "078BEA2ADEC84124", type: "item", item: { count: 1, id: "rftoolsbase:manual" } }, { id: "477D82BD52BC0ACA", type: "item", item: { count: 1, id: "xnet:xnet_manual" } }, { id: "276615361CF906CA", type: "item", item: { count: 1, id: "ad_astra:astrodux" } }, { id: "56CD5C0C067FAE3B", type: "item", item: { count: 1, id: "aether:book_of_lore" } }, { id: "2C457336F031EF11", type: "item", item: { count: 1, id: "eternal_starlight:book" } }, { id: "4FA5619DFE0B110F", type: "item", item: { count: 1, id: "herbsandharvest:guide_book" } }, { id: "0E3F94A4EE506888", type: "item", item: { count: 1, id: "legendary_monsters:guide_book" } }, { id: "460BEEE7BCD52D1C", type: "item", item: { count: 1, id: "patchouli:guide_book", components: { "patchouli:book": "apotheosis:apoth_chronicle" } } }, { id: "15F3D4884F02CEA3", type: "item", item: { count: 1, id: "patchouli:guide_book", components: { "patchouli:book": "irons_spellbooks:iss_guide_book" } } }, { id: "48E98CC56F7D94AE", type: "item", item: { count: 1, id: "patchouli:guide_book", components: { "patchouli:book": "goety:black_book" } } }, { id: "36D7856DB1AFB9CD", type: "item", item: { count: 1, id: "patchouli:guide_book", components: { "patchouli:book": "goety:witches_brew" } } }, { id: "4F4D1DD5C3C6E048", type: "item", item: { count: 1, id: "patchouli:guide_book", components: { "patchouli:book": "weaversparadise:weavers_manual" } } }]
+			icon: { count: 1, id: "patchouli:guide_book" }
+		}
+		{
+			id: "5CF2E0EC2A1FB7C9"
+			x: 2.0d
+			y: 7.5d
 			dependencies: ["49814E8944EDFB47"]
 			tasks: [{ id: "38215AF0B06CF8D3", type: "checkmark" }]
 			rewards: [{ id: "716E8E8EC886E7ED", type: "xp", xp: 50 }]

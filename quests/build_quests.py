@@ -18,7 +18,8 @@ def kill(e, n=1): return {"type": "kill", "entity": e, "value": n}
 def dim(d): return {"type": "dimension", "dimension": d}
 def adv(a): return {"type": "advancement", "advancement": a}
 def check(): return {"type": "checkmark"}
-def give(i, n=1): return {"type": "item", "item": i, "count": n}
+def give(i, n=1, components=None): return {"type": "item", "item": i, "count": n, "components": components}
+def patchouli_book(book): return give("patchouli:guide_book", components={"patchouli:book": book})
 def xp(n): return {"type": "xp", "xp": n}
 
 # Quest: (key, title, [tasks], [rewards], [description lines], deps=[keys], optional=False)
@@ -56,6 +57,18 @@ CHAPTERS = [
     Q("kitchen", "Cooking Pot", [item("farmersdelight:cooking_pot")], [give("minecraft:bread", 8)], [
       "Farmer's Delight meals restore more hunger and give effects.",
       "Cooking pots need a fire or campfire underneath. Check JEI for recipes."], deps=["welcome"]),
+    Q("guides", "Guide Books", [check()], [
+        give("immersiveengineering:manual"), give("ae2:guide"), give("industrialforegoing:book_manual"),
+        give("rftoolsbase:manual"), give("xnet:xnet_manual"), give("ad_astra:astrodux"), give("aether:book_of_lore"),
+        give("eternal_starlight:book"), give("herbsandharvest:guide_book"), give("legendary_monsters:guide_book"),
+        patchouli_book("apotheosis:apoth_chronicle"), patchouli_book("irons_spellbooks:iss_guide_book"),
+        patchouli_book("goety:black_book"), patchouli_book("goety:witches_brew"),
+        patchouli_book("weaversparadise:weavers_manual")], [
+      "Claim this for every mod's guide book in one go, instead of hunting for them in JEI:",
+      "Immersive Engineering, AE2, Industrial Foregoing, RFTools, XNet, Ad Astra, the Aether,",
+      "Eternal Starlight, Mama's Herbs and Harvest, Legendary Monsters, Apotheosis, Iron's Spells,",
+      "Goety (two books) and Weavers Paradise.",
+      "Create has no book: hover an item and hold &aW&r for its Ponder tutorial."], deps=["welcome"], icon="patchouli:guide_book"),
     Q("graves", "Gravestones", [check()], [xp(50)], [
       "When you die, your items (including accessories and backpack) go into a &bgravestone&r",
       "where you died. Open it to get everything back."], deps=["welcome"]),
@@ -228,7 +241,11 @@ def oid(*parts):
 
 def s(v): return json.dumps(v, ensure_ascii=False)  # SNBT-compatible quoted string
 
-def stack(i, n=1): return f'{{ count: {n}, id: {s(i)} }}'
+def stack(i, n=1, components=None):
+    if components:
+        comps = ", ".join(f"{s(k)}: {s(v)}" for k, v in components.items())
+        return f'{{ count: {n}, id: {s(i)}, components: {{ {comps} }} }}'
+    return f'{{ count: {n}, id: {s(i)} }}'
 
 def icon_stack(i):
     """An item ID, or "sprite:<texture>" for FTB Quests' custom icon showing a block-atlas texture
@@ -253,7 +270,7 @@ def snbt_task(t, tid):
 
 def snbt_reward(r, rid):
     if r["type"] == "item":
-        return f'{{ id: {s(rid)}, type: "item", item: {stack(r["item"], r["count"])} }}'
+        return f'{{ id: {s(rid)}, type: "item", item: {stack(r["item"], r["count"], r.get("components"))} }}'
     return f'{{ id: {s(rid)}, type: "xp", xp: {r["xp"]} }}'
 
 def validate(ids):

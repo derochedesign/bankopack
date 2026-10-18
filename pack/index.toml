@@ -90,7 +90,7 @@ hash = "3fdb61b96315b7cdfe85fcebc10ca465af3b83e9587629bd2a39cbf45ba3b57f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "6743a26c9bcb66ceb56003dd8474f995beb5595efc8a38604d9c28517e9c4ccd"
+hash = "064bacc9cb8e70b2226d4b3661ae69d90bffe7105ede3df9c7b46aac3587ac71"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -98,7 +98,7 @@ hash = "782faa93e8a0936c9befb1c61caed23ec693bb4626f514c93d78724cb5c8b519"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c4949fc78215cd2250c730bfefa69881576e48750c3660d4de9bb9159656c25d"
+hash = "a425b2cae3b5901864a59efa1b1d7846e9e2ea780ba6d41d57f6b16922054f58"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
