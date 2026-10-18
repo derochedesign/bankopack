@@ -16,6 +16,15 @@
         },
         "auto_refill_enable_horbar_indicator_icons": {
             "value": false
+        },
+        "number_of_notifications": {
+            "value": 1
+        },
+        "allow_break_for_non_enchanted": {
+            "value": true
+        },
+        "tool_max_durability_threshold": {
+            "value": 1500
         }
     }
 }
