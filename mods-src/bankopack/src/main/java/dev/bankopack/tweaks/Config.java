@@ -33,10 +33,10 @@ public final class Config {
 
         BUILDER.push("gui");
         GUI_SCALE = BUILDER
-            .comment("GUI scale to use instead of the whole-number Video Settings slider, e.g. 2.5.",
+            .comment("GUI scale to use instead of the whole-number Video Settings slider, e.g. 2.4.",
                      "Capped to the largest scale your window fits (the same limit as vanilla's Auto).",
                      "Set to 0 to use the vanilla slider again.")
-            .defineInRange("gui_scale", 2.5, 0.0, 8.0);
+            .defineInRange("gui_scale", 2.4, 0.0, 8.0);
         BUILDER.pop();
     }
 
