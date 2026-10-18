@@ -34,6 +34,7 @@ public class BankopackTweaks {
         container.registerConfig(ModConfig.Type.CLIENT, Config.SPEC);
         BIOME_MODIFIERS.register(modBus);
         NeoForge.EVENT_BUS.addListener(TerrainStatsCommand::register);
+        dev.bankopack.tweaks.world.JoinProtection.register();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
             BankopackClient.init(modBus, container);
