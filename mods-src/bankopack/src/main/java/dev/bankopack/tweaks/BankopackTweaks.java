@@ -36,6 +36,7 @@ public class BankopackTweaks {
         NeoForge.EVENT_BUS.addListener(TerrainStatsCommand::register);
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
+            BankopackClient.init(modBus, container);
             // ShaderSwitcher references Iris classes, so only touch it when Iris is present.
             // The JEI plugin is discovered by JEI itself via @JeiPlugin, so it needs no wiring here.
             if (ModList.get().isLoaded("iris")) {
