@@ -154,6 +154,10 @@ file = "config/tectonic.json"
 hash = "f83a0adc0b34705557e874fa58263b1c3896250208950b33faf97638e720d555"
 
 [[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -269,8 +273,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.12.0.jar"
-hash = "f9a212f180f066affeaa7567438345f3e3f8a0fdfe27f23d147ee9681ca75764"
+file = "mods/bankopack-1.13.0.jar"
+hash = "f192558b96c581011af58c55af5393c5fcff2c41db0d001a112c6287a2ef75af"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
@@ -1244,12 +1248,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "aba95d9a82a7cedda4c0ce936ead9c764d0ffbc10483f0648d022213df7bb703"
+hash = "e97cb865d7a8c8310905d9140899fa55ea23c3fff2e23a17255ce2c162322ad7"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "f4bc20e3483a7a935b9ee674227aad73d24ecc4ea93e6c2d99955927a2197b20"
+hash = "3a8e91aecdb602039ba1f7445bbf6b64cc5a46344339a3ffaf3b2e3eb2f5bcbc"
 metafile = true
 
 [[files]]

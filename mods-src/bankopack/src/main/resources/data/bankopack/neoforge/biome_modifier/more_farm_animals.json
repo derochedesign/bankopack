@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#bankopack:farm_animal_biomes",
+  "spawners": [
+    { "type": "minecraft:cow", "weight": 10, "minCount": 2, "maxCount": 4 },
+    { "type": "minecraft:sheep", "weight": 10, "minCount": 2, "maxCount": 4 },
+    { "type": "minecraft:pig", "weight": 10, "minCount": 2, "maxCount": 4 },
+    { "type": "minecraft:chicken", "weight": 10, "minCount": 2, "maxCount": 4 }
+  ]
+}

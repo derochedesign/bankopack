@@ -3,6 +3,11 @@ package dev.bankopack.tweaks;
 import com.mojang.logging.LogUtils;
 import dev.bankopack.tweaks.debug.TerrainStatsCommand;
 import dev.bankopack.tweaks.shaders.ShaderSwitcher;
+import dev.bankopack.tweaks.world.CreatureProbabilityModifier;
+import com.mojang.serialization.MapCodec;
+import net.neoforged.neoforge.common.world.BiomeModifier;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.NeoForgeRegistries;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
@@ -18,8 +23,16 @@ public class BankopackTweaks {
     public static final String MODID = "bankopack";
     public static final Logger LOGGER = LogUtils.getLogger();
 
+    private static final DeferredRegister<MapCodec<? extends BiomeModifier>> BIOME_MODIFIERS =
+        DeferredRegister.create(NeoForgeRegistries.Keys.BIOME_MODIFIER_SERIALIZERS, MODID);
+
+    static {
+        BIOME_MODIFIERS.register("creature_probability", () -> CreatureProbabilityModifier.CODEC);
+    }
+
     public BankopackTweaks(IEventBus modBus, ModContainer container) {
         container.registerConfig(ModConfig.Type.CLIENT, Config.SPEC);
+        BIOME_MODIFIERS.register(modBus);
         NeoForge.EVENT_BUS.addListener(TerrainStatsCommand::register);
 
         if (FMLEnvironment.dist == Dist.CLIENT) {

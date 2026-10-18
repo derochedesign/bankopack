@@ -1,0 +1,6 @@
+{
+  "type": "bankopack:creature_probability",
+  "biomes": "#bankopack:farm_animal_biomes",
+  "multiplier": 2.0,
+  "max": 0.3
+}
