@@ -63,11 +63,11 @@ CHAPTERS = [
         give("eternal_starlight:book"), give("herbsandharvest:guide_book"), give("legendary_monsters:guide_book"),
         patchouli_book("apotheosis:apoth_chronicle"), patchouli_book("irons_spellbooks:iss_guide_book"),
         patchouli_book("goety:black_book"), patchouli_book("goety:witches_brew"),
-        patchouli_book("weaversparadise:weavers_manual")], [
+        patchouli_book("weaversparadise:weavers_manual"), give("ars_nouveau:worn_notebook")], [
       "Claim this for every mod's guide book in one go, instead of hunting for them in JEI:",
       "Immersive Engineering, AE2, Industrial Foregoing, RFTools, XNet, Ad Astra, the Aether,",
       "Eternal Starlight, Mama's Herbs and Harvest, Legendary Monsters, Apotheosis, Iron's Spells,",
-      "Goety (two books) and Weavers Paradise.",
+      "Goety (two books), Weavers Paradise and Ars Nouveau.",
       "Create has no book: hover an item and hold &aW&r for its Ponder tutorial."], deps=["welcome"], icon="patchouli:guide_book"),
     Q("graves", "Gravestones", [check()], [xp(50)], [
       "When you die, your items (including accessories and backpack) go into a &bgravestone&r",

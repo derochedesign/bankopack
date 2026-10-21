@@ -110,3 +110,19 @@ config="bankopack.mixins.json"
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+# Disables its end stone crushing recipe (conflicts with Aeronautics on servers), so our data must load after it.
+[[dependencies.${mod_id}]]
+    modId="create_ultimate_factory"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
+
+# Overrides its end stone powder crushing recipe with the merged Ultimate Factory version, so our data must load after it.
+[[dependencies.${mod_id}]]
+    modId="aeronautics"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

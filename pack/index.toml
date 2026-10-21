@@ -94,7 +94,7 @@ hash = "3fdb61b96315b7cdfe85fcebc10ca465af3b83e9587629bd2a39cbf45ba3b57f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "064bacc9cb8e70b2226d4b3661ae69d90bffe7105ede3df9c7b46aac3587ac71"
+hash = "e819f851aae4e440c05968d4856bb9970e7048b1106c00b256976b73e561a4da"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -102,7 +102,7 @@ hash = "782faa93e8a0936c9befb1c61caed23ec693bb4626f514c93d78724cb5c8b519"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "a425b2cae3b5901864a59efa1b1d7846e9e2ea780ba6d41d57f6b16922054f58"
+hash = "bab63c674b23d5ddd42cb920954ddf154793e5cc88f329e7478b6be1fa6f0477"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
@@ -266,6 +266,11 @@ hash = "dc7bc27468879b22da06641b444e1cd9e9fedc7fd6d8942f14f29756d7c4e59a"
 metafile = true
 
 [[files]]
+file = "mods/ars-nouveau.pw.toml"
+hash = "9645a2d42361e38b0747c43f5e82a7f74cd4f06940cad02d6591e7c81835f733"
+metafile = true
+
+[[files]]
 file = "mods/athena-ctm.pw.toml"
 hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
@@ -281,8 +286,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.24.0.jar"
-hash = "e91367c7fcafe2e543da211e5b963a62cc93cff15518f42304c781a4ebcf4f52"
+file = "mods/bankopack-1.25.0.jar"
+hash = "fcc54753f72878ee57a11400d81c0e72b6eb875556fb9cd5ea8b752020212d6f"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
@@ -427,6 +432,11 @@ metafile = true
 [[files]]
 file = "mods/create-sound-of-steam.pw.toml"
 hash = "a7a87fc6ea98d8fbaa426258990f2dec714699e98fb8a083f9a399c90d02844f"
+metafile = true
+
+[[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
 metafile = true
 
 [[files]]

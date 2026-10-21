@@ -103,7 +103,7 @@
 	"quest.55DF3D7332FFA9FE.title": "Skill Trees"
 	"quest.584AFC1BAC6B7B32.quest_desc": ["Build a Tier 1 rocket at a NASA Workbench, fuel it, place it on a launch pad and launch.", "You need a space suit: there's no air."]
 	"quest.584AFC1BAC6B7B32.title": "The Moon"
-	"quest.5B5C845071F248DF.quest_desc": ["Claim this for every mod's guide book in one go, instead of hunting for them in JEI:", "Immersive Engineering, AE2, Industrial Foregoing, RFTools, XNet, Ad Astra, the Aether,", "Eternal Starlight, Mama's Herbs and Harvest, Legendary Monsters, Apotheosis, Iron's Spells,", "Goety (two books) and Weavers Paradise.", "Create has no book: hover an item and hold &aW&r for its Ponder tutorial."]
+	"quest.5B5C845071F248DF.quest_desc": ["Claim this for every mod's guide book in one go, instead of hunting for them in JEI:", "Immersive Engineering, AE2, Industrial Foregoing, RFTools, XNet, Ad Astra, the Aether,", "Eternal Starlight, Mama's Herbs and Harvest, Legendary Monsters, Apotheosis, Iron's Spells,", "Goety (two books), Weavers Paradise and Ars Nouveau.", "Create has no book: hover an item and hold &aW&r for its Ponder tutorial."]
 	"quest.5B5C845071F248DF.title": "Guide Books"
 	"quest.5CF2E0EC2A1FB7C9.quest_desc": ["When you die, your items (including accessories and backpack) go into a &bgravestone&r", "where you died. Open it to get everything back."]
 	"quest.5CF2E0EC2A1FB7C9.title": "Gravestones"
