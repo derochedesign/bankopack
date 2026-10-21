@@ -106,7 +106,8 @@ public final class StoryTrainerAnnouncer {
             int distance = (int) Math.round(Math.sqrt(dx * dx + dz * dz));
             player.sendSystemMessage(Component.literal("Story trainer nearby: ").withStyle(ChatFormatting.GOLD)
                 .append(trainer.getDisplayName().copy().withStyle(ChatFormatting.YELLOW))
-                .append(Component.literal(" (" + distance + " blocks " + direction(dx, dz) + ")").withStyle(ChatFormatting.GRAY)));
+                .append(Component.literal(" (" + distance + " blocks " + direction(dx, dz)
+                    + height(trainer.getY() - player.getY()) + ")").withStyle(ChatFormatting.GRAY)));
         }
     }
 
@@ -116,6 +117,13 @@ public final class StoryTrainerAnnouncer {
         double angle = Math.toDegrees(Math.atan2(-dx, dz));
         int index = (int) Math.round(((angle % 360) + 360) % 360 / 45.0) % 8;
         return names[index];
+    }
+
+    /** Trainers often spawn in caves below the player; say so, rounded to 5 blocks. Small differences are left out. */
+    private static String height(double dy) {
+        int blocks = (int) Math.round(Math.abs(dy) / 5) * 5;
+        if (blocks < 5) return "";
+        return ", ~" + blocks + (dy > 0 ? " above" : " below");
     }
 
     private static Object call(Object target, String method) {
