@@ -58,7 +58,7 @@ hash = "40d43543bcbf23833fc8a309bb6a0685bfcab7b688cfb2bb133b0818f68b85b3"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
-hash = "b87e50a2dfb9c4a4926cb4d828a77c592b1c30d31a681153685d36c54b18d73c"
+hash = "e0727fb7c3869e7812bb5968a058ac3c1b38d52bdfad93be47cd5ebb773d595b"
 
 [[files]]
 file = "config/ftbessentials.snbt"
