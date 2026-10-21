@@ -102,3 +102,11 @@ config="bankopack.mixins.json"
     versionRange="*"
     ordering="AFTER"
     side="BOTH"
+
+# Overrides its Crystallized Desert biome (fewer Thirst Walkers), so our data must load after it.
+[[dependencies.${mod_id}]]
+    modId="eternal_starlight"
+    type="optional"
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"
