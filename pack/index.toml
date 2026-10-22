@@ -9,6 +9,10 @@ file = "config/bettercombat/client.json5"
 hash = "073deb1ed8efc831daf114edba8c905a83b8c527c9ff9e6380c4f3cc098ee566"
 
 [[files]]
+file = "config/bettercombat/server.json5"
+hash = "4a8fee951aa939a004248a0c5107d57d4891b74fc897809abc09b4f989be91c8"
+
+[[files]]
 file = "config/biome_replacer.properties"
 hash = "b2779fc51b8ff3b83af96140a753b9476d9bef1fbe44604b4c8b88565ab73304"
 

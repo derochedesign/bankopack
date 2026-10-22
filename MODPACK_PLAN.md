@@ -550,3 +550,4 @@ For comparing other big-terrain generators with DH + Iris. Each has DH, Sodium, 
 
 ## Resource budget
 Your PC: Ryzen 7 3700X, 32 GB RAM, RTX 3070 Ti → give the client **10–12 GB** heap. For a dedicated server with this list: 8–10 GB. Pregenerate with Chunky. Tectonic at vertical scale 3.7 with the higher build limit is noticeably slower to generate than vanilla.
+- **Better Combat cleaves (2026-10-21):** swings arc-hit everything nearby, so players could no longer hit a single farm animal (vanilla jump-crits never swept). `pack/config/bettercombat/server.json5` (copied from the live server, now shipped in the pack) sets `player_relation_to_passives` and `cobblemon:pokemon` to NEUTRAL: those only take damage when aimed at. Hostiles still get cleaved.
