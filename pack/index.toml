@@ -170,6 +170,10 @@ file = "config/xaero/lib/common.cfg"
 hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
 
 [[files]]
+file = "config/xnet-server.toml"
+hash = "af3ae8a23721e9ce244067a2fa940cace3c5ccd34b04a4d4a9b286aab37e1fd0"
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
@@ -1001,6 +1005,11 @@ metafile = true
 [[files]]
 file = "mods/paxi.pw.toml"
 hash = "215d597764d5c5db89e700fc3495b72dc0a7f09c975de19dc8c580bde3469a5e"
+metafile = true
+
+[[files]]
+file = "mods/pipez.pw.toml"
+hash = "03c2188c7c5aa4407964fd3bb20074b52eb2adf8897c3a22897cc037446450ce"
 metafile = true
 
 [[files]]
