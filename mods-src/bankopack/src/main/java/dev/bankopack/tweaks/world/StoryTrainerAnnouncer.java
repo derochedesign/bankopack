@@ -112,7 +112,7 @@ public final class StoryTrainerAnnouncer {
     }
 
     /** Compass direction from a horizontal offset (Minecraft: -Z is north, +X is east). */
-    private static String direction(double dx, double dz) {
+    static String direction(double dx, double dz) {
         String[] names = {"S", "SW", "W", "NW", "N", "NE", "E", "SE"};
         double angle = Math.toDegrees(Math.atan2(-dx, dz));
         int index = (int) Math.round(((angle % 360) + 360) % 360 / 45.0) % 8;
@@ -120,13 +120,13 @@ public final class StoryTrainerAnnouncer {
     }
 
     /** Trainers often spawn in caves below the player; say so, rounded to 5 blocks. Small differences are left out. */
-    private static String height(double dy) {
+    static String height(double dy) {
         int blocks = (int) Math.round(Math.abs(dy) / 5) * 5;
         if (blocks < 5) return "";
         return ", ~" + blocks + (dy > 0 ? " above" : " below");
     }
 
-    private static Object call(Object target, String method) {
+    static Object call(Object target, String method) {
         try {
             return target.getClass().getMethod(method).invoke(target);
         } catch (ReflectiveOperationException ex) {

@@ -39,6 +39,7 @@ public class BankopackTweaks {
         dev.bankopack.tweaks.world.KeepModFlagsOnDeath.register();
         if (ModList.get().isLoaded("mtr")) dev.bankopack.tweaks.world.MtrNodeDrops.register();
         if (ModList.get().isLoaded("rctmod")) dev.bankopack.tweaks.world.StoryTrainerAnnouncer.register();
+        if (ModList.get().isLoaded("cobblemon")) dev.bankopack.tweaks.world.ShinyAnnouncer.register();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
             BankopackClient.init(modBus, container);

@@ -61,7 +61,7 @@
   "displayEntityNameLabel": true,
   "displayNameForUnknownPokemon": false,
   "displayEntityLabelsWhenCrouchingOnly": false,
-  "shinyRate": 8192.0,
+  "shinyRate": 2048.0,
   "fossilMachineAlphaChance": 20,
   "fossilMachineShinyChance": 100,
   "honeySlatherAlphaChance": 100,

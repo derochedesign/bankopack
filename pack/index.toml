@@ -22,7 +22,7 @@ hash = "bc07062f568535d140029b16419626931f5988f2ef353d237182e2a967c6c596"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "0034d00acf1805439e795f6038498e9ba75179df280304c522d746600186cd35"
+hash = "85126ed1fa66d99c4060e9cb727315ac65444c6659920c785e6cdab65b2d7c99"
 
 [[files]]
 file = "config/critical_strike/server_config.json"
@@ -290,8 +290,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.26.0.jar"
-hash = "7354edd5a08276fc9acd322feee0492a308100249db2ba64a3dfc8bd0ec7a7f5"
+file = "mods/bankopack-1.27.0.jar"
+hash = "b04a147254cc35c94ecf68c02a63483632484ba269a3c6ca14a990ca1acd39ac"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
