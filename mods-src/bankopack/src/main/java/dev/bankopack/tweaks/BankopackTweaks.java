@@ -40,6 +40,8 @@ public class BankopackTweaks {
         if (ModList.get().isLoaded("mtr")) dev.bankopack.tweaks.world.MtrNodeDrops.register();
         if (ModList.get().isLoaded("rctmod")) dev.bankopack.tweaks.world.StoryTrainerAnnouncer.register();
         if (ModList.get().isLoaded("cobblemon")) dev.bankopack.tweaks.world.ShinyAnnouncer.register();
+        if (ModList.get().isLoaded("cobblemon") && ModList.get().isLoaded("ftbchunks")) dev.bankopack.tweaks.world.ClaimedChunkPokemonBlocker.register();
+        if (FMLEnvironment.dist == Dist.DEDICATED_SERVER) dev.bankopack.tweaks.world.ShutdownWatchdog.register();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
             BankopackClient.init(modBus, container);
