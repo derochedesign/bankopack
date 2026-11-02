@@ -42,6 +42,7 @@ public class BankopackTweaks {
         if (ModList.get().isLoaded("cobblemon")) dev.bankopack.tweaks.world.ShinyAnnouncer.register();
         if (ModList.get().isLoaded("cobblemon") && ModList.get().isLoaded("ftbchunks")) dev.bankopack.tweaks.world.ClaimedChunkPokemonBlocker.register();
         if (ModList.get().isLoaded("irons_spellbooks")) dev.bankopack.tweaks.world.AncientKnightNerf.register();
+        if (ModList.get().isLoaded("spell_power") && ModList.get().isLoaded("rearm")) dev.bankopack.tweaks.world.MagicProtectionMerger.register();
         if (FMLEnvironment.dist == Dist.DEDICATED_SERVER) dev.bankopack.tweaks.world.ShutdownWatchdog.register();
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
