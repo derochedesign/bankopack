@@ -166,6 +166,10 @@ file = "config/tectonic.json"
 hash = "f83a0adc0b34705557e874fa58263b1c3896250208950b33faf97638e720d555"
 
 [[files]]
+file = "config/wstweaks.cfg"
+hash = "17fc6b36021a04391b6f124b04940482b72722a166468bf7838d3d25e651deeb"
+
+[[files]]
 file = "config/xaero/lib/common.cfg"
 hash = "d46dfe4bfd416bfcdd2b757d33744b4e4595f489b6507eae3c62f5389b11a7c1"
 
@@ -294,8 +298,8 @@ hash = "603cdc47142b5aa5729cbbf265a473574c9e2b55561de4318e9842d3d4b3b995"
 metafile = true
 
 [[files]]
-file = "mods/bankopack-1.29.0.jar"
-hash = "cfe8db8c9e57a098cea090930a64c3fa9dee1c235b7c4cc9573796b43d107dfc"
+file = "mods/bankopack-1.30.0.jar"
+hash = "fcb63fc405f24b4aabcfc5abe2f9341402f719c2b3e86ec15614c3b8eb0f945c"
 
 [[files]]
 file = "mods/bard-more-rpg-classes.pw.toml"
