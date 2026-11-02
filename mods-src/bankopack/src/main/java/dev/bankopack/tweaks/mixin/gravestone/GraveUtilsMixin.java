@@ -10,9 +10,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 /**
  * Gravestone searches upward from the death position for a free block, so a player who dies above the build limit
- * (e.g. fighting a wither at y 350) gets no grave and their items drop in midair. For those deaths, put the grave on
- * the highest free block of that column instead. Its own {@code strict_placement} option doesn't help: it targets
- * y = max build height, which is itself outside the world, so the grave block never places.
+ * (y 640 with Tectonic; e.g. chasing a wither to y 744) gets no grave and their items drop in midair. For those deaths,
+ * put the grave on the highest free block of that column instead. Its own {@code strict_placement} option doesn't
+ * help: it targets y = max build height, which is itself outside the world, so the grave block never places.
  */
 @Mixin(targets = "de.maxhenkel.gravestone.GraveUtils", remap = false)
 public abstract class GraveUtilsMixin {
