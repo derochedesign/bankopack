@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:jirachi",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  }
+}

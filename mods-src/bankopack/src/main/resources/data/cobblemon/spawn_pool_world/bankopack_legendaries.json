@@ -21,7 +21,28 @@
           "minecraft:snowy_slopes"
         ],
         "minY": 200,
-        "canSeeSky": true
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "bankopack-legendary-dialga",
+      "pokemon": "dialga",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "65-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minY": 200,
+        "canSeeSky": true,
+        "timeRange": "day"
       }
     },
     {
@@ -38,6 +59,73 @@
         ],
         "isThundering": true,
         "canSeeSky": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_peak"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-thundurus",
+      "pokemon": "thundurus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_hills",
+          "#cobblemon:is_mountain"
+        ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "bankopack-legendary-tornadus",
+      "pokemon": "tornadus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_grassland"
+        ],
+        "isRaining": true,
+        "isThundering": false,
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "bankopack-legendary-landorus",
+      "pokemon": "landorus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_plateau",
+          "#cobblemon:is_shrubland"
+        ],
+        "timeRange": "day"
       }
     },
     {
@@ -60,26 +148,8 @@
       }
     },
     {
-      "id": "bankopack-legendary-lugia",
-      "pokemon": "lugia",
-      "type": "pokemon",
-      "spawnablePositionType": "surface",
-      "bucket": "boss",
-      "level": "50-60",
-      "weight": 10.0,
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [
-          "#cobblemon:is_deep_ocean"
-        ],
-        "timeRange": "night"
-      }
-    },
-    {
-      "id": "bankopack-legendary-zarude",
-      "pokemon": "zarude",
+      "id": "bankopack-legendary-victini",
+      "pokemon": "victini",
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "boss",
@@ -90,47 +160,8 @@
           "minecraft:overworld"
         ],
         "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "canSeeSky": true
-      }
-    },
-    {
-      "id": "bankopack-legendary-latias",
-      "pokemon": "latias",
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "boss",
-      "level": "50-60",
-      "weight": 10.0,
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [
-          "#cobblemon:is_coast",
-          "#cobblemon:is_island"
-        ],
-        "timeRange": "day"
-      }
-    },
-    {
-      "id": "bankopack-legendary-latios",
-      "pokemon": "latios",
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "boss",
-      "level": "50-60",
-      "weight": 10.0,
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [
-          "#cobblemon:is_coast",
-          "#cobblemon:is_island"
-        ],
-        "timeRange": "night"
+          "#cobblemon:is_savanna"
+        ]
       }
     },
     {
@@ -149,6 +180,312 @@
           "#cobblemon:is_badlands",
           "#cobblemon:is_desert"
         ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-zarude",
+      "pokemon": "zarude",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "bankopack-legendary-tapubulu",
+      "pokemon": "tapubulu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "bankopack-legendary-celebi",
+      "pokemon": "celebi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_jungle"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-yveltal",
+      "pokemon": "yveltal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "60-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "bankopack-legendary-meloetta",
+      "pokemon": "meloetta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bankopack-legendary-jirachi",
+      "pokemon": "jirachi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "bankopack-legendary-walkingwake",
+      "pokemon": "walkingwake",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-uxie",
+      "pokemon": "uxie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "minecraft:frozen_river"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-mesprit",
+      "pokemon": "mesprit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "minecraft:frozen_river"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-azelf",
+      "pokemon": "azelf",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_river"
+        ],
+        "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "minecraft:frozen_river"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-latias",
+      "pokemon": "latias",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bankopack-legendary-latios",
+      "pokemon": "latios",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_coast"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "bankopack-legendary-tapukoko",
+      "pokemon": "tapukoko",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_tropical_island"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bankopack-legendary-tapulele",
+      "pokemon": "tapulele",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_tropical_island"
+        ],
+        "timeRange": "night"
+      }
+    },
+    {
+      "id": "bankopack-legendary-tapufini",
+      "pokemon": "tapufini",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_warm_ocean",
+          "#cobblemon:is_lukewarm_ocean"
+        ],
+        "timeRange": "day"
+      }
+    },
+    {
+      "id": "bankopack-legendary-lugia",
+      "pokemon": "lugia",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [
+          "#cobblemon:is_deep_ocean"
+        ],
+        "timeRange": "night"
       }
     },
     {
@@ -190,24 +527,6 @@
       }
     },
     {
-      "id": "bankopack-legendary-walkingwake",
-      "pokemon": "walkingwake",
-      "type": "pokemon",
-      "spawnablePositionType": "grounded",
-      "bucket": "boss",
-      "level": "50-60",
-      "weight": 10.0,
-      "condition": {
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [
-          "#cobblemon:is_swamp",
-          "#cobblemon:is_river"
-        ]
-      }
-    },
-    {
       "id": "bankopack-legendary-moltres",
       "pokemon": "moltres",
       "type": "pokemon",
@@ -222,6 +541,35 @@
       }
     },
     {
+      "id": "bankopack-legendary-rayquaza",
+      "pokemon": "rayquaza",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "65-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "aether:the_aether"
+        ],
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "bankopack-legendary-buzzwole",
+      "pokemon": "buzzwole",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "the_bumblezone:the_bumblezone"
+        ]
+      }
+    },
+    {
       "id": "bankopack-legendary-mewtwo",
       "pokemon": "mewtwo",
       "type": "pokemon",
@@ -232,17 +580,22 @@
       "condition": {
         "dimensions": [
           "minecraft:the_end"
-        ]
-      },
-      "anticondition": {
+        ],
         "biomes": [
-          "minecraft:the_end"
+          "minecraft:end_highlands",
+          "minecraft:end_midlands",
+          "minecraft:end_barrens",
+          "minecraft:small_end_islands",
+          "betterend:crystal_mountains",
+          "betterend:painted_mountains",
+          "betterend:ice_starfield",
+          "betterend:chorus_forest"
         ]
       }
     },
     {
-      "id": "bankopack-legendary-rayquaza",
-      "pokemon": "rayquaza",
+      "id": "bankopack-legendary-pheromosa",
+      "pokemon": "pheromosa",
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "boss",
@@ -250,9 +603,59 @@
       "weight": 10.0,
       "condition": {
         "dimensions": [
-          "aether:the_aether"
+          "minecraft:the_end"
         ],
-        "canSeeSky": true
+        "biomes": [
+          "betterend:glowing_grasslands",
+          "betterend:flower_islets",
+          "betterend:blossoming_spires",
+          "betterend:lantern_woods",
+          "betterend:neon_oasis"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-stakataka",
+      "pokemon": "stakataka",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "biomes": [
+          "betterend:dust_wastelands",
+          "betterend:dry_shrubland",
+          "betterend:amber_land",
+          "betterend:umbra_valley"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-guzzlord",
+      "pokemon": "guzzlord",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "minecraft:the_end"
+        ],
+        "biomes": [
+          "betterend:dragon_graveyards",
+          "betterend:sulphur_springs",
+          "betterend:foggy_mushroomland",
+          "betterend:megalake",
+          "betterend:megalake_grove",
+          "betterend:waterfall_ponds",
+          "betterend:umbrella_jungle",
+          "betterend:shadow_forest"
+        ]
       }
     },
     {
@@ -269,7 +672,23 @@
         ],
         "biomes": [
           "eternal_starlight:starlight_forest",
-          "eternal_starlight:starlight_dense_forest",
+          "eternal_starlight:starlight_dense_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-cosmog",
+      "pokemon": "cosmog",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "10-20",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
           "eternal_starlight:torreya_forest",
           "eternal_starlight:scarlet_forest"
         ]
@@ -294,6 +713,58 @@
       }
     },
     {
+      "id": "bankopack-legendary-solgaleo",
+      "pokemon": "solgaleo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "60-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:solaris_isles"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-lunala",
+      "pokemon": "lunala",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "60-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:umbral_plains",
+          "eternal_starlight:dark_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-necrozma",
+      "pokemon": "necrozma",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "60-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:crystallized_desert"
+        ]
+      }
+    },
+    {
       "id": "bankopack-legendary-poipole",
       "pokemon": "poipole",
       "type": "pokemon",
@@ -306,12 +777,46 @@
           "eternal_starlight:starlight"
         ],
         "biomes": [
-          "eternal_starlight:crystallized_desert",
-          "eternal_starlight:umbral_plains",
           "eternal_starlight:glimmer_scrubland",
-          "eternal_starlight:lucent_mycelium_isle",
-          "eternal_starlight:solaris_isles",
-          "eternal_starlight:dark_swamp"
+          "eternal_starlight:lucent_mycelium_isle"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-palkia",
+      "pokemon": "palkia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "65-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:warm_shore",
+          "eternal_starlight:grim_shore"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-palkia-2",
+      "pokemon": "palkia",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "boss",
+      "level": "65-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:starlit_sea",
+          "eternal_starlight:lush_shallow_sea",
+          "eternal_starlight:icy_sea",
+          "eternal_starlight:spiral_kelp_forest"
         ]
       }
     },
@@ -321,7 +826,7 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "boss",
-      "level": "50-60",
+      "level": "60-70",
       "weight": 10.0,
       "condition": {
         "dimensions": [
@@ -338,7 +843,7 @@
       "type": "pokemon",
       "spawnablePositionType": "grounded",
       "bucket": "boss",
-      "level": "50-60",
+      "level": "60-70",
       "weight": 10.0,
       "condition": {
         "dimensions": [
@@ -370,6 +875,43 @@
       }
     },
     {
+      "id": "bankopack-legendary-marshadow",
+      "pokemon": "marshadow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:dark_forest",
+          "twilightforest:dark_forest_center"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-magearna",
+      "pokemon": "magearna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "50-60",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:highlands",
+          "twilightforest:thornlands",
+          "twilightforest:final_plateau"
+        ]
+      }
+    },
+    {
       "id": "bankopack-legendary-regidrago",
       "pokemon": "regidrago",
       "type": "pokemon",
@@ -380,6 +922,28 @@
       "condition": {
         "dimensions": [
           "deeperdarker:otherside"
+        ],
+        "biomes": [
+          "deeperdarker:deeplands",
+          "deeperdarker:overcast_columns"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-legendary-giratina",
+      "pokemon": "giratina",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "boss",
+      "level": "65-70",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ],
+        "biomes": [
+          "deeperdarker:echoing_forest",
+          "deeperdarker:blooming_caverns"
         ]
       }
     }
