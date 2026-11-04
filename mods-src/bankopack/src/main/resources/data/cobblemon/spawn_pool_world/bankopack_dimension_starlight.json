@@ -1,0 +1,455 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [
+    "eternal_starlight"
+  ],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bankopack-starlight-clefairy-1",
+      "pokemon": "clefairy",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-spritzee-1",
+      "pokemon": "spritzee",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-swirlix-1",
+      "pokemon": "swirlix",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-natu-1",
+      "pokemon": "natu",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-chingling-1",
+      "pokemon": "chingling",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-lunatone-1",
+      "pokemon": "lunatone",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-solrock-1",
+      "pokemon": "solrock",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-bronzor-1",
+      "pokemon": "bronzor",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-ralts-1",
+      "pokemon": "ralts",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-togepi-1",
+      "pokemon": "togepi",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-elgyem-1",
+      "pokemon": "elgyem",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-munna-1",
+      "pokemon": "munna",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-hatenna-1",
+      "pokemon": "hatenna",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-sigilyph-1",
+      "pokemon": "sigilyph",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-minior-1",
+      "pokemon": "minior",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-beldum-1",
+      "pokemon": "beldum",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-mimikyu-1",
+      "pokemon": "mimikyu",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-snorunt-1",
+      "pokemon": "snorunt",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:permafrost_peaks",
+          "eternal_starlight:starlight_permafrost_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-snom-1",
+      "pokemon": "snom",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:permafrost_peaks",
+          "eternal_starlight:starlight_permafrost_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-carbink-1",
+      "pokemon": "carbink",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:crystallized_desert"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-sableye-1",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:crystallized_desert"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-staryu-1",
+      "pokemon": "staryu",
+      "type": "pokemon",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:starlit_sea",
+          "eternal_starlight:lush_shallow_sea",
+          "eternal_starlight:icy_sea",
+          "eternal_starlight:spiral_kelp_forest",
+          "eternal_starlight:warm_shore",
+          "eternal_starlight:grim_shore"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-chinchou-1",
+      "pokemon": "chinchou",
+      "type": "pokemon",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:starlit_sea",
+          "eternal_starlight:lush_shallow_sea",
+          "eternal_starlight:icy_sea",
+          "eternal_starlight:spiral_kelp_forest",
+          "eternal_starlight:warm_shore",
+          "eternal_starlight:grim_shore"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-starlight-finneon-1",
+      "pokemon": "finneon",
+      "type": "pokemon",
+      "presets": [
+        "water"
+      ],
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "eternal_starlight:starlight"
+        ],
+        "biomes": [
+          "eternal_starlight:starlit_sea",
+          "eternal_starlight:lush_shallow_sea",
+          "eternal_starlight:icy_sea",
+          "eternal_starlight:spiral_kelp_forest",
+          "eternal_starlight:warm_shore",
+          "eternal_starlight:grim_shore"
+        ]
+      }
+    }
+  ]
+}

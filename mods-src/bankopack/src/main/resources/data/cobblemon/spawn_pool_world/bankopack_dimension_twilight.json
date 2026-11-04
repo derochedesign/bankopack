@@ -1,0 +1,576 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [
+    "twilightforest"
+  ],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bankopack-twilight-hoothoot-1",
+      "pokemon": "hoothoot",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier",
+          "twilightforest:fire_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-seedot-1",
+      "pokemon": "seedot",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier",
+          "twilightforest:fire_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-oddish-1",
+      "pokemon": "oddish",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier",
+          "twilightforest:fire_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-murkrow-1",
+      "pokemon": "murkrow",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier",
+          "twilightforest:fire_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-volbeat-1",
+      "pokemon": "volbeat",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier",
+          "twilightforest:fire_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "condition": {
+          "biomes": [
+            "twilightforest:firefly_forest"
+          ]
+        },
+        "multiplier": 4.0
+      }
+    },
+    {
+      "id": "bankopack-twilight-illumise-1",
+      "pokemon": "illumise",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier",
+          "twilightforest:fire_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "condition": {
+          "biomes": [
+            "twilightforest:firefly_forest"
+          ]
+        },
+        "multiplier": 4.0
+      }
+    },
+    {
+      "id": "bankopack-twilight-shroomish-1",
+      "pokemon": "shroomish",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 20.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:mushroom_forest",
+          "twilightforest:dense_mushroom_forest",
+          "twilightforest:swamp",
+          "twilightforest:dark_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-foongus-1",
+      "pokemon": "foongus",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 20.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:mushroom_forest",
+          "twilightforest:dense_mushroom_forest",
+          "twilightforest:swamp",
+          "twilightforest:dark_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-morelull-1",
+      "pokemon": "morelull",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 20.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:mushroom_forest",
+          "twilightforest:dense_mushroom_forest",
+          "twilightforest:swamp",
+          "twilightforest:dark_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-phantump-1",
+      "pokemon": "phantump",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-pumpkaboo-1",
+      "pokemon": "pumpkaboo",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-misdreavus-1",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-sinistea-1",
+      "pokemon": "sinistea",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-phantump-2",
+      "pokemon": "phantump",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:spooky_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-pumpkaboo-2",
+      "pokemon": "pumpkaboo",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:spooky_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-misdreavus-2",
+      "pokemon": "misdreavus",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:spooky_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-sinistea-2",
+      "pokemon": "sinistea",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:spooky_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-impidimp-1",
+      "pokemon": "impidimp",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-deerling-1",
+      "pokemon": "deerling",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-zorua-1",
+      "pokemon": "zorua",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-45",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-snover-1",
+      "pokemon": "snover",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-cubchoo-1",
+      "pokemon": "cubchoo",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-sneasel-1",
+      "pokemon": "sneasel",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:snowy_forest",
+          "twilightforest:glacier"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-salandit-1",
+      "pokemon": "salandit",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 40.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:fire_swamp"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-rufflet-1",
+      "pokemon": "rufflet",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:highlands",
+          "twilightforest:thornlands",
+          "twilightforest:final_plateau"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-twilight-druddigon-1",
+      "pokemon": "druddigon",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "20-45",
+      "weight": 25.0,
+      "condition": {
+        "dimensions": [
+          "twilightforest:twilight_forest"
+        ],
+        "biomes": [
+          "twilightforest:highlands",
+          "twilightforest:thornlands",
+          "twilightforest:final_plateau"
+        ]
+      }
+    }
+  ]
+}

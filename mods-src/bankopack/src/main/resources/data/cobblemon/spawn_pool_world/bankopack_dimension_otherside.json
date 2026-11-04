@@ -1,0 +1,280 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [
+    "deeperdarker"
+  ],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bankopack-otherside-gastly-1",
+      "pokemon": "gastly",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-duskull-1",
+      "pokemon": "duskull",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-shuppet-1",
+      "pokemon": "shuppet",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-zubat-1",
+      "pokemon": "zubat",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-litwick-1",
+      "pokemon": "litwick",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-noibat-1",
+      "pokemon": "noibat",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      },
+      "weightMultiplier": {
+        "condition": {
+          "biomes": [
+            "deeperdarker:echoing_forest"
+          ]
+        },
+        "multiplier": 3.0
+      }
+    },
+    {
+      "id": "bankopack-otherside-whismur-1",
+      "pokemon": "whismur",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      },
+      "weightMultiplier": {
+        "condition": {
+          "biomes": [
+            "deeperdarker:echoing_forest"
+          ]
+        },
+        "multiplier": 3.0
+      }
+    },
+    {
+      "id": "bankopack-otherside-sableye-1",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-drifloon-1",
+      "pokemon": "drifloon",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-honedge-1",
+      "pokemon": "honedge",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-golett-1",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-absol-1",
+      "pokemon": "absol",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-dreepy-1",
+      "pokemon": "dreepy",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-deino-1",
+      "pokemon": "deino",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    },
+    {
+      "id": "bankopack-otherside-spiritomb-1",
+      "pokemon": "spiritomb",
+      "type": "pokemon",
+      "presets": [
+        "wild"
+      ],
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-55",
+      "weight": 10.0,
+      "condition": {
+        "dimensions": [
+          "deeperdarker:otherside"
+        ]
+      }
+    }
+  ]
+}
