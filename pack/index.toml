@@ -22,7 +22,11 @@ hash = "bc07062f568535d140029b16419626931f5988f2ef353d237182e2a967c6c596"
 
 [[files]]
 file = "config/cobblemon/main.json"
-hash = "85126ed1fa66d99c4060e9cb727315ac65444c6659920c785e6cdab65b2d7c99"
+hash = "ad668a74a87a99c53d18b52f73e0a0a006839177a025c71d8ef2827a48a3cf4e"
+
+[[files]]
+file = "config/cobblemon/spawning/best-spawner-config.json"
+hash = "792b814f5b89cbf95e11579c208922ef047ca65e17d431d4ed6014d656eae8f3"
 
 [[files]]
 file = "config/critical_strike/server_config.json"
