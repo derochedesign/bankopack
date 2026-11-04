@@ -26,7 +26,7 @@ hash = "ad668a74a87a99c53d18b52f73e0a0a006839177a025c71d8ef2827a48a3cf4e"
 
 [[files]]
 file = "config/cobblemon/spawning/best-spawner-config.json"
-hash = "792b814f5b89cbf95e11579c208922ef047ca65e17d431d4ed6014d656eae8f3"
+hash = "b3197adcdef83ff64012f950500d14309725b1a094188f9c1e01218a08343e42"
 
 [[files]]
 file = "config/critical_strike/server_config.json"
