@@ -117,6 +117,10 @@ file = "config/gravestone-server.toml"
 hash = "d37470a9acd9368d82dde1b33ed52cdbb201e81d4ea811bc3b0cbc10800ddf33"
 
 [[files]]
+file = "config/grindenchantments/server.json"
+hash = "452c6e223a4cfef59c8ed382a183fa4c15ffe3518b5bbff3e2a85f5529fd5085"
+
+[[files]]
 file = "config/particlerain/config.json"
 hash = "11106bcbfb54d190f0eaec05f6e9f1c6338402cbc7f8beca66d58a202f4f6876"
 
