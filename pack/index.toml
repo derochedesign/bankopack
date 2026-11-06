@@ -5,6 +5,10 @@ file = "config/accessories.json5"
 hash = "ab092d16630688b25a37612342c9d08f7874dd76ce5381e36f1274f59473cba9"
 
 [[files]]
+file = "config/apotheosis/name_generation.cfg"
+hash = "05de4241e46740fc5b0a17d74b04d0450a269417db40da9e32d2fb51f2d37e93"
+
+[[files]]
 file = "config/bettercombat/client.json5"
 hash = "073deb1ed8efc831daf114edba8c905a83b8c527c9ff9e6380c4f3cc098ee566"
 
